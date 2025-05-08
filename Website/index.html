@@ -10,15 +10,21 @@
     <h1>Schools get a look at my eggs</h1>
     <p>Start of the Project</p>
     <h2>
+        <div class="quiz-box">
+            <div class="quiz-question" id="quiz-question"></div>
+            <div class="quiz-buttons" id="quiz-buttons"></div>
+            <div class="quiz-stats">
+              <div class="stat correct-count" id="correct-count">Rigtige: 0</div>
+              <div class="stat wrong-count" id="wrong-count">Forkerte: 0</div>
+            </div>
+          </div>
+        
+          <!-- Load questions and script -->
+          <script src="questions.js"></script>
+          <script src="index.js"></script>
         
     </h2>
-    <div id="quiz">
-        <h2>Egg quiz</h2>
-        <div id="question"></div>
-        <div id="answers"></div>
-        <button id="submit" class="btn">Submit</button>
-
-    </div>
+    
     <script src="index.js"></script>
 </body>
 </html>
