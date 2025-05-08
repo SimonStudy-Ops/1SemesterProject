@@ -28,7 +28,7 @@ await db.query(`
 await db.query(`
     create table trade(
         country     varchar(128),
-        type        varchar(10) check (type in ('import quantity','export quantity')),
+        type        varchar(20) check (type in ('import quantity','export quantity')),
         year        integer not null,
         amount      decimal(10,2)
     )
