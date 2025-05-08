@@ -16,29 +16,33 @@ const dbResult = await db.query('select now()');
 console.log('Database connection established on', dbResult.rows[0].now);
 
 console.log('Dropping table if they already exist....')
-//-- Slet eksisterende tabeller, hvis de findes
-await db.query(`
-        
-        drop table if exists import;
-        drop table if exists export;
-        
-    `)
-       //-- create import-table
-await db.query(`
-    create table import(
-        year integer not null,
-        country varchar(128),
-        amount decimal(10,2),
-    )
-    `)
-    console.log('Created import table')
 
-         //-- create export-table
+//-- delete the existing tables
+
 await db.query(`
-    create table export(
-        year integer not null,
-        country varchar(128),
-        amount decimal(10,2),
-    )
+        
+        drop table if exists trade;
     `)
-    console.log('Created export table')
+       //-- create trade-table
+       
+await db.query(`
+    create table trade(
+        country     varchar(128),
+        type        varchar(10) check (type in ('import quantity','export quantity')),
+        year        integer not null,
+        amount      decimal(10,2)
+    )
+     `)
+     // Check constraint to ensure that the column type only consists of import and export
+
+    console.log('Created trade table')
+
+   // Insert data into trade table
+console.log('Inserting data in trade...');
+await upload(
+    db,
+    'db/eu-import-export.csv',
+    'copy trade (country, type, year, amount) from stdin with csv header'
+);
+
+console.log('Data inserted.');
