@@ -23,3 +23,22 @@ await db.query(`
         drop table if exists export;
         
     `)
+       //-- create import-table
+await db.query(`
+    create table import(
+        year integer not null,
+        country varchar(128),
+        amount decimal(10,2),
+    )
+    `)
+    console.log('Created import table')
+
+         //-- create export-table
+await db.query(`
+    create table export(
+        year integer not null,
+        country varchar(128),
+        amount decimal(10,2),
+    )
+    `)
+    console.log('Created export table')
