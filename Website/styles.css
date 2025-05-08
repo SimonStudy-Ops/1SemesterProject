@@ -1,9 +1,17 @@
 body{
-    background-color: #ffffff;
+    background-color: #80e861f6;
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
     color: #333;
+    
+    background-image: url('farm-billede.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: auto;
+
+    
+
 }
 h1{
     color: #000000;
