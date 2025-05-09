@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import { upload } from 'pg-upload';
 
 // connecting to the database using the credentials from the .env file
-
+// Hej med dig
 dotenv.config();
 console.log('Connecting to database', process.env.PG_DATABASE);
 const db = new pg.Pool({
