@@ -2,6 +2,8 @@ import pg from 'pg';
 import dotenv from 'dotenv';
 import { upload } from 'pg-upload';
 
+// connecting to the database using the credentials from the .env file
+
 dotenv.config();
 console.log('Connecting to database', process.env.PG_DATABASE);
 const db = new pg.Pool({
@@ -12,12 +14,14 @@ const db = new pg.Pool({
     password: process.env.PG_PASSWORD,
     ssl:      { rejectUnauthorized: false },
 });
+// logging the current timestamp from the database and confirming the connection
+
 const dbResult = await db.query('select now()');
 console.log('Database connection established on', dbResult.rows[0].now);
 
-console.log('Dropping table if they already exist....')
+//-- deleting the existing tables, to ensure that the new tables dont collide with the old ones
 
-//-- delete the existing tables
+console.log('Dropping table if they already exist....')
 
 await db.query(`
         
@@ -28,7 +32,7 @@ await db.query(`
 await db.query(`
     create table trade(
         country     varchar(128),
-        type        varchar(20) check (type in ('Import','Export')),
+        type        varchar(10) check (type in ('Import','Export')),
         year        integer not null,
         amount      decimal(10,2)
     )
