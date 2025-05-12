@@ -12,7 +12,7 @@ d3.csv("db/eu-import-export.csv"), d3.AutoType.then(data => {
     // data is then inserted back into the array
     // ".sort" sorts the years in ascending order
     const years = [...new Set(data.map(d=> d.year))].sort((a, b) => a - b);
-}
+
 // Creates a dropdown menu that allows the user to choose which year is displayed in the graph
 const dropdown = d3.select ("body")
 .insert("select", "first-child")
@@ -38,8 +38,7 @@ dropdown.on("change", function() {
     const selectedYear = +this.value;
     // Calls to the function that updates the graphs so it shows the chosen year
     updateCharts(selectedYear);
-}
-);
+});
 
 // a function that is given a parameter for a specific year and visualises the data
 function updateCharts(year) {
@@ -60,7 +59,7 @@ drawBarChart("#exportContainer", topImport, "Export (tons)");
 }
 
 // Calls to "drawBarchart" function, and the arguments in it
-function drawBarChart(containerId, chartData, yLabel);
+function drawBarChart(containerId, chartData, yLabel) {
 // Selects existing svg element inside container and removes it. Prevents multiple charts from stacking on each other
 d3.select(containerId).select("svg").remove();
 // creates svg element inside the specific container
@@ -116,3 +115,24 @@ svg.append("text")
 // aligns the text from starting point
 .style("text-anchor", "start")
 .text(yLabel);
+
+// Placeholder for "bars"
+svg.selectAll("rect")
+// Binds data to the selection
+.data(chartData)
+// Creates new bars for each new data point
+.enter()
+// Adds one rect (rectangle) per data point
+.append("rect")
+// Sets the horizontal  left position of the bar. xScale converts country name into an x position
+.attr("x", d => xScale(d.country))
+// Sets the top edge of the bar. Turns amount into vertical position
+.attr("y", d => yScale(d.amount))
+// Sets how wide each bar is. xScale.bandwidth calculates the spacing for each bar
+.attr("width", xScale.bandwidth())
+// height of the bar
+.attr("height", d => h - padding - yScale(d.amount))
+// Colours the bar blue
+.attr("fill", "steelblue");
+}
+});
