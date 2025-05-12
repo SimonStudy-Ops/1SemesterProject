@@ -2,7 +2,7 @@
 const w = 1000;
 const h = 500;
 // Padding for the bars, so there is spacing between them
-const p = 10;
+const padding = 10;
 // Loads the cvs file from the folder, into d3. 
 // AutoType automatically sorts konverts the data to the desired types.
 // Year and amount becomes numbers and the rest becomes strings
@@ -40,6 +40,7 @@ dropdown.on("change", function() {
     updateCharts(selectedYear);
 }
 );
+
 // a function that is given a parameter for a specific year and visualises the data
 function updateCharts(year) {
 // Filters the data in the array to only include records where "year" matches the provided input
@@ -50,6 +51,7 @@ const exportData = yearData.filter(d => d.type === "Export");
 // Sorts the dataset in descending order based on the amount. ".slice" chooses the top five countries by import and export
 const topImport = importData.sort((a, b)=>b.amount - a.amount).slice(0,5);
 const topExport = exportData.sort((a, b)=>b.amount - a.amount).slice(0,5);
+
 // drawBarChart is called to place the chart in the element with the corrosponding ID
 // takes the constant "Topimport" and "TopExport" to visualize the chart
 // The third argument (tons) labels the y-axis
@@ -57,5 +59,32 @@ drawBarChart("#importContainer", topImport, "Import (tons)");
 drawBarChart("#exportContainer", topImport, "Export (tons)");
 }
 
-const svg = d3
-.select
+// Calls to "drawBarchart" function, and the arguments in it
+function drawBarChart(containerId, chartData, yLabel);
+// Selects existing svg element inside container and removes it. Prevents multiple charts from stacking on each other
+d3.select(containerId).select("svg").remove();
+// creates svg element inside the specific container
+// sets the dimensions to the predefined w and h for width and height respectively
+const svg = d3.select(containerId)
+.append("svg")
+.attr("width", w)
+.attr("height", h);
+
+// Uses d3.scaleBand for categorical data
+const xScale = d3.scaleBand()
+// "domain" sets the input data as countries on the x-axis
+.domain(chartData.map(d => d.country))
+// Sets the range of positions for the bar on the x-axis
+.range([padding, w - padding])
+// adds space between the bars
+.padding(0.2);
+
+//Uses scaleLinear for numbers
+const yScale = d3.scaleLinear()
+// "domain" sets the input data as amount on the y-axis. The input range goes from 0 to the biggest number in chartData
+.domain([0, d3.max(chartData, d => d.amount)])
+//  Uses the svg's coordinate system to map the bars. Leaves room at the top and bottom of the y-axis
+.range([h - padding, padding])
+// Rounds to "nice" numbers for a prettier axis
+.nice();
+
