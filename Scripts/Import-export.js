@@ -88,3 +88,31 @@ const yScale = d3.scaleLinear()
 // Rounds to "nice" numbers for a prettier axis
 .nice();
 
+// creates an element called "g". "g" holds the x-axis
+svg.append("g")
+// Moves the x-avis to the bottom of the chart, but padding moves it up
+.attr("transform", `translate(0, ${h - padding})`) // adds a value into a string
+// Tells d3 to generate bottom oriented axis using xScale
+.call(d3.axisBottom(xScale))
+.selectAll("text")
+// Selects the text and rotates it 45 degress withing the bar
+.attr("transform", "rotate(-45)")
+// Lines up the rotated text so it aligns with the end of each bar
+.style("text-anchor", "end");
+
+// Adds another group for y-axis
+svg.append("g")
+// Moves the y-axis to the left side of the chart after the padding
+.attr("transform", `translate(${padding}, 0)`)
+// Draws a left-oriented axis using the yScale - makes the ticks
+.call(d3.axisLeft(yScale));
+
+//Adds "text" to the y-axis
+svg.append("text")
+//Positions label near the left side
+.attr("x", padding)
+//Moves the labels 10 pixels over each tick
+.attr("y", padding - 10)
+// aligns the text from starting point
+.style("text-anchor", "start")
+.text(yLabel);
