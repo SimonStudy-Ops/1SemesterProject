@@ -31,12 +31,31 @@ dropdown.selectAll("option")
 
 // initializes the first year
 updateCharts(years[0]);
-
+// Sets an event listener(an event listener is a function that waits for a specific event to occur and executes code in respone), that reacts when the dropdown menu changes
 dropdown.on("change", function() {
+    // this.value gives the chosen value in the dropdown a year as a string.
+    // +this.value turns this string in the dropdown menu into an integer
     const selectedYear = +this.value;
+    // Calls to the function that updates the graphs so it shows the chosen year
     updateCharts(selectedYear);
 }
 );
+// a function that is given a parameter for a specific year and visualises the data
+function updateCharts(year) {
+// Filters the data in the array to only include records where "year" matches the provided input
+const yearData = data.filter(d => d.year === year);
+// spilts the data for years into two arrays
+const importData = yearData.filter(d => d.type === "Import");
+const exportData = yearData.filter(d => d.type === "Export");
+// Sorts the dataset in descending order based on the amount. ".slice" chooses the top five countries by import and export
+const topImport = importData.sort((a, b)=>b.amount - a.amount).slice(0,5);
+const topExport = exportData.sort((a, b)=>b.amount - a.amount).slice(0,5);
+// drawBarChart is called to place the chart in the element with the corrosponding ID
+// takes the constant "Topimport" and "TopExport" to visualize the chart
+// The third argument (tons) labels the y-axis
+drawBarChart("#importContainer", topImport, "Import (tons)");
+drawBarChart("#exportContainer", topImport, "Export (tons)");
+}
 
 const svg = d3
 .select
