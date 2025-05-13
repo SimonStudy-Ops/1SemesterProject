@@ -22,8 +22,7 @@ const server = express();
 server.use(express.static('frontend'));
 server.use(onEachRequest)
 // Defines the API endpoints
-server.get('/api/import', onGetImport);
-server.get('/api/export',onGetExport);
+server.get('/api/trade', onGetTrade);
 server.listen(port, onServerReady);
 
  async function onEachRequest(request, response, next) {
@@ -35,11 +34,7 @@ async function onServerReady() {
     console.log('Webserver running on port', port);
 }
 
-async function onGetImport(request, response) {
-    const dbResult = await db.query(`select country, type, year, amount from trade where type = 'Import'`)
-    response.json(dbResult.rows);
-}
-async function onGetExport(request, response) {
-    const dbResult = await db.query(`'select country, type, year, amount from trade where type = 'Export'`)
+async function onGetTrade(request, response) {
+    const dbResult = await db.query(`select country, type, year, amount from trade`)
     response.json(dbResult.rows);
 }

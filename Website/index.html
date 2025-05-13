@@ -19,15 +19,25 @@
         </header>
       
         <div class="box-wrapper">
-            <div class="first-box">
-              <p>Import Boxplot</p>
+          <div>
+            <label for="yearDropdown">Choose year:</label>
+            <select id="yearDropdown"></select>
+          </div>
+
+            <div id = "importContainer" class="first-box">
+              <h2>Import</h2>
+              <svg id = "importChart" width="500" height="400"></svg>
             </div>
         
-            <div class="second-box">
-              <p>Export Boxplot</p>
+            <div id = "exportContainer" class="second-box">
+              <h2>Export</h2>
+              <svg id = "exportChart" width="500" height="400"></svg>
             </div>
+
           </div>
       
+          <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+          <script src="Import-export.js"></script>
         <footer>
           <div>Website Info</div>
         </footer>

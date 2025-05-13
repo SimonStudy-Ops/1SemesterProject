@@ -1,12 +1,18 @@
 // Width and height of SVG
-const w = 1000;
-const h = 500;
+const w = 500;
+const h = 400;
 // Padding for the bars, so there is spacing between them
 const padding = 10;
-// Loads the cvs file from the folder, into d3. 
-// AutoType automatically sorts konverts the data to the desired types.
-// Year and amount becomes numbers and the rest becomes strings
-d3.csv("db/eu-import-export.csv"), d3.AutoType.then(data => {
+// Loads the data from the API endpoint trade. 
+d3.json("http://localhost:3000/api/trade").then(data => {
+    // ensures that the columns "year" and "amount" is recieved as numbers.
+    data.forEach(d => {
+        d.year = +d.year;
+        d.amount = +d.amount;
+    });
+
+    console.log("Fetched data from API:", data);
+
     // Chooses year from the csv file. data.map goes through the year column and inserts all the data into an array.
     // "new Set(...)" is a datastructure in JS that only saves unique values. "new Set(data.map(...))" removes any duplicates.
     // data is then inserted back into the array
@@ -48,14 +54,14 @@ const yearData = data.filter(d => d.year === year);
 const importData = yearData.filter(d => d.type === "Import");
 const exportData = yearData.filter(d => d.type === "Export");
 // Sorts the dataset in descending order based on the amount. ".slice" chooses the top five countries by import and export
-const topImport = importData.sort((a, b)=>b.amount - a.amount).slice(0,5);
-const topExport = exportData.sort((a, b)=>b.amount - a.amount).slice(0,5);
+const topImport = [...importData].sort((a, b)=>b.amount - a.amount).slice(0,5);
+const topExport = [...exportData].sort((a, b)=>b.amount - a.amount).slice(0,5);
 
 // drawBarChart is called to place the chart in the element with the corrosponding ID
 // takes the constant "Topimport" and "TopExport" to visualize the chart
 // The third argument (tons) labels the y-axis
 drawBarChart("#importContainer", topImport, "Import (tons)");
-drawBarChart("#exportContainer", topImport, "Export (tons)");
+drawBarChart("#exportContainer", topExport, "Export (tons)");
 }
 
 // Calls to "drawBarchart" function, and the arguments in it
