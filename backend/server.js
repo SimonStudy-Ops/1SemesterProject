@@ -14,12 +14,12 @@ const db = new pg.Pool({
 const dbResult = await db.query('select now() as now');
 console.log('Database connection established on', dbResult.rows[0].now);
 
-import express, { response } from 'express';
+import express from 'express';
 
 console.log('Initialising webserver...');
 const port = 3001;
 const server = express();
-server.use(express.static('frontend'));
+server.use(express.static('Website'));
 server.use(onEachRequest)
 // Defines the API endpoints
 server.get('/api/trade', onGetTrade);
@@ -30,11 +30,12 @@ server.listen(port, onServerReady);
     next();
 }
 
-async function onServerReady() {
+function onServerReady() {
     console.log('Webserver running on port', port);
 }
 
 async function onGetTrade(request, response) {
     const dbResult = await db.query(`select country, type, year, amount from trade`)
+    response.setHeader("Content-Type", "application/json");
     response.json(dbResult.rows);
 }

@@ -4,7 +4,7 @@ const h = 400;
 // Padding for the bars, so there is spacing between them
 const padding = 10;
 // Loads the data from the API endpoint trade. 
-d3.json("http://localhost:3000/api/trade").then(data => {
+d3.json("/api/trade").then(data => {
     // ensures that the columns "year" and "amount" is recieved as numbers.
     data.forEach(d => {
         d.year = +d.year;
