@@ -1,8 +1,8 @@
 // Width and height of SVG
-const w = 500;
-const h = 400;
+const w = 400;
+const h = 300;
 // Padding for the bars, so there is spacing between them
-const padding = 10;
+const padding = 30;
 // Loads the data from the API endpoint trade. 
 d3.json("/api/trade").then(data => {
     // ensures that the columns "year" and "amount" is recieved as numbers.
@@ -19,10 +19,10 @@ d3.json("/api/trade").then(data => {
     // ".sort" sorts the years in ascending order
     const years = [...new Set(data.map(d=> d.year))].sort((a, b) => a - b);
 
+    console.log("Years array:", years);
+
 // Creates a dropdown menu that allows the user to choose which year is displayed in the graph
-const dropdown = d3.select ("body")
-.insert("select", "first-child")
-.attr("id", "yearDropdown");
+const dropdown = d3.select ("#yearDropdown")
 //Tells d3 to tie data to "option" elements
 dropdown.selectAll("option")
 //Uses the array "years" as data
@@ -59,9 +59,8 @@ const topExport = [...exportData].sort((a, b)=>b.amount - a.amount).slice(0,5);
 
 // drawBarChart is called to place the chart in the element with the corrosponding ID
 // takes the constant "Topimport" and "TopExport" to visualize the chart
-// The third argument (tons) labels the y-axis
-drawBarChart("#importContainer", topImport, "Import (tons)");
-drawBarChart("#exportContainer", topExport, "Export (tons)");
+drawBarChart("#importContainer", topImport);
+drawBarChart("#exportContainer", topExport);
 }
 
 // Calls to "drawBarchart" function, and the arguments in it
