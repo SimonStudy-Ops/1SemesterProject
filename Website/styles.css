@@ -58,14 +58,14 @@ p{
   .box-wrapper {
   display: flex;
   justify-content: space-between;
-  gap: 100px;
+  gap: 50px;
   margin: 40px 0;
 }
 
 .first-box, .second-box {
   flex: 1;
   border: 5px solid black;
-  padding: 20px;
+  padding: 50px;
   background-color: #333;
   color: white;
   min-height: 150px;

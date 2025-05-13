@@ -1,8 +1,8 @@
 // Width and height of SVG
-const w = 400;
-const h = 300;
-// Padding for the bars, so there is spacing between them
-const padding = 30;
+const w = 700;
+const h = 400;
+// Padding for the bars and around the charts, so there is spacing between them
+const padding = 60;
 // Loads the data from the API endpoint trade. 
 d3.json("/api/trade").then(data => {
     // ensures that the columns "year" and "amount" is recieved as numbers.
@@ -13,7 +13,7 @@ d3.json("/api/trade").then(data => {
 
     console.log("Fetched data from API:", data);
 
-    // Chooses year from the csv file. data.map goes through the year column and inserts all the data into an array.
+    // Chooses year from the data. data.map goes through the year column and inserts all the data into an array.
     // "new Set(...)" is a datastructure in JS that only saves unique values. "new Set(data.map(...))" removes any duplicates.
     // data is then inserted back into the array
     // ".sort" sorts the years in ascending order
@@ -37,7 +37,8 @@ dropdown.selectAll("option")
 
 // initializes the first year
 updateCharts(years[0]);
-// Sets an event listener(an event listener is a function that waits for a specific event to occur and executes code in respone), that reacts when the dropdown menu changes
+// Sets an event listener(an event listener is a function that waits for a specific event to occur 
+// and executes code in respone), that reacts when the dropdown menu changes
 dropdown.on("change", function() {
     // this.value gives the chosen value in the dropdown a year as a string.
     // +this.value turns this string in the dropdown menu into an integer
