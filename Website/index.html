@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>1st Semester Project Website</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Schools get a look at my eggs</h1>
@@ -51,7 +54,7 @@
             </div>
         
 
-          </div>
+    </div>
       
           <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
           <script src="Import-export.js"></script>
@@ -62,6 +65,12 @@
       
       </div>
 
+      <div id="worldmap" class="map">
+        <svg width="900" height="500"></svg>
+        <script type="module" src="script.js"></script>
+
+      </div>
+      
       
     
 </body>

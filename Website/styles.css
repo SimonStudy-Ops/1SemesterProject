@@ -84,3 +84,12 @@ footer {
   align-items: center;
   padding: 0 20px;
 }
+
+.sphere {
+  fill: rgb(29, 68, 81);
+}
+
+.country {
+  fill: #ccc;
+  stroke: #333;
+}
