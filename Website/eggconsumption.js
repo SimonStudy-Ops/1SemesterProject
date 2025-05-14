@@ -61,7 +61,7 @@ const yearData = data
             //The scale of the eggs needs to be between 0 and the biggest value in the kilograms column
             .domain([0, d3.max(data, d => d.kilograms)])  
             //Setting a range in pixels for the radius of the circles
-            .range([10, 50]); 
+            .range([5, 60]); 
 
         // Run force simulation to spread out bubbles - so they dont overlap and is placed at the middle
         const simulation = d3.forceSimulation(yearData)
@@ -69,8 +69,8 @@ const yearData = data
             .force("x", d3.forceX(width / 2).strength(0.05))
             //pushes the bubbles towards the middle of the y-axis (h/2), again with low force
             .force("y", d3.forceY(height / 2).strength(0.05))
-            //makes sure that the bubbles dont collide with each other - calculates their radius to determine the space needed + 2px padding to add some space between them
-            .force("collision", d3.forceCollide(d => rScale(d.kilograms) + 2))
+            //makes sure that the bubbles dont collide with each other - calculates their radius to determine the space needed + 8px padding to add some space between them
+            .force("collision", d3.forceCollide(d => rScale(d.kilograms) + 8))
             .stop();
 
         // Run simulation manually so we can use the x/y positions - the bubbles needs to know where to go - to ensure that they dont start in the wrong spot or moves strangely
@@ -107,12 +107,15 @@ const yearData = data
         newGroups.append("ellipse")
             .attr("rx", 0) // Initial horizontal radius (0 so it starts invisible)
             .attr("ry", 0) // Initial vertical radius (0 so it starts invisible)
-            .style("fill", "yellow");
+            //egg-color
+            .style("fill", "#d7a86e")
+            .style("stroke", "white")
+            .style("stroke-width", 2);
 
         // Add country name-label inside each bubble
         newGroups.append("text")
-        //the text is the country name
-            .text(d => d.country)
+        //We want to know which country has the biggest consumption by looking at the name, as the size difference isnt that visible. therefor we take the sorted array index and adds 1, so it doesnt start with 0 (the first index) and than we add the country name to the circles.
+            .text((d, i) => `#${i + 1} ${d.country}`)
             //aligns the text with the middle of the bubble
             .attr("text-anchor", "middle")
             //places the text under its baseline - so it looks more centered
@@ -153,6 +156,10 @@ const yearData = data
             //sets the horizontal radius to the scale based of kilograms
             .attr("rx", d => rScale(d.kilograms))        
             //vertical radius is the same scale multiplicated by 1.3 to stretch the ellipse to look like an egg     
-            .attr("ry", d => rScale(d.kilograms) * 1.3);    
+            .attr("ry", d => rScale(d.kilograms) * 1.3);  
+            
+        //updating the rank (#) label before the country name - when a new year is choosen
+        nodes.select("text")
+            .text((d, i) => `#${i + 1} ${d.country}`);
     }
 });
