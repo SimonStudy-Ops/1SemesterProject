@@ -1,8 +1,7 @@
 // Width and height of SVG
-const w = 700;
-const h = 400;
-// Padding for the bars and around the charts, so there is spacing between them
-const padding = 60;
+const width = 700;
+const height = 400;
+
 // Loads the data from the API endpoint trade. 
 d3.json("/api/eggconsumption").then(data => {
     // ensures that the columns "year" and "amount" is recieved as numbers.
@@ -67,9 +66,9 @@ const yearData = data
         // Run force simulation to spread out bubbles - so they dont overlap and is placed at the middle
         const simulation = d3.forceSimulation(yearData)
             //pushes the bubbles towards the middle of the x-axis (w/2) with low force to spread them a bit (strength = 0.05)
-            .force("x", d3.forceX(w / 2).strength(0.05))
+            .force("x", d3.forceX(width / 2).strength(0.05))
             //pushes the bubbles towards the middle of the y-axis (h/2), again with low force
-            .force("y", d3.forceY(h / 2).strength(0.05))
+            .force("y", d3.forceY(height / 2).strength(0.05))
             //makes sure that the bubbles dont collide with each other - calculates their radius to determine the space needed + 2px padding to add some space between them
             .force("collision", d3.forceCollide(d => rScale(d.kilograms) + 2))
             .stop();
@@ -89,7 +88,7 @@ const yearData = data
         nodes.exit()
             .transition()
             .duration(500)
-            .attr("transform", `translate(${w / 2}, ${h + 100})`) // move out of view (fall down)
+            .attr("transform", `translate(${width / 2}, ${height + 100})`) // move out of view (fall down)
             .style("opacity", 0) // the bubbles gradually fades away
             .remove(); //after the transition, they are removed
 
@@ -100,7 +99,7 @@ const yearData = data
             //adds egg-group as class to these elements
             .attr("class", "egg-group")
             //The new bubbles starts at the top out of the visible area
-            .attr("transform", `translate(${w / 2}, ${- 100})`) 
+            .attr("transform", `translate(${width / 2}, ${- 100})`) 
             //They start out as invisible and fades in
             .style("opacity", 0);
 
