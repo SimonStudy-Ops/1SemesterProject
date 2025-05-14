@@ -56,14 +56,6 @@ const yearData = data
     .slice(0, 10); // chooses the top 10 biggest consumers of eggs
 
 
-
-
-
-
-
-
-
-
 // Scale for bubble size (egg size)
 // The square-root scale makes sure that the bubbles grow proportionally with their value
         const rScale = d3.scaleSqrt()
