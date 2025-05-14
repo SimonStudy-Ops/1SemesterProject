@@ -42,7 +42,7 @@ async function onGetTrade(request, response) {
 }
 
 async function onGetEggconsumption(request, response) {
-    const dbResult = await db.query(`select year, kilogram, country from eggconsumption`)
+    const dbResult = await db.query(`select year, kilograms, country from eggconsumption`)
     response.setHeader("Content-Type", "application/json");
     response.json(dbResult.rows);
 }
