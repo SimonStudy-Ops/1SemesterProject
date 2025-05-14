@@ -17,7 +17,8 @@
           <div class="logo">Logo</div>
           <div class="menu">Email/Password</div>
         </header>
-      
+        
+      <!--Import/export chart-->
         <div class="box-wrapper">
           <div>
             <label for="yearDropdown">Choose year:</label>
@@ -35,9 +36,26 @@
             </div>
 
           </div>
+
+          <!--Egg chart-->
+          <div>
+
+           <div>
+            <label for="yearDropdown2">Choose year:</label>
+            <select id="yearDropdown2"></select>
+          </div> 
+
+            <div id = "eggconsumption" class="bubble chart">
+              <h2>Egg consumption in EU</h2>
+              <svg id = "egg-bubble-chart"></svg>
+            </div>
+        
+
+          </div>
       
           <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
           <script src="Import-export.js"></script>
+          <script src="eggconsumption.js"></script>
         <footer>
           <div>Website Info</div>
         </footer>
