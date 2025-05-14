@@ -71,9 +71,9 @@ const yearData = data
             //Setting a range in pixels for the radius of the circles
             .range([10, 50]); 
 
-        // Run force simulation to spread out bubbles
+        // Run force simulation to spread out bubbles - so they dont overlap and is placed at the middle
         const simulation = d3.forceSimulation(yearData)
-            //pushes the bubbles towards the middle of the x-axis with low force to spread them a bit
+            //pushes the bubbles towards the middle of the x-axis with low force to spread them a bit (strength = 0.05)
             .force("x", d3.forceX(w / 2).strength(0.05))
             //pushes the bubbles towards the middle of the y-axis, again with low force
             .force("y", d3.forceY(h / 2).strength(0.05))
@@ -103,7 +103,7 @@ const yearData = data
         const newGroups = nodes.enter()
             .append("g")
             .attr("class", "egg-group")
-            .attr("transform", `translate(${w / 2}, ${h + 100})`) // start offscreen (fall down)
+            .attr("transform", `translate(${w / 2}, ${h - 100})`) 
             .style("opacity", 0);
 
         // Add ellipse to each group (egg shape)
