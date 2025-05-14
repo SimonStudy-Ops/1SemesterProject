@@ -86,7 +86,7 @@ const yearData = data
         for (let i = 0; i < 120; i++) simulation.tick();
 
         // Selects the svg element in the DOM 
-        const svg = d3.select("svg");
+        const svg = d3.select("#egg-bubble-chart");
 
         // Selects all the elements with the class .egg-group in the svg-element 
         const nodes = svg.selectAll(".egg-group")
@@ -108,7 +108,7 @@ const yearData = data
             //adds egg-group as class to these elements
             .attr("class", "egg-group")
             //The new bubbles starts at the top out of the visible area
-            .attr("transform", `translate(${w / 2}, ${h - 100})`) 
+            .attr("transform", `translate(${w / 2}, ${- 100})`) 
             //They start out as invisible and fades in
             .style("opacity", 0);
 

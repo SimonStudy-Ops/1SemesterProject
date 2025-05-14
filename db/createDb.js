@@ -45,7 +45,7 @@ await db.query(`
 await db.query(`
     create table eggconsumption(
     year        integer not null,    
-    kilograms      decimal(10,2),
+    kilograms   decimal(10,2),
     country     varchar(128)
     )
      `)
