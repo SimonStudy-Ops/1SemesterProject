@@ -76,6 +76,20 @@ p{
   padding-top: 50px;
 }
 
+#eggconsumption {
+ width: 100%;
+  overflow: visible;
+  padding: 20px;
+}
+
+#egg-bubble-chart {
+  display: block;
+  width: 700px;
+  height: 400px;
+  background: #8ecd8e; /* midlertidigt for at se området */
+  overflow: visible;
+}
+
 footer {
   background: black;
   color: white;
