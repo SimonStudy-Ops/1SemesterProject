@@ -90,6 +90,17 @@ p{
   overflow: visible;
 }
 
+#tooltip {
+    position: absolute;
+    display: none;
+    background: rgb(255, 255, 255);
+    color: rgb(72, 218, 82);
+    padding: 5px;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 12px;
+}
+
 footer {
   background: black;
   color: white;

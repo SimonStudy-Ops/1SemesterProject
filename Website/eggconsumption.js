@@ -124,6 +124,18 @@ const yearData = data
             .style("pointer-events", "none")
             .style("fill", "white")
             .style("font-size", "10px");
+        
+            //tooltip interaction - mouse hoover
+            newGroups.select("ellipse")
+                .on("mouseover", function(event, d) {
+            tooltip.style("display", "block")
+                .html(`Kilograms: ${d.kilograms}`)
+                .style("left", `${event.pageX + 10}px`)
+                .style("top", `${event.pageY + 10}px`);
+        })
+            .on("mouseout", function() {
+                tooltip.style("display", "none");
+        });
 
         // Animate new bubbles to their final position (fall into the chart)
         newGroups.transition()
@@ -157,7 +169,7 @@ const yearData = data
             .attr("rx", d => rScale(d.kilograms))        
             //vertical radius is the same scale multiplicated by 1.3 to stretch the ellipse to look like an egg     
             .attr("ry", d => rScale(d.kilograms) * 1.3);  
-            
+
         //updating the rank (#) label before the country name - when a new year is choosen
         nodes.select("text")
             .text((d, i) => `#${i + 1} ${d.country}`);
