@@ -65,8 +65,10 @@ p{
 .first-box, .second-box {
   flex: 1;
   border: 5px solid black;
-  padding: 50px;
-  background-color: #333;
+  padding: 20px;
+  background-color: #ffe7b3;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   color: white;
   min-height: 150px;
 }
