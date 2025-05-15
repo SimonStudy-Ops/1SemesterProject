@@ -5,7 +5,7 @@ fetch('')
 const svg = d3.select('#worldmap svg');
 
 const projection = geoNaturalEarth1()
-.center([20, 56])  // Længde, bredde – flytter fokus mod Europa
+.center([15, 56])  // Længde, bredde – flytter fokus mod Europa
 .scale(900)        // Zoomer ind
 .translate([500, 200]); // Centrerer på SVG (halvdelen af width og height)
 const pathGenerator = geoPath().projection(projection);
