@@ -26,7 +26,7 @@ console.log('Dropping table if they already exist....')
 await db.query(`
         
         drop table if exists trade;
-        drop table if exists eggconsumption;
+        drop table if exists eggprice
     `)
        //-- create trade-table
 
@@ -43,14 +43,15 @@ await db.query(`
     console.log('Created trade table')
 // create eggprice table
 await db.query(`
-    create table eggconsumption(
-    year        integer not null,    
-    kilograms      decimal(10,2),
-    country     varchar(128)
+    create table eggprice(
+        country     varchar(128),
+        type        varchar(10) check (type in ('Import','Export')),
+        year        integer not null,
+        price      decimal(10,2)
     )
      `)
 
-     console.log('Created eggconsumption table')
+     console.log('Created eggprice table')
 
    // Insert data into trade table
 console.log('Inserting data in trade...');
@@ -63,11 +64,11 @@ await upload(
 console.log('Data inserted.');
 
 // insert data into eggprice table
-console.log('Inserting data in eggconsumption...');
+console.log('Inserting data in eggprice...');
 await upload(
     db,
-    'db/eggconsumption.csv',
-    'copy eggconsumption (year, kilograms, country) from stdin with csv header'
+    '',
+    'copy trade (year, coun, year, price) from stdin with csv header'
 );
 //Log data was inserted
 console.log('Data inserted.');
