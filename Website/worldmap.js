@@ -1,6 +1,7 @@
 import { select, json, geoPath, geoNaturalEarth1 } from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
 import { feature } from 'https://cdn.jsdelivr.net/npm/topojson-client@3/+esm';
 
+fetch('')
 const svg = d3.select('#worldmap svg');
 
 const projection = geoNaturalEarth1()
@@ -21,4 +22,6 @@ json('https://unpkg.com/world-atlas@1.1.4/world/110m.json')
       .enter().append('path')
         .attr('class', 'country')
         .attr('d', pathGenerator);
+      
+
   });

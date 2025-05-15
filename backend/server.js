@@ -39,3 +39,4 @@ async function onGetTrade(request, response) {
     response.setHeader("Content-Type", "application/json");
     response.json(dbResult.rows);
 }
+
