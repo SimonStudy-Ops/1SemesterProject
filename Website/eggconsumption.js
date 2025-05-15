@@ -2,14 +2,16 @@
 const width = 700;
 const height = 400;
 
-// Loads the data from the API endpoint trade. 
+const tooltip = d3.select("#tooltip");
+
+// Loads the data from the API endpoint eggconsumption. 
 d3.json("/api/eggconsumption").then(data => {
-    // ensures that the columns "year" and "amount" is recieved as numbers.
+    // ensures that the columns "year" and "kilograms" is recieved as numbers.
     data.forEach(d => {
         d.year = +d.year;
         d.kilograms = +d.kilograms;
     });
-
+ //making sure that the data is retrieved correct
     console.log("Fetched data from API:", data);
 
     // Chooses year from the data. data.map goes through the year column and inserts all the data into an array.
@@ -54,6 +56,10 @@ const yearData = data
     .sort((a, b) => b.kilograms - a.kilograms)       // Sort by consumption - descending
     .slice(0, 10); // chooses the top 10 biggest consumers of eggs
 
+//editing the color for the eggs - the bigger the amount in kilograms the darker the color
+const colorScale = d3.scaleLinear()
+  .domain([0, 9]) // top 10: index 0 to 9
+  .range(["#d7a86e", "#fff0d0"]); // dark to lighter egg color
 
 // Scale for bubble size (egg size)
 // The square-root scale makes sure that the bubbles grow proportionally with their value
@@ -61,7 +67,7 @@ const yearData = data
             //The scale of the eggs needs to be between 0 and the biggest value in the kilograms column
             .domain([0, d3.max(data, d => d.kilograms)])  
             //Setting a range in pixels for the radius of the circles
-            .range([5, 60]); 
+            .range([5, 70]); 
 
         // Run force simulation to spread out bubbles - so they dont overlap and is placed at the middle
         const simulation = d3.forceSimulation(yearData)
@@ -69,8 +75,8 @@ const yearData = data
             .force("x", d3.forceX(width / 2).strength(0.05))
             //pushes the bubbles towards the middle of the y-axis (h/2), again with low force
             .force("y", d3.forceY(height / 2).strength(0.05))
-            //makes sure that the bubbles dont collide with each other - calculates their radius to determine the space needed + 8px padding to add some space between them
-            .force("collision", d3.forceCollide(d => rScale(d.kilograms) + 8))
+            //makes sure that the bubbles dont collide with each other - calculates their radius to determine the space needed + 10px padding to add some space between them
+            .force("collision", d3.forceCollide(d => rScale(d.kilograms) + 10))
             .stop();
 
         // Run simulation manually so we can use the x/y positions - the bubbles needs to know where to go - to ensure that they dont start in the wrong spot or moves strangely
@@ -108,8 +114,8 @@ const yearData = data
             .attr("rx", 0) // Initial horizontal radius (0 so it starts invisible)
             .attr("ry", 0) // Initial vertical radius (0 so it starts invisible)
             //egg-color
-            .style("fill", "#d7a86e")
-            .style("stroke", "white")
+            .style("fill", (d, i) => colorScale(i))
+            .style("stroke", "black")
             .style("stroke-width", 2);
 
         // Add country name-label inside each bubble
@@ -122,18 +128,22 @@ const yearData = data
             .attr("dy", ".35em")
             //makes sure that the text doesnt interfere with mouse interaction
             .style("pointer-events", "none")
-            .style("fill", "white")
-            .style("font-size", "10px");
+            .style("fill", "black")
+            .style("font-size", "12px")
+            .style("font-weight", "bold")
         
+
             //tooltip interaction - mouse hoover
-            newGroups.select("ellipse")
-                .on("mouseover", function(event, d) {
+        newGroups.select("ellipse")
+        .on("mouseover", function(event, d) {
             tooltip.style("display", "block")
-                .html(`Kilograms: ${d.kilograms}`)
-                .style("left", `${event.pageX + 10}px`)
-                .style("top", `${event.pageY + 10}px`);
+                .html(`Kilograms per capita: ${d.kilograms}`)
+                //positions on the right of the mouse
+               .style("left", (event.pageX + 10) + "px")
+                //positions under the mouse
+                .style("top", (event.pageY + 10) + "px");
         })
-            .on("mouseout", function() {
+        .on("mouseout", function() {
                 tooltip.style("display", "none");
         });
 
@@ -168,7 +178,9 @@ const yearData = data
             //sets the horizontal radius to the scale based of kilograms
             .attr("rx", d => rScale(d.kilograms))        
             //vertical radius is the same scale multiplicated by 1.3 to stretch the ellipse to look like an egg     
-            .attr("ry", d => rScale(d.kilograms) * 1.3);  
+            .attr("ry", d => rScale(d.kilograms) * 1.3)
+            //changing the color to fade lighter the higher the index-number - when updating the exising circles
+            .style("fill", (d, i) => colorScale(i));
 
         //updating the rank (#) label before the country name - when a new year is choosen
         nodes.select("text")
