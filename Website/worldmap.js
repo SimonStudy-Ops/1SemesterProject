@@ -22,6 +22,5 @@ json('https://unpkg.com/world-atlas@1.1.4/world/110m.json')
       .enter().append('path')
         .attr('class', 'country')
         .attr('d', pathGenerator);
-      
 
   });
