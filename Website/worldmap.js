@@ -1,7 +1,8 @@
 import { select, json, geoPath, geoNaturalEarth1 } from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
 import { feature } from 'https://cdn.jsdelivr.net/npm/topojson-client@3/+esm';
 
-const svg = select('svg');
+const svg = d3.select('#worldmap svg');
+
 const projection = geoNaturalEarth1()
 .center([20, 56])  // Længde, bredde – flytter fokus mod Europa
 .scale(900)        // Zoomer ind
