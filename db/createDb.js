@@ -27,6 +27,7 @@ await db.query(`
         
         drop table if exists trade;
         drop table if exists eggconsumption;
+        drop table if exists 
     `)
        //-- create trade-table
 
