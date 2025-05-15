@@ -1,86 +1,95 @@
-
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>1st Semester Project Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>1st Semester Project Website</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="https://unpkg.com/topojson@3"></script>
-  <link rel="stylesheet" href="style.css">
   <script type="module" src="worldmap.js"></script>
 </head>
 <body>
-    <h1>Schools get a look at my eggs</h1>
-    <p>Start of the Project</p>
-    <div class="container">
+  <h1>Schools get a look at my eggs</h1>
+  <p>Start of the Project</p>
+  <div class="container">
+    <header>
+      <div class="logo">Logo</div>
+      <div class="menu">Email/Password</div>
+    </header>
 
-        <header>
-          <div class="logo">Logo</div>
-          <div class="menu">Email/Password</div>
-        </header>
-        
-      <!--Import/export chart-->
-        <div class="box-wrapper">
-          <div>
-            <label for="yearDropdown">Choose year:</label>
-            <select id="yearDropdown"></select>
-          </div>
-    
-        <div id = "importContainer" class="first-box">
-          <h2>Import</h2>
-              <svg id = "importChart"></svg>
-            </div>
-        
-            <div id = "exportContainer" class="second-box">
-              <h2>Export</h2>
-              <svg id = "exportChart"></svg>
-            </div>
-
-          </div>
-
-          <!--Egg chart-->
-          <div>
-
-           <div>
-            <label for="yearDropdown2">Choose year:</label>
-            <select id="yearDropdown2"></select>
-          </div> 
-
-            <div id = "eggconsumption" class="bubble chart">
-              <h2>Egg consumption in EU</h2>
-              <svg id = "egg-bubble-chart"></svg>
-            </div>
-
-            <div id="worldmap" class="third-box">
-              
-              <h2>Worldmap skal være her</h2>
-              <svg width="1100" height="505"></svg>
-              
-              
-              
-            </div>
-          </div>
-
-
-    </div>
-      
-          <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-          <script src="Import-export.js"></script>
-          <script src="eggconsumption.js"></script>
-        <footer>
-          <div>Website Info</div>
-        </footer>
-      
+    <div class="box-wrapper">
+      <div>
+        <label for="yearDropdown">Choose year:</label>
+        <select id="yearDropdown"></select>
       </div>
 
-        
+      <div id="importContainer" class="first-box">
+        <h2>Egg Production</h2>
+        <svg id="importChart"></svg>
+      </div>
 
-        
-      
-      
-    
+      <div id="exportContainer" class="second-box">
+        <h2>Export</h2>
+        <svg id="exportChart"></svg>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <label for="yearDropdown2">Choose year:</label>
+        <select id="yearDropdown2"></select>
+      </div>
+
+      <div id="eggconsumption" class="bubble chart">
+        <h2>Egg consumption in EU</h2>
+        <svg id="egg-bubble-chart"></svg>
+      </div>
+
+      <div id="worldmap" class="third-box">
+        <h2>Worldmap skal være her</h2>
+        <svg width="1100" height="505"></svg>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div>Website Info</div>
+  </footer>
+
+  <nav class="navbar" id="main-navbar">
+    <ul id="navbar">
+      <li><a href="#" id="home-link">Home</a></li>
+       <li><a href="#" id="import-link">Egg Production</a></li>
+      <li><a href="#" id="eggconsumption-link">Egg Graph</a></li>
+      <li><a href="#" id="worldmap-link">World Map</a></li>
+    </ul>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="Import-export.js"></script>
+  <script src="eggconsumption.js"></script>
+  <script>
+    document.getElementById("home-link").addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    document.getElementById("eggconsumption-link").addEventListener("click", function (e) {
+      e.preventDefault();
+      document.getElementById("eggconsumption").scrollIntoView({ behavior: "smooth" });
+    });
+
+    document.getElementById("worldmap-link").addEventListener("click", function (e) {
+      e.preventDefault();
+      document.getElementById("worldmap").scrollIntoView({ behavior: "smooth" });
+    });
+
+    document.getElementById("import-link").addEventListener("click", function (e) {
+      e.preventDefault();
+      document.getElementById("importContainer").scrollIntoView({ behavior: "smooth" });
+    });
+  </script>
 </body>
 </html>
