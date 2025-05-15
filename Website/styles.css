@@ -76,19 +76,42 @@ p{
   padding-top: 50px;
 }
 
+#egg-chart-header{
+  padding: 20px;
+}
+
 #eggconsumption {
- width: 100%;
+  width: 100%;
   overflow: visible;
   padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px; /* spacing between the three elements */
+  margin-top: 20px;
 }
 
 #egg-bubble-chart {
   display: block;
-  width: 700px;
+  width: 500px;
   height: 400px;
   overflow: visible;
+  flex-shrink: 0;
 }
 
+#dropdown-container {
+  min-width: 120px;
+ 
+}
+
+#info-box {
+  background: white;
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 200px;
+  font-size: 0.9em;
+  margin-left: 150px;
+}
 #tooltip {
     position: absolute;
     display: none;

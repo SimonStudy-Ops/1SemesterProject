@@ -38,20 +38,31 @@
           </div>
 
           <!--Egg chart-->
-          <div>
+         
+        <div id="egg-chart-header"> 
+          <h2>Egg consumption in EU</h2>
+        </div>
+            
+       <div id="eggconsumption">
+           <!-- Chart -->
+            <svg id="egg-bubble-chart"></svg>
 
-            <h2>Egg consumption in EU</h2>
-           <div>
-            <label for="yearDropdown2">Choose year:</label>
-            <select id="yearDropdown2"></select>
-          </div> 
+          <!-- Dropdown -->
+          <div id="dropdown-container">
+             <label for="yearDropdown2">Choose year:</label>
+             <select id="yearDropdown2"></select>
+           </div>
 
-            <div id = "eggconsumption">
-              <svg id = "egg-bubble-chart"></svg>
-            </div>
-      <div id="tooltip"> </div>
-          </div>
-      
+           <!-- Info box -->
+          <div id="info-box">
+             <h3>Info</h3>
+            <p>This chart shows the top 10 egg consumers in the EU by .</p>
+         </div>
+            <div id="tooltip"> </div>
+        </div>
+      <div>
+
+        
           <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
           <script src="Import-export.js"></script>
           <script src="eggconsumption.js"></script>

@@ -1,5 +1,5 @@
 // Width and height of SVG
-const width = 700;
+const width = 500;
 const height = 400;
 
 const tooltip = d3.select("#tooltip");
