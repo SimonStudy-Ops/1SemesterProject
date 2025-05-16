@@ -41,6 +41,17 @@ await db.query(`
      // Check constraint to ensure that the column type only consists of import and export
 
     console.log('Created trade table')
+
+// create eggconsumption table
+await db.query(`
+    create table eggconsumption(
+    year        integer not null,    
+    kilograms   decimal(10,2),
+    country     varchar(128)
+)
+    `)
+  console.log('Created eggconsumption table')
+
 // create eggprice table
 await db.query(`
     create table eggconsumption(
