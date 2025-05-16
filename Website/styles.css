@@ -90,18 +90,45 @@ p{
   margin-top: 20px;
 }
 
+#chart-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
 #egg-bubble-chart {
   display: block;
   width: 500px;
   height: 400px;
   overflow: visible;
   flex-shrink: 0;
+  position: relative; /* sits above the basket */
+  z-index: 2;
 }
 
 #dropdown-container {
   min-width: 120px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+#dropdown-container label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px solid #000000;
+  background-color: #c2e3cc;
+}
+
+#dropdown-container select {
+  padding: 8px;
+  border: 2px solid #333;
+  border-radius: 6px;
+  background-color: #c2e3cc;
+  font-size: 16px;
+  cursor: pointer;
  
 }
+
+
 
 #info-box {
   background: white;
@@ -112,6 +139,19 @@ p{
   font-size: 0.9em;
   margin-left: 150px;
 }
+
+#eggbasket{
+  width: 500px;
+  height: 240px;
+  position: absolute;
+  bottom: -75px; /*how much it sits under the bubble-chart*/
+  z-index: 1; /*puts it behind the chart*/
+  background-image: url('egg-basket.png');
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+
 #tooltip {
     position: absolute;
     display: none;
