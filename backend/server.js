@@ -23,7 +23,6 @@ server.use(express.static('Website'));
 server.use(onEachRequest)
 // Defines the API endpoints
 server.get('/api/trade', onGetTrade);
-server.get('/api/eggconsumption', onGetEggconsumption);
 server.listen(port, onServerReady);
 
  async function onEachRequest(request, response, next) {

@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>1st Semester Project Website</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="worldmap.js"></script>
 </head>
 <body>
     <h1>Schools get a look at my eggs</h1>
@@ -24,9 +28,9 @@
             <label for="yearDropdown">Choose year:</label>
             <select id="yearDropdown"></select>
           </div>
-
-            <div id = "importContainer" class="first-box">
-              <h2>Import</h2>
+    
+        <div id = "importContainer" class="first-box">
+          <h2>Import</h2>
               <svg id = "importChart"></svg>
             </div>
         
@@ -65,6 +69,15 @@
             <div id="tooltip"> </div>
         </div>
       <div>
+          <div id="worldmap" class="third-box">
+              
+              <h2>Worldmap skal være her</h2>
+              <svg width="1100" height="505"></svg>
+              
+              
+              
+            </div>
+          </div>
 
 
           <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
@@ -76,6 +89,10 @@
       
       </div>
 
+        
+
+        
+      
       
     
 </body>
