@@ -15,17 +15,17 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  margin-top: 50px
+  gap: 0px;
+  margin: 40px auto;
 }
 
 .egg-shell.left {
-  width: 80px;
+  width: 60px;
   height: auto;
 }
 
 .egg-shell.right {
-  width: 80px;
+  width: 60px;
   height: auto;
 }
 
@@ -33,8 +33,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
-    margin: 40px auto;
+    gap: 10px;
 }
 
 .chicken {
@@ -61,10 +60,9 @@ h1{
     border-top: 4px solid #000000;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    padding: 20px 40px;
     padding-bottom: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0;
     
 }
 
