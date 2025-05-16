@@ -82,7 +82,7 @@ p{
   flex: 1;
   border: 5px solid black;
   padding: 20px;
-  background-color: #2bff23;
+  background-color: #2e2aec;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
@@ -139,7 +139,7 @@ footer {
 }
 
 .country {
-  fill: #ccc;
+  fill: #c4bdbd;
   stroke: #333;
 }
 
