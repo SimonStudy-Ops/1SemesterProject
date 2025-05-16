@@ -26,7 +26,8 @@ console.log('Dropping table if they already exist....')
 await db.query(`
         
         drop table if exists trade;
-        drop table if exists eggprice
+        drop table if exists eggconsumption;
+        drop table if exists eggprice;
     `)
        //-- create trade-table
 
@@ -54,13 +55,13 @@ await db.query(`
 
 // create eggprice table
 await db.query(`
-    create table eggconsumption(
-    year        integer not null,    
-    kilograms   decimal(10,2),
-    country     varchar(128)
+    create table eggprice(
+        country     varchar(128),
+        type        varchar(10) check (type in ('Import','Export')),
+        year        integer not null,
+        price      decimal(10,2)
     )
      `)
-
      console.log('Created eggprice table')
 
    // Insert data into trade table
