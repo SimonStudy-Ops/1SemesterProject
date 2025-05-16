@@ -99,16 +99,27 @@ const yScale = d3.scaleLinear()
 // Rounds to "nice" numbers for a prettier axis
 .nice();
 
+// Declares what each four variables will later hold for the x and y axis text and lines
 let xTextColor, xLineColor, yTextColor, yLineColor;
+// Checks that the containerId is equal to #importContainer
 if (containerId === "#importContainer") {
+    // If true, sets the x axis text to green
     xTextColor = "green";
+    // Sets the x axis line color to black
     xLineColor = "black";
+    // Sets the y axis text color to black
     yTextColor = "black";
+    // Sets the y axis line color to black
     yLineColor = "black";
 } else {
+    // If containerId is not #importContainer
+    // Sets the x axis text color to orange
     xTextColor = "orange";
+    // Sets the x axis line color to black
     xLineColor = "black";
+    // Sets the y axis text color to black
     yTextColor = "black";
+    // Sets the y axis line color to black
     yLineColor = "black";
 }
 
