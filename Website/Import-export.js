@@ -37,6 +37,12 @@ dropdown.selectAll("option")
 
 // initializes the first year
 updateCharts(years[0]);
+// Selects the <h2> element inside the element with the id="imortContainer" 
+// Sets the text color to green using inline CSS
+document.querySelector("#importContainer h2").style.color = "green";
+// Selects the <h2> element inside the element with the id="exportContainer"
+// Sets the text color to orange using inline CSS
+document.querySelector("#exportContainer h2").style.color = "orange";
 // Sets an event listener(an event listener is a function that waits for a specific event to occur 
 // and executes code in respone), that reacts when the dropdown menu changes
 dropdown.on("change", function() {
@@ -93,24 +99,47 @@ const yScale = d3.scaleLinear()
 // Rounds to "nice" numbers for a prettier axis
 .nice();
 
+let xTextColor, xLineColor, yTextColor, yLineColor;
+if (containerId === "#importContainer") {
+    xTextColor = "green";
+    xLineColor = "black";
+    yTextColor = "black";
+    yLineColor = "black";
+} else {
+    xTextColor = "orange";
+    xLineColor = "black";
+    yTextColor = "black";
+    yLineColor = "black";
+}
+
 // creates an element called "g". "g" holds the x-axis
-svg.append("g")
+const xAxisGroup = svg.append("g")
 // Moves the x-avis to the bottom of the chart, but padding moves it up
 .attr("transform", `translate(0, ${h - padding})`) // adds a value into a string
 // Tells d3 to generate bottom oriented axis using xScale
-.call(d3.axisBottom(xScale))
-.selectAll("text")
-// Selects the text and rotates it 45 degress withing the bar
+.call(d3.axisBottom(xScale));
+
+xAxisGroup.selectAll("text")
+// Selects the text and rotates it 30 degress withing the bar
 .attr("transform", "rotate(-30)")
 // Lines up the rotated text so it aligns with the end of each bar
-.style("text-anchor", "end");
+.style("text-anchor", "end")
+.style("fill", xTextColor);
+
+xAxisGroup.selectAll("path, line")
+.style("stroke", xLineColor);
 
 // Adds another group for y-axis
-svg.append("g")
+const yAxisGroup = svg.append("g")
 // Moves the y-axis to the left side of the chart after the padding
 .attr("transform", `translate(${padding}, 0)`)
 // Draws a left-oriented axis using the yScale - makes the ticks
 .call(d3.axisLeft(yScale));
+yAxisGroup.selectAll("text")
+.style("fill", yTextColor);
+
+yAxisGroup.selectAll("path, line")
+.style("stroke", yLineColor);
 
 //Adds "text" to the y-axis
 svg.append("text")
@@ -119,8 +148,7 @@ svg.append("text")
 //Moves the labels 10 pixels over each tick
 .attr("y", padding - 10)
 // aligns the text from starting point
-.style("text-anchor", "start")
-.text(yLabel);
+.style("Amount");
 
 // Placeholder for "bars"
 svg.selectAll("rect")
@@ -139,6 +167,6 @@ svg.selectAll("rect")
 // height of the bar
 .attr("height", d => h - padding - yScale(d.amount))
 // colors of the bar blue
-.attr("fill", "steelblue");
+.attr("fill", "black");
 }
 });
