@@ -75,6 +75,16 @@ await upload(
 
 console.log('Data inserted.');
 
+ // Insert data into eggconsumption table
+console.log('Inserting data in eggconsumption...');
+await upload(
+    db,
+    'db/eggconsumption.csv',
+    'copy trade (year, kilograms, country) from stdin with csv header'
+);
+
+console.log('Data inserted.');
+
 // insert data into eggprice table
 console.log('Inserting data in eggprice...');
 await upload(
