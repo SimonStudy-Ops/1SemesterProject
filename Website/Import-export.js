@@ -101,7 +101,7 @@ svg.append("g")
 .call(d3.axisBottom(xScale))
 .selectAll("text")
 // Selects the text and rotates it 45 degress withing the bar
-.attr("transform", "rotate(-45)")
+.attr("transform", "rotate(-30)")
 // Lines up the rotated text so it aligns with the end of each bar
 .style("text-anchor", "end");
 
@@ -138,7 +138,7 @@ svg.selectAll("rect")
 .attr("width", xScale.bandwidth())
 // height of the bar
 .attr("height", d => h - padding - yScale(d.amount))
-// Colours the bar blue
+// colors of the bar blue
 .attr("fill", "steelblue");
 }
 });

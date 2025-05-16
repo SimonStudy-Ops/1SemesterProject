@@ -65,8 +65,10 @@ p{
 .first-box, .second-box {
   flex: 1;
   border: 5px solid black;
-  padding: 50px;
-  background-color: #333;
+  padding: 20px;
+  background-color: #ffe7b3;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   color: white;
   min-height: 150px;
 }
@@ -75,6 +77,7 @@ p{
   text-align: center;
   padding-top: 50px;
 }
+
 
 #egg-chart-header{
   padding: 20px;
@@ -164,6 +167,16 @@ p{
      z-index: 1000;
 }
 
+.third-box {
+  flex: 1;
+  border: 5px solid black;
+  padding: 20px;
+  background-color: #2bff23;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
 footer {
   background: black;
   color: white;
@@ -171,4 +184,18 @@ footer {
   display: flex;
   align-items: center;
   padding: 0 20px;
+}
+
+.sphere {
+  fill: rgb(29, 68, 81);
+}
+
+.country {
+  fill: #ccc;
+  stroke: #333;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
 }

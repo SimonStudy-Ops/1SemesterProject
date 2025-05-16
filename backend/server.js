@@ -23,7 +23,6 @@ server.use(express.static('Website'));
 server.use(onEachRequest)
 // Defines the API endpoints
 server.get('/api/trade', onGetTrade);
-server.get('/api/eggconsumption', onGetEggconsumption);
 server.listen(port, onServerReady);
 
  async function onEachRequest(request, response, next) {
@@ -41,8 +40,10 @@ async function onGetTrade(request, response) {
     response.json(dbResult.rows);
 }
 
+
 async function onGetEggconsumption(request, response) {
     const dbResult = await db.query(`select year, kilograms, country from eggconsumption`)
     response.setHeader("Content-Type", "application/json");
     response.json(dbResult.rows);
 }
+
