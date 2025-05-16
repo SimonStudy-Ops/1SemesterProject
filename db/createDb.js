@@ -26,7 +26,8 @@ console.log('Dropping table if they already exist....')
 await db.query(`
         
         drop table if exists trade;
-        drop table if exists eggprice
+        drop table if exists eggconsumption;
+        drop table if exists eggprice;
     `)
        //-- create trade-table
 
@@ -53,7 +54,6 @@ await db.query(`
         price      decimal(10,2)
     )
      `)
-
      console.log('Created eggprice table')
 
    // Insert data into trade table
