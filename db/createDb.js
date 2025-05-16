@@ -42,14 +42,6 @@ await db.query(`
 
     console.log('Created trade table')
 
-// create eggconsumption table
-await db.query(`
-    create table eggconsumption(
-    year        integer not null,    
-    kilograms   decimal(10,2),
-    country     varchar(128)
-)
-    `)
   console.log('Created eggconsumption table')
 
 // create eggprice table
