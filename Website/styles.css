@@ -147,47 +147,46 @@ p{
 }
 #chicken-container {
   position: relative;
-  width: fit-content;
+  width: fit-content; /*the container is as wide as the content inside*/
   margin-top: 20px;
-  cursor: pointer;
+  cursor: pointer; /*changes the curser to a pointer so the user knows that this is clickable*/
   display: inline-block;
   margin-top: 100px;
 }
 
 #chicken-img {
   width: 150px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease; /*when the image transforms on the hoover we want the change to look smooth*/
 }
 
 #chicken-img:hover {
-  transform: scale(1.1);
+  transform: scale(1.1); /*When we hoover the mouse over the image the chicken is scaled a little bigger*/
 }
 
 #speech-bubble-img {
-  position: relative;
-  width: 150px; /* adjust based on your image size */
+  position: relative; /*ensures that the text inside can be absolutely positioned*/
+  width: 150px; 
 }
 
 #speech-bubble-img img {
-  width: 100%;
-  display: block;
+  width: 100%; /*the picture needs to fill the container that we defined*/
+  display: block; /*the default for images is inline, where it behaves like text. But we want to display it as block so it doesnt have a little space in the bottom. it makes it easier to position it*/
 }
 
 #speech-text {
-  position: absolute;
-  top: 35%;       /* controls vertical position */
-  left: 10%;      /* controls horizontal position */
-  width: 80%;     /* ensures text wraps inside bubble */
+  position: absolute;  /*We want a fixed position of the text inside the speech-bubble*/
+  top: 35%;            /* controls vertical position */
+  left: 10%;           /* controls horizontal position */
+  width: 80%;          /* ensures text wraps inside bubble and doesnt overlap the sides*/
   text-align: center;
   font-size: 14px;
   font-family: 'Poetsen One', sans-serif;
   font-style: italic;
   color: #333;
-  pointer-events: none; /* lets clicks pass through if needed */
 }
 
 #info-box {
-  background: rgb(204, 242, 245);
+  background: rgb(253, 247, 155);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
   padding: 20px;
   border-radius: 10px;
