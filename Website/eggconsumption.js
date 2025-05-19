@@ -200,3 +200,21 @@ const colorScale = d3.scaleLinear()
             .text((d, i) => `#${i + 1} ${d.country}`);
     }
 });
+
+// Gør infoboksen usynlig ved load
+document.addEventListener("DOMContentLoaded", function () {
+  const infoBox = document.getElementById("info-box");
+  const chicken = document.getElementById("chicken-img");
+
+  // Skjul boksen fra start
+  infoBox.style.display = "none";
+
+  // Klik på hønen viser/skjuler boksen
+  chicken.addEventListener("click", function () {
+    if (infoBox.style.display === "none") {
+      infoBox.style.display = "block";
+    } else {
+      infoBox.style.display = "none";
+    }
+  });
+});

@@ -94,7 +94,9 @@ p{
 
 #egg-chart-header{
   padding: 20px;
+  font-family: 'Poetsen One', sans-serif;
 }
+
 
 #eggconsumption {
   width: 100%;
@@ -143,18 +145,63 @@ p{
   cursor: pointer;
  
 }
+#chicken-container {
+  position: relative;
+  width: fit-content;
+  margin-top: 20px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+#chicken-img {
+  width: 150px;
+  transition: transform 0.3s ease;
+}
+
+#chicken-img:hover {
+  transform: scale(1.1);
+}
+
+#speech-bubble-img {
+  position: relative;
+  width: 150px; /* adjust based on your image size */
+}
+
+#speech-bubble-img img {
+  width: 100%;
+  display: block;
+}
+
+#speech-text {
+  position: absolute;
+  top: 35%;       /* controls vertical position */
+  left: 10%;      /* controls horizontal position */
+  width: 80%;     /* ensures text wraps inside bubble */
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Poetsen One', sans-serif;
+  font-style: italic;
+  color: #333;
+  pointer-events: none; /* lets clicks pass through if needed */
+}
 
 #info-box {
   background: rgb(204, 242, 245);
-  border: 2px solid #333;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
   padding: 20px;
   border-radius: 10px;
   max-width: 200px;
   font-size: 0.9em;
-  margin-left: 150px;
+  margin-left: 120px;
+  font-family: 'Poetsen One', sans-serif;
+  
+
 }
-.factbox {
+
+.facts {
   padding: 10px;
+ 
 }
 
 #eggbasket{
