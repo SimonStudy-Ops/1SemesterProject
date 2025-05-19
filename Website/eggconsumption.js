@@ -201,19 +201,23 @@ const colorScale = d3.scaleLinear()
     }
 });
 
-// Gør infoboksen usynlig ved load
+// Click event for the chciken image to show the info box
+//First we ensure that the whole HTML-file is read (DOMContentLoaded) before the function is run
 document.addEventListener("DOMContentLoaded", function () {
+//We put the 2 elements that we need for this visual into variables, that can be used in the function
   const infoBox = document.getElementById("info-box");
   const chicken = document.getElementById("chicken-img");
 
-  // Skjul boksen fra start
+  // Default display is set to none
   infoBox.style.display = "none";
 
-  // Klik på hønen viser/skjuler boksen
+  // Adding an eventlistener to the chicken image to run the function when it is clicked
   chicken.addEventListener("click", function () {
+    //When the button is clicked we want to show the infrobox if the display is empty
     if (infoBox.style.display === "none") {
-      infoBox.style.display = "block";
+      infoBox.style.display = "block"; //block makes is visible
     } else {
+        //If the infobox is already visible, we want it to not display it anymore, when the image is clicked on
       infoBox.style.display = "none";
     }
   });
