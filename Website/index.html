@@ -11,50 +11,70 @@
   <script type="module" src="worldmap.js"></script>
 </head>
 <body>
-  <h1>Schools get a look at my eggs</h1>
-  <p>Start of the Project</p>
-  <div class="container">
-    <header>
-      <div class="logo">Logo</div>
-      <div class="menu">Email/Password</div>
-    </header>
+    <h1>Schools get a look at my eggs</h1>
+    <p>Start of the Project</p>
+    <div class="container">
 
-    <div class="box-wrapper">
+        <header>
+          <div class="logo">Logo</div>
+          <div class="menu">Email/Password</div>
+        </header>
+        
+      <!--Import/export chart-->
+        <div class="box-wrapper">
+          <div class="dropdown-container">
+            <label for="yearDropdown">Choose year:</label>
+            <select id="yearDropdown"></select>
+          </div>
+    
+        <div id = "importContainer" class="first-box">
+          <h2>Import</h2>
+              <svg id = "importChart"></svg>
+            </div>
+        
+            <div id = "exportContainer" class="second-box">
+              <h2>Export</h2>
+              <svg id = "exportChart"></svg>
+            </div>
+          </div>
+
+          <!--Egg chart-->
+         
+        <div id="egg-chart-header"> 
+          <h2>Egg consumption in EU</h2>
+        </div>
+            
+       <div id="eggconsumption">
+           <!-- Chart -->
+           <div id="chart-column">
+            <svg id="egg-bubble-chart"></svg>
+            <div id="eggbasket"></div>
+          </div> 
+
+          <!-- Dropdown -->
+          <div id="dropdown-container">
+             <label for="yearDropdown2">Choose year:</label>
+             <select id="yearDropdown2"></select>
+           </div>
+
+           <!-- Info box -->
+          <div id="info-box">
+             <h3>Info</h3>
+            <p>This chart shows the top 10 egg consumers in the EU by .</p>
+        
+          </div>
+            <div id="tooltip"> </div>
+        </div>
       <div>
-        <label for="yearDropdown">Choose year:</label>
-        <select id="yearDropdown"></select>
-      </div>
-
-      <div id="importContainer" class="first-box">
-        <h2>Egg Production</h2>
-        <svg id="importChart"></svg>
-      </div>
-
-      <div id="exportContainer" class="second-box">
-        <h2>Export</h2>
-        <svg id="exportChart"></svg>
-      </div>
-    </div>
-
-    <div>
-      <div>
-        <label for="yearDropdown2">Choose year:</label>
-        <select id="yearDropdown2"></select>
-      </div>
-
-      <div id="eggconsumption" class="bubble chart">
-        <h2>Egg consumption in EU</h2>
-        <svg id="egg-bubble-chart"></svg>
-      </div>
-
-      <div id="worldmap" class="third-box">
-        <h2>Worldmap skal være her</h2>
-        <svg width="1100" height="505"></svg>
-      </div>
-
-
-    </div>
-  </div>
+          <div id="worldmap" class="third-box">
+              
+              <h2>Worldmap skal være her</h2>
+              <svg width="1100" height="505"></svg>
+              
+              
+              
+            </div>
+          </div>
 
   <footer>
     <div>Website Info</div>
