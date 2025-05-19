@@ -8,10 +8,9 @@ const svg = d3.select("#worldmap svg")
   .attr("width", width)
   .attr("height", height);
 
-// Projektion centreret på Europa
 const projection = d3.geoMercator()
-  .center([15, 50])        // Europa (breddegrad, længdegrad)
-  .scale(700)              // Zoom ind så Europa fylder
+  .center([15, 50])
+  .scale(700)
   .translate([width / 2, height / 2]);
 
 const path = d3.geoPath().projection(projection);
@@ -28,6 +27,17 @@ svg.call(zoom);
 
 let active = null;
 
+const infoBox = d3.select("#worldmap")
+  .append("div")
+  .attr("id", "infoBox")
+  .style("position", "absolute")
+  .style("background", "white")
+  .style("padding", "10px")
+  .style("border", "1px solid #333")
+  .style("border-radius", "5px")
+  .style("pointer-events", "none")
+  .style("display", "none");  
+
 d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then(worldData => {
   const countries = feature(worldData, worldData.objects.countries).features;
 
@@ -36,7 +46,7 @@ d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then(w
     .enter()
     .append("path")
     .attr("d", path)
-    .attr("fill", "#cce")
+    .attr("fill", "#4CAF50")
     .attr("stroke", "#333")
     .on("click", function(event, d) {
       if (active === d) {
@@ -44,6 +54,8 @@ d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then(w
         svg.transition()
           .duration(750)
           .call(zoom.transform, d3.zoomIdentity);
+
+        infoBox.style("display", "none");  
       } else {
         active = d;
         const [[x0, y0], [x1, y1]] = path.bounds(d);
@@ -60,6 +72,11 @@ d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then(w
             zoom.transform,
             d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale)
           );
+
+        infoBox.style("display", "block")
+          .html(`<strong>Land:</strong> ${d.properties ? d.properties.name : "Ukendt"}`)
+          .style("left", (event.pageX + 10) + "px")
+          .style("top", (event.pageY + 10) + "px");
       }
     });
 });
