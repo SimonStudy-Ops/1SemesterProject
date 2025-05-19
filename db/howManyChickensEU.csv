@@ -1,881 +1,881 @@
-﻿Domain Code,Domain,Area Code (ISO3),Area,Element Code,Element,Item Code (CPC),Item,Year Code,Year,Unit,Value,Flag,Flag Description,Note
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2000","2000","1000 An","4087","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2001","2001","1000 An","4285","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2002","2002","1000 An","4446","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2003","2003","1000 An","4756","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2004","2004","1000 An","4517","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2005","2005","1000 An","4671","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2006","2006","1000 An","4572","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2007","2007","1000 An","4712","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2008","2008","1000 An","5000","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2009","2009","1000 An","5138","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2010","2010","1000 An","5245","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2011","2011","1000 An","6558","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2012","2012","1000 An","9494","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2013","2013","1000 An","8928","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2014","2014","1000 An","9493","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2015","2015","1000 An","8555","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2016","2016","1000 An","7634","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2017","2017","1000 An","7835","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2018","2018","1000 An","7272","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2019","2019","1000 An","7090","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2020","2020","1000 An","6774","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2021","2021","1000 An","5249","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2022","2022","1000 An","4999","A","Official figure",""
-"QCL","Crops and livestock products","ALB","Albania","5112","Stocks","02151","Chickens","2023","2023","1000 An","4877","A","Official figure",""
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2000","2000","1000 An","13798","A","Official figure",""
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2001","2001","1000 An","11077","A","Official figure",""
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2002","2002","1000 An","11905","A","Official figure",""
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2003","2003","1000 An","12431","A","Official figure",""
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2004","2004","1000 An","12354","A","Official figure",""
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2005","2005","1000 An","12700","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2006","2006","1000 An","15000","E","Estimated value",""
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2007","2007","1000 An","13570","A","Official figure",""
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2008","2008","1000 An","13770","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2009","2009","1000 An","14400","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2010","2010","1000 An","15650","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2011","2011","1000 An","16000","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2012","2012","1000 An","15500","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2013","2013","1000 An","16300","E","Estimated value",""
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2014","2014","1000 An","16500","E","Estimated value",""
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2015","2015","1000 An","16465","I","Imputed value",""
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2016","2016","1000 An","16745","A","Official figure",""
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2017","2017","1000 An","16736","I","Imputed value",""
-"QCL","Crops and livestock products","AUT","Austria","5112","Stocks","02151","Chickens","2020","2020","1000 An","16857","A","Official figure",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2000","2000","1000 An","26400","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2001","2001","1000 An","26400","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2002","2002","1000 An","25300","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2003","2003","1000 An","24300","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2004","2004","1000 An","23000","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2005","2005","1000 An","23500","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2006","2006","1000 An","30000","E","Estimated value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2007","2007","1000 An","35000","E","Estimated value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2008","2008","1000 An","40000","E","Estimated value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2009","2009","1000 An","45000","E","Estimated value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2010","2010","1000 An","54000","E","Estimated value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2011","2011","1000 An","64691","I","Imputed value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2012","2012","1000 An","75000","E","Estimated value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2013","2013","1000 An","80000","E","Estimated value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2014","2014","1000 An","85800","E","Estimated value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2015","2015","1000 An","90687","I","Imputed value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2016","2016","1000 An","95441","I","Imputed value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2017","2017","1000 An","100000","E","Estimated value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2018","2018","1000 An","101376","I","Imputed value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2019","2019","1000 An","102484","I","Imputed value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2020","2020","1000 An","103729","I","Imputed value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2021","2021","1000 An","105000","E","Estimated value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2022","2022","1000 An","106411","I","Imputed value",""
-"QCL","Crops and livestock products","BLR","Belarus","5112","Stocks","02151","Chickens","2023","2023","1000 An","119658","I","Imputed value",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2000","2000","1000 An","39729","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2001","2001","1000 An","38529","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2002","2002","1000 An","37928","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2003","2003","1000 An","32032","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2004","2004","1000 An","36506","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2005","2005","1000 An","35569","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2006","2006","1000 An","32867","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2007","2007","1000 An","32750","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2008","2008","1000 An","32493","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2009","2009","1000 An","33240","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2010","2010","1000 An","34375","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2011","2011","1000 An","35376","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2012","2012","1000 An","35618","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2013","2013","1000 An","36219","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2014","2014","1000 An","33700","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2015","2015","1000 An","37739","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2016","2016","1000 An","42553","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2017","2017","1000 An","40179","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2018","2018","1000 An","47469","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2019","2019","1000 An","49127","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2020","2020","1000 An","53362","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2021","2021","1000 An","53188","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2022","2022","1000 An","53283","A","Official figure",""
-"QCL","Crops and livestock products","BEL","Belgium","5112","Stocks","02151","Chickens","2023","2023","1000 An","48754","A","Official figure",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2000","2000","1000 An","9400","E","Estimated value",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2001","2001","1000 An","9700","E","Estimated value",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2002","2002","1000 An","10800","E","Estimated value",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2003","2003","1000 An","9000","E","Estimated value",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2004","2004","1000 An","9100","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2005","2005","1000 An","10260","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2006","2006","1000 An","13230","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2007","2007","1000 An","14900","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2008","2008","1000 An","16050","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2009","2009","1000 An","18600","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2010","2010","1000 An","21030","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2011","2011","1000 An","18560","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2012","2012","1000 An","19235","A","Official figure",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2013","2013","1000 An","24505","A","Official figure",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2014","2014","1000 An","20664","A","Official figure",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2015","2015","1000 An","15390","A","Official figure",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2016","2016","1000 An","15066","A","Official figure",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2017","2017","1000 An","16282","A","Official figure",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2018","2018","1000 An","16229","A","Official figure",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2019","2019","1000 An","16669","A","Official figure",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2020","2020","1000 An","16658","A","Official figure",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2021","2021","1000 An","8727","A","Official figure",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2022","2022","1000 An","9299","A","Official figure",""
-"QCL","Crops and livestock products","BIH","Bosnia and Herzegovina","5112","Stocks","02151","Chickens","2023","2023","1000 An","9383","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2000","2000","1000 An","13300","E","Estimated value",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2001","2001","1000 An","13000","E","Estimated value",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2002","2002","1000 An","15700","E","Estimated value",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2003","2003","1000 An","18736","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2004","2004","1000 An","18736","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2005","2005","1000 An","17160","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2006","2006","1000 An","17205","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2007","2007","1000 An","17959","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2008","2008","1000 An","16426","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2009","2009","1000 An","15765","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2010","2010","1000 An","16002","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2011","2011","1000 An","14063","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2012","2012","1000 An","13150","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2013","2013","1000 An","13837","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2014","2014","1000 An","11665","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2015","2015","1000 An","12970","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2016","2016","1000 An","14258","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2017","2017","1000 An","17738","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2018","2018","1000 An","18830","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2019","2019","1000 An","20793","A","Official figure",""
-"QCL","Crops and livestock products","BGR","Bulgaria","5112","Stocks","02151","Chickens","2020","2020","1000 An","17177","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2000","2000","1000 An","7046","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2001","2001","1000 An","7481","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2002","2002","1000 An","7060","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2003","2003","1000 An","6852","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2004","2004","1000 An","7492","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2005","2005","1000 An","7267","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2006","2006","1000 An","7017","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2007","2007","1000 An","6816","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2008","2008","1000 An","6727","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2009","2009","1000 An","6707","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2010","2010","1000 An","5041","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2011","2011","1000 An","4222","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2012","2012","1000 An","4415","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2013","2013","1000 An","4125","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2014","2014","1000 An","9803","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2015","2015","1000 An","9599","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2016","2016","1000 An","9220","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2017","2017","1000 An","9840","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2018","2018","1000 An","10881","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2019","2019","1000 An","12162","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2020","2020","1000 An","11360","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2021","2021","1000 An","12096","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2022","2022","1000 An","10918","A","Official figure",""
-"QCL","Crops and livestock products","HRV","Croatia","5112","Stocks","02151","Chickens","2023","2023","1000 An","10343","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2000","2000","1000 An","29538","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2001","2001","1000 An","30742","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2002","2002","1000 An","28753","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2003","2003","1000 An","25638","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2004","2004","1000 An","24366","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2005","2005","1000 An","24104","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2006","2006","1000 An","24768","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2007","2007","1000 An","23599","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2008","2008","1000 An","26105","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2009","2009","1000 An","25487","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2010","2010","1000 An","24042","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2011","2011","1000 An","20577","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2012","2012","1000 An","20107","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2013","2013","1000 An","22534","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2014","2014","1000 An","20656","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2015","2015","1000 An","21483","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2016","2016","1000 An","20422","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2017","2017","1000 An","20587","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2018","2018","1000 An","22428","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2019","2019","1000 An","21844","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2020","2020","1000 An","21018","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2022","2022","1000 An","23464","A","Official figure",""
-"QCL","Crops and livestock products","CZE","Czechia","5112","Stocks","02151","Chickens","2023","2023","1000 An","21957","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2000","2000","1000 An","20982","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2001","2001","1000 An","20347","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2002","2002","1000 An","19734","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2003","2003","1000 An","17152","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2004","2004","1000 An","16136","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2005","2005","1000 An","17074","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2006","2006","1000 An","16826","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2007","2007","1000 An","15967","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2008","2008","1000 An","14710","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2009","2009","1000 An","19224","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2010","2010","1000 An","18084","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2011","2011","1000 An","18207","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2012","2012","1000 An","18174","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2013","2013","1000 An","18981","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2014","2014","1000 An","17902","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2015","2015","1000 An","16887","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2016","2016","1000 An","17898","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2017","2017","1000 An","20733","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2018","2018","1000 An","19351","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2019","2019","1000 An","22463","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2020","2020","1000 An","21250","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2021","2021","1000 An","21454","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2022","2022","1000 An","22412","A","Official figure",""
-"QCL","Crops and livestock products","DNK","Denmark","5112","Stocks","02151","Chickens","2023","2023","1000 An","20156","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2000","2000","1000 An","2414","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2001","2001","1000 An","2318","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2002","2002","1000 An","2249","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2003","2003","1000 An","2071","E","Estimated value",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2004","2004","1000 An","1930","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2005","2005","1000 An","2162","E","Estimated value",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2006","2006","1000 An","1854","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2007","2007","1000 An","1617","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2008","2008","1000 An","1458","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2009","2009","1000 An","1734","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2010","2010","1000 An","1769","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2011","2011","1000 An","2006","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2012","2012","1000 An","1973","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2013","2013","1000 An","2097","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2014","2014","1000 An","2048","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2015","2015","1000 An","2285","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2016","2016","1000 An","2054","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2017","2017","1000 An","2195","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2018","2018","1000 An","2059","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2019","2019","1000 An","2080","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2020","2020","1000 An","2055","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2021","2021","1000 An","2032","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2022","2022","1000 An","2092","A","Official figure",""
-"QCL","Crops and livestock products","EST","Estonia","5112","Stocks","02151","Chickens","2023","2023","1000 An","2132","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2000","2000","1000 An","11391","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2001","2001","1000 An","9008","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2002","2002","1000 An","9342","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2003","2003","1000 An","9412","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2004","2004","1000 An","8930","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2005","2005","1000 An","9057","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2006","2006","1000 An","8874","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2007","2007","1000 An","8559","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2008","2008","1000 An","9204","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2009","2009","1000 An","8173","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2010","2010","1000 An","8443","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2011","2011","1000 An","9146","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2012","2012","1000 An","9682","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2013","2013","1000 An","10813","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2014","2014","1000 An","11355","I","Imputed value",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2015","2015","1000 An","11970","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2016","2016","1000 An","12394","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2017","2017","1000 An","12266","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2018","2018","1000 An","13190","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2019","2019","1000 An","13407","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2020","2020","1000 An","12715","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2021","2021","1000 An","12707","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2022","2022","1000 An","13364","A","Official figure",""
-"QCL","Crops and livestock products","FIN","Finland","5112","Stocks","02151","Chickens","2023","2023","1000 An","18697","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2000","2000","1000 An","214187","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2001","2001","1000 An","216177","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2002","2002","1000 An","210748","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2003","2003","1000 An","205732","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2004","2004","1000 An","197361","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2005","2005","1000 An","191732","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2006","2006","1000 An","182578","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2007","2007","1000 An","191724","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2008","2008","1000 An","192735","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2009","2009","1000 An","196608","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2010","2010","1000 An","231527","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2011","2011","1000 An","232910","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2012","2012","1000 An","241133","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2013","2013","1000 An","251581","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2014","2014","1000 An","243219","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2015","2015","1000 An","247298","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2016","2016","1000 An","243526","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2017","2017","1000 An","244774","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2018","2018","1000 An","239290","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2019","2019","1000 An","237864","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2020","2020","1000 An","242015","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2021","2021","1000 An","239840","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2022","2022","1000 An","231096","A","Official figure",""
-"QCL","Crops and livestock products","FRA","France","5112","Stocks","02151","Chickens","2023","2023","1000 An","220787","A","Official figure",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2000","2000","1000 An","107659","A","Official figure",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2001","2001","1000 An","108000","A","Official figure",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2002","2002","1000 An","109993","A","Official figure",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2003","2003","1000 An","109793","A","Official figure",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2004","2004","1000 An","110000","E","Estimated value",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2005","2005","1000 An","107267","A","Official figure",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2006","2006","1000 An","107000","E","Estimated value",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2007","2007","1000 An","114625","A","Official figure",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2008","2008","1000 An","114500","E","Estimated value",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2009","2009","1000 An","114500","E","Estimated value",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2010","2010","1000 An","114113","A","Official figure",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2011","2011","1000 An","118640","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2012","2012","1000 An","121040","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2013","2013","1000 An","160774","A","Official figure",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2014","2014","1000 An","121000","E","Estimated value",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2015","2015","1000 An","140037","I","Imputed value",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2016","2016","1000 An","158649","A","Official figure",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2017","2017","1000 An","160000","E","Estimated value",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2020","2020","1000 An","159118","A","Official figure",""
-"QCL","Crops and livestock products","DEU","Germany","5112","Stocks","02151","Chickens","2023","2023","1000 An","156301","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2000","2000","1000 An","30289","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2001","2001","1000 An","29961","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2002","2002","1000 An","28516","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2003","2003","1000 An","29888","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2004","2004","1000 An","28939","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2005","2005","1000 An","30391","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2006","2006","1000 An","31372","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2007","2007","1000 An","31424","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2008","2008","1000 An","31765","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2009","2009","1000 An","28960","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2010","2010","1000 An","27841","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2011","2011","1000 An","29000","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2012","2012","1000 An","28083","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2013","2013","1000 An","30324","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2014","2014","1000 An","32062","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2015","2015","1000 An","34477","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2016","2016","1000 An","35545","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2017","2017","1000 An","37262","A","Official figure",""
-"QCL","Crops and livestock products","GRC","Greece","5112","Stocks","02151","Chickens","2018","2018","1000 An","37300","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2000","2000","1000 An","25890","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2001","2001","1000 An","30716","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2002","2002","1000 An","34343","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2003","2003","1000 An","32206","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2004","2004","1000 An","37502","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2005","2005","1000 An","32814","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2006","2006","1000 An","31902","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2007","2007","1000 An","30303","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2008","2008","1000 An","29866","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2009","2009","1000 An","31165","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2010","2010","1000 An","32128","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2011","2011","1000 An","31848","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2012","2012","1000 An","32860","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2013","2013","1000 An","30075","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2014","2014","1000 An","29474","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2015","2015","1000 An","30521","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2016","2016","1000 An","32432","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2017","2017","1000 An","32027","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2018","2018","1000 An","31844","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2019","2019","1000 An","30658","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2020","2020","1000 An","30874","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2021","2021","1000 An","28888","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2022","2022","1000 An","32114","A","Official figure",""
-"QCL","Crops and livestock products","HUN","Hungary","5112","Stocks","02151","Chickens","2023","2023","1000 An","29124","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2000","2000","1000 An","210","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2001","2001","1000 An","157","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2002","2002","1000 An","202","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2003","2003","1000 An","214","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2004","2004","1000 An","192","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2005","2005","1000 An","213","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2006","2006","1000 An","210","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2007","2007","1000 An","209","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2008","2008","1000 An","217","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2009","2009","1000 An","261","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2010","2010","1000 An","218","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2011","2011","1000 An","370","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2012","2012","1000 An","320","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2013","2013","1000 An","217","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2014","2014","1000 An","219","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2015","2015","1000 An","221","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2016","2016","1000 An","226","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2017","2017","1000 An","230","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2018","2018","1000 An","228","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2019","2019","1000 An","227","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2020","2020","1000 An","222","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2021","2021","1000 An","220","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2022","2022","1000 An","220","A","Official figure",""
-"QCL","Crops and livestock products","ISL","Iceland","5112","Stocks","02151","Chickens","2023","2023","1000 An","220","A","Official figure",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2000","2000","1000 An","12725","A","Official figure",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2001","2001","1000 An","12603","A","Official figure",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2002","2002","1000 An","12709","A","Official figure",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2003","2003","1000 An","12738","A","Official figure",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2004","2004","1000 An","12500","E","Estimated value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2005","2005","1000 An","12300","E","Estimated value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2006","2006","1000 An","12800","E","Estimated value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2007","2007","1000 An","13000","E","Estimated value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2008","2008","1000 An","13200","E","Estimated value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2009","2009","1000 An","15000","E","Estimated value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2010","2010","1000 An","13800","E","Estimated value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2011","2011","1000 An","14000","E","Estimated value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2012","2012","1000 An","14500","E","Estimated value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2013","2013","1000 An","15000","E","Estimated value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2014","2014","1000 An","15100","E","Estimated value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2015","2015","1000 An","15202","I","Imputed value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2016","2016","1000 An","15438","I","Imputed value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2017","2017","1000 An","15504","I","Imputed value",""
-"QCL","Crops and livestock products","IRL","Ireland","5112","Stocks","02151","Chickens","2020","2020","1000 An","15236","A","Official figure",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2000","2000","1000 An","100000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2001","2001","1000 An","100000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2002","2002","1000 An","100000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2003","2003","1000 An","100000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2004","2004","1000 An","100000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2005","2005","1000 An","100000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2006","2006","1000 An","95000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2007","2007","1000 An","100000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2008","2008","1000 An","115000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2009","2009","1000 An","120000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2010","2010","1000 An","130000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2011","2011","1000 An","138000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2012","2012","1000 An","140000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2013","2013","1000 An","136000","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2014","2014","1000 An","137400","E","Estimated value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2015","2015","1000 An","137712","I","Imputed value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2016","2016","1000 An","142265","I","Imputed value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2017","2017","1000 An","146948","I","Imputed value",""
-"QCL","Crops and livestock products","ITA","Italy","5112","Stocks","02151","Chickens","2020","2020","1000 An","142503","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2000","2000","1000 An","3237","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2001","2001","1000 An","3105","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2002","2002","1000 An","3621","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2003","2003","1000 An","3882","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2004","2004","1000 An","4003","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2005","2005","1000 An","4050","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2006","2006","1000 An","4092","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2007","2007","1000 An","4488","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2008","2008","1000 An","4757","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2009","2009","1000 An","4621","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2010","2010","1000 An","4829","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2011","2011","1000 An","4949","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2012","2012","1000 An","4418","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2013","2013","1000 An","4911","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2014","2014","1000 An","4986","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2015","2015","1000 An","4414","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2016","2016","1000 An","4483","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2017","2017","1000 An","4774","I","Imputed value",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2020","2020","1000 An","5643","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2021","2021","1000 An","5858","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2022","2022","1000 An","5744","A","Official figure",""
-"QCL","Crops and livestock products","LVA","Latvia","5112","Stocks","02151","Chickens","2023","2023","1000 An","5922","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2000","2000","1000 An","6209","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2001","2001","1000 An","5449","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2002","2002","1000 An","6429","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2003","2003","1000 An","6696","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2004","2004","1000 An","7868","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2005","2005","1000 An","8228","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2006","2006","1000 An","9201","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2007","2007","1000 An","9234","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2008","2008","1000 An","9693","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2009","2009","1000 An","8841","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2010","2010","1000 An","9025","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2011","2011","1000 An","9195","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2012","2012","1000 An","8658","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2013","2013","1000 An","8813","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2014","2014","1000 An","9621","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2015","2015","1000 An","10093","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2016","2016","1000 An","9148","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2017","2017","1000 An","9917","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2018","2018","1000 An","10204","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2019","2019","1000 An","11562","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2020","2020","1000 An","9852","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2021","2021","1000 An","8124","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2022","2022","1000 An","8897","A","Official figure",""
-"QCL","Crops and livestock products","LTU","Lithuania","5112","Stocks","02151","Chickens","2023","2023","1000 An","9729","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2000","2000","1000 An","72","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2001","2001","1000 An","84","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2002","2002","1000 An","78","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2003","2003","1000 An","79","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2004","2004","1000 An","73","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2005","2005","1000 An","83","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2006","2006","1000 An","81","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2007","2007","1000 An","82","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2008","2008","1000 An","81","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2009","2009","1000 An","97","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2010","2010","1000 An","90","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2011","2011","1000 An","102","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2012","2012","1000 An","113","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2013","2013","1000 An","111","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2014","2014","1000 An","116","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2015","2015","1000 An","114","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2016","2016","1000 An","114","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2017","2017","1000 An","123","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2018","2018","1000 An","123","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2019","2019","1000 An","132","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2020","2020","1000 An","136","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2021","2021","1000 An","171","A","Official figure",""
-"QCL","Crops and livestock products","LUX","Luxembourg","5112","Stocks","02151","Chickens","2022","2022","1000 An","186","A","Official figure",""
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2000","2000","1000 An","820","E","Estimated value",""
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2001","2001","1000 An","1559","A","Official figure",""
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2002","2002","1000 An","1000","A","Official figure",""
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2003","2003","1000 An","1358","A","Official figure",""
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2004","2004","1000 An","1000","E","Estimated value",""
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2005","2005","1000 An","1044","A","Official figure",""
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2006","2006","1000 An","1006","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2007","2007","1000 An","1114","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2008","2008","1000 An","1184","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2009","2009","1000 An","1075","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2010","2010","1000 An","970","A","Official figure",""
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2011","2011","1000 An","920","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2012","2012","1000 An","970","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2013","2013","1000 An","918","A","Official figure",""
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2014","2014","1000 An","1000","E","Estimated value",""
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2015","2015","1000 An","1035","I","Imputed value",""
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2016","2016","1000 An","1024","I","Imputed value",""
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2017","2017","1000 An","1004","I","Imputed value",""
-"QCL","Crops and livestock products","MLT","Malta","5112","Stocks","02151","Chickens","2020","2020","1000 An","884","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2006","2006","1000 An","449","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2007","2007","1000 An","505","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2008","2008","1000 An","432","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2009","2009","1000 An","417","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2010","2010","1000 An","506","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2011","2011","1000 An","480","E","Estimated value",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2012","2012","1000 An","470","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2013","2013","1000 An","620","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2014","2014","1000 An","596","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2015","2015","1000 An","606","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2016","2016","1000 An","730","E","Estimated value",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2017","2017","1000 An","788","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2018","2018","1000 An","666","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2019","2019","1000 An","636","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2020","2020","1000 An","602","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2021","2021","1000 An","597","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2022","2022","1000 An","855","A","Official figure",""
-"QCL","Crops and livestock products","MNE","Montenegro","5112","Stocks","02151","Chickens","2023","2023","1000 An","810","I","Imputed value",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2000","2000","1000 An","104015","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2001","2001","1000 An","100334","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2002","2002","1000 An","101052","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2003","2003","1000 An","79235","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2004","2004","1000 An","85816","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2005","2005","1000 An","92914","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2006","2006","1000 An","90401","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2007","2007","1000 An","92763","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2008","2008","1000 An","96700","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2009","2009","1000 An","96860","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2010","2010","1000 An","101248","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2011","2011","1000 An","96919","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2012","2012","1000 An","95273","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2013","2013","1000 An","97719","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2014","2014","1000 An","103039","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2015","2015","1000 An","106763","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2016","2016","1000 An","105620","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2017","2017","1000 An","105184","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2018","2018","1000 An","105104","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2019","2019","1000 An","101741","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2020","2020","1000 An","101863","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2021","2021","1000 An","99887","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2022","2022","1000 An","97533","A","Official figure",""
-"QCL","Crops and livestock products","NLD","Netherlands (Kingdom of the)","5112","Stocks","02151","Chickens","2023","2023","1000 An","93004","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2000","2000","1000 An","3350","E","Estimated value",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2001","2001","1000 An","3350","E","Estimated value",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2002","2002","1000 An","2900","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2003","2003","1000 An","2417","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2004","2004","1000 An","2725","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2005","2005","1000 An","2617","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2006","2006","1000 An","2585","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2007","2007","1000 An","2264","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2008","2008","1000 An","2226","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2009","2009","1000 An","2118","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2010","2010","1000 An","1995","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2011","2011","1000 An","1944","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2012","2012","1000 An","1776","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2013","2013","1000 An","2202","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2014","2014","1000 An","1940","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2015","2015","1000 An","1761","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2016","2016","1000 An","1866","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2017","2017","1000 An","1840","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2018","2018","1000 An","1828","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2019","2019","1000 An","1562","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2020","2020","1000 An","1643","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2021","2021","1000 An","1484","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2022","2022","1000 An","1562","A","Official figure",""
-"QCL","Crops and livestock products","MKD","North Macedonia","5112","Stocks","02151","Chickens","2023","2023","1000 An","1746","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2000","2000","1000 An","8695","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2001","2001","1000 An","3222","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2002","2002","1000 An","7952","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2003","2003","1000 An","8108","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2004","2004","1000 An","8040","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2005","2005","1000 An","8882","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2006","2006","1000 An","10841","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2007","2007","1000 An","12606","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2008","2008","1000 An","13100","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2009","2009","1000 An","13159","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2010","2010","1000 An","11854","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2011","2011","1000 An","11782","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2012","2012","1000 An","14406","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2013","2013","1000 An","15975","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2014","2014","1000 An","16565","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2015","2015","1000 An","14584","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2016","2016","1000 An","13919","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2017","2017","1000 An","15643","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2018","2018","1000 An","15598","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2019","2019","1000 An","16096","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2020","2020","1000 An","14218","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2021","2021","1000 An","16336","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2022","2022","1000 An","16131","A","Official figure",""
-"QCL","Crops and livestock products","NOR","Norway","5112","Stocks","02151","Chickens","2023","2023","1000 An","16484","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2000","2000","1000 An","48274","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2001","2001","1000 An","50694","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2002","2002","1000 An","175075","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2003","2003","1000 An","133395","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2004","2004","1000 An","119811","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2005","2005","1000 An","113488","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2006","2006","1000 An","111653","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2007","2007","1000 An","123682","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2008","2008","1000 An","114266","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2009","2009","1000 An","114540","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2010","2010","1000 An","153278","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2011","2011","1000 An","139964","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2012","2012","1000 An","112477","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2013","2013","1000 An","117054","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2014","2014","1000 An","129861","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2015","2015","1000 An","146123","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2016","2016","1000 An","169033","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2017","2017","1000 An","177640","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2018","2018","1000 An","182200","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2019","2019","1000 An","183121","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2020","2020","1000 An","195825","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2021","2021","1000 An","168629","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2022","2022","1000 An","176580","A","Official figure",""
-"QCL","Crops and livestock products","POL","Poland","5112","Stocks","02151","Chickens","2023","2023","1000 An","195145","A","Official figure",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2000","2000","1000 An","32408","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2001","2001","1000 An","33533","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2002","2002","1000 An","35000","E","Estimated value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2003","2003","1000 An","35276","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2004","2004","1000 An","35846","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2005","2005","1000 An","36167","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2006","2006","1000 An","36190","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2007","2007","1000 An","35864","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2008","2008","1000 An","35144","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2009","2009","1000 An","34012","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2010","2010","1000 An","32233","A","Official figure",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2011","2011","1000 An","30171","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2012","2012","1000 An","28312","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2013","2013","1000 An","26810","A","Official figure",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2014","2014","1000 An","28411","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2015","2015","1000 An","30656","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2016","2016","1000 An","33450","A","Official figure",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2017","2017","1000 An","37228","I","Imputed value",""
-"QCL","Crops and livestock products","PRT","Portugal","5112","Stocks","02151","Chickens","2020","2020","1000 An","49307","A","Official figure",""
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2000","2000","1000 An","12535","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2001","2001","1000 An","13002","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2002","2002","1000 An","14077","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2003","2003","1000 An","14900","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2004","2004","1000 An","15700","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2005","2005","1000 An","17420","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2006","2006","1000 An","22100","A","Official figure",""
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2007","2007","1000 An","22400","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2008","2008","1000 An","17050","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2009","2009","1000 An","18220","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2010","2010","1000 An","22340","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2011","2011","1000 An","34000","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2012","2012","1000 An","26520","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2013","2013","1000 An","32600","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2014","2014","1000 An","31840","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2015","2015","1000 An","36840","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2016","2016","1000 An","36727","I","Imputed value",""
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2017","2017","1000 An","37798","I","Imputed value",""
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2018","2018","1000 An","40000","E","Estimated value",""
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2019","2019","1000 An","41818","I","Imputed value",""
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2020","2020","1000 An","44077","I","Imputed value",""
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2021","2021","1000 An","46587","I","Imputed value",""
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2022","2022","1000 An","48642","I","Imputed value",""
-"QCL","Crops and livestock products","MDA","Republic of Moldova","5112","Stocks","02151","Chickens","2023","2023","1000 An","50696","I","Imputed value",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2000","2000","1000 An","69143","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2001","2001","1000 An","70076","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2002","2002","1000 An","71413","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2003","2003","1000 An","77379","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2004","2004","1000 An","76616","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2005","2005","1000 An","87014","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2006","2006","1000 An","86552","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2007","2007","1000 An","84991","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2008","2008","1000 An","82036","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2009","2009","1000 An","84373","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2010","2010","1000 An","83843","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2011","2011","1000 An","80845","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2012","2012","1000 An","79842","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2013","2013","1000 An","80136","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2014","2014","1000 An","79440","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2015","2015","1000 An","75447","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2016","2016","1000 An","78648","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2017","2017","1000 An","75690","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2018","2018","1000 An","73289","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2019","2019","1000 An","73993","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2020","2020","1000 An","73901","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2021","2021","1000 An","77148","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2022","2022","1000 An","78268","A","Official figure",""
-"QCL","Crops and livestock products","ROU","Romania","5112","Stocks","02151","Chickens","2023","2023","1000 An","77750","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2000","2000","1000 An","340334","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2001","2001","1000 An","330427","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2002","2002","1000 An","335356","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2003","2003","1000 An","337027","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2004","2004","1000 An","332662","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2005","2005","1000 An","332954","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2006","2006","1000 An","347900","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2007","2007","1000 An","340834","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2008","2008","1000 An","351058","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2009","2009","1000 An","366282","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2010","2010","1000 An","390534","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2011","2011","1000 An","406007","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2012","2012","1000 An","427777","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2013","2013","1000 An","446789","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2014","2014","1000 An","448371","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2015","2015","1000 An","475242","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2016","2016","1000 An","497978","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2017","2017","1000 An","505768","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2018","2018","1000 An","507050","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2019","2019","1000 An","497395","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2020","2020","1000 An","496964","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2021","2021","1000 An","472674","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2022","2022","1000 An","488236","A","Official figure",""
-"QCL","Crops and livestock products","RUS","Russian Federation","5112","Stocks","02151","Chickens","2023","2023","1000 An","499220","E","Estimated value",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2006","2006","1000 An","15826","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2007","2007","1000 An","15708","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2008","2008","1000 An","16685","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2009","2009","1000 An","22400","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2010","2010","1000 An","32735","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2011","2011","1000 An","18726","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2012","2012","1000 An","17708","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2013","2013","1000 An","17305","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2014","2014","1000 An","16599","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2015","2015","1000 An","16919","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2016","2016","1000 An","15708","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2017","2017","1000 An","16338","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2018","2018","1000 An","15685","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2019","2019","1000 An","15417","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2020","2020","1000 An","14927","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2021","2021","1000 An","15122","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2022","2022","1000 An","14624","A","Official figure",""
-"QCL","Crops and livestock products","SRB","Serbia","5112","Stocks","02151","Chickens","2023","2023","1000 An","13913","A","Official figure",""
-"QCL","Crops and livestock products","SCG","Serbia and Montenegro","5112","Stocks","02151","Chickens","2000","2000","1000 An","18948","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","SCG","Serbia and Montenegro","5112","Stocks","02151","Chickens","2001","2001","1000 An","17911","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","SCG","Serbia and Montenegro","5112","Stocks","02151","Chickens","2002","2002","1000 An","17452","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","SCG","Serbia and Montenegro","5112","Stocks","02151","Chickens","2003","2003","1000 An","16344","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","SCG","Serbia and Montenegro","5112","Stocks","02151","Chickens","2004","2004","1000 An","15000","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","SCG","Serbia and Montenegro","5112","Stocks","02151","Chickens","2005","2005","1000 An","14816","E","Estimated value",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2000","2000","1000 An","11758","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2001","2001","1000 An","13083","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2002","2002","1000 An","14949","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2003","2003","1000 An","13388","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2004","2004","1000 An","13767","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2005","2005","1000 An","13262","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2006","2006","1000 An","13619","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2007","2007","1000 An","12602","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2008","2008","1000 An","12444","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2009","2009","1000 An","10879","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2010","2010","1000 An","13249","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2011","2011","1000 An","12664","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2012","2012","1000 An","11054","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2013","2013","1000 An","11521","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2014","2014","1000 An","10605","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2015","2015","1000 An","12181","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2016","2016","1000 An","12513","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2017","2017","1000 An","11806","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2018","2018","1000 An","13030","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2019","2019","1000 An","12853","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2020","2020","1000 An","13153","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2021","2021","1000 An","10136","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2022","2022","1000 An","9096","A","Official figure",""
-"QCL","Crops and livestock products","SVK","Slovakia","5112","Stocks","02151","Chickens","2023","2023","1000 An","9404","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2000","2000","1000 An","4256","X","Figure from international organizations","Unofficial figure"
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2001","2001","1000 An","2760","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2002","2002","1000 An","2880","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2003","2003","1000 An","2920","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2004","2004","1000 An","2524","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2005","2005","1000 An","1754","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2006","2006","1000 An","1598","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2007","2007","1000 An","1567","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2008","2008","1000 An","2837","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2009","2009","1000 An","2393","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2010","2010","1000 An","2945","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2011","2011","1000 An","2529","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2012","2012","1000 An","2155","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2013","2013","1000 An","3172","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2014","2014","1000 An","2827","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2015","2015","1000 An","3281","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2016","2016","1000 An","3479","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2017","2017","1000 An","3639","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2018","2018","1000 An","3866","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2019","2019","1000 An","4028","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2020","2020","1000 An","5770","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2021","2021","1000 An","4671","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2022","2022","1000 An","5023","A","Official figure",""
-"QCL","Crops and livestock products","SVN","Slovenia","5112","Stocks","02151","Chickens","2023","2023","1000 An","4059","A","Official figure",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2000","2000","1000 An","171283","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2001","2001","1000 An","172039","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2002","2002","1000 An","175433","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2003","2003","1000 An","173794","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2004","2004","1000 An","173670","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2005","2005","1000 An","173741","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2006","2006","1000 An","173894","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2007","2007","1000 An","174215","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2008","2008","1000 An","174792","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2009","2009","1000 An","180000","E","Estimated value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2010","2010","1000 An","178329","A","Official figure",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2011","2011","1000 An","178335","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2012","2012","1000 An","180161","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2013","2013","1000 An","182760","A","Official figure",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2014","2014","1000 An","183156","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2015","2015","1000 An","184311","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2016","2016","1000 An","182200","A","Official figure",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2017","2017","1000 An","187784","I","Imputed value",""
-"QCL","Crops and livestock products","ESP","Spain","5112","Stocks","02151","Chickens","2020","2020","1000 An","193476","A","Official figure",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2000","2000","1000 An","14756","A","Official figure",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2001","2001","1000 An","16210","I","Imputed value",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2002","2002","1000 An","17307","I","Imputed value",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2003","2003","1000 An","18416","I","Imputed value",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2004","2004","1000 An","19524","I","Imputed value",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2005","2005","1000 An","24775","A","Official figure",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2006","2006","1000 An","21310","I","Imputed value",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2007","2007","1000 An","21916","I","Imputed value",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2008","2008","1000 An","22494","I","Imputed value",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2009","2009","1000 An","23078","I","Imputed value",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2010","2010","1000 An","22344","A","Official figure",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2011","2011","1000 An","24667","I","Imputed value",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2012","2012","1000 An","25757","I","Imputed value",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2013","2013","1000 An","27027","A","Official figure",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2014","2014","1000 An","26375","A","Official figure",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2015","2015","1000 An","28958","A","Official figure",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2016","2016","1000 An","29761","I","Imputed value",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2017","2017","1000 An","30559","A","Official figure",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2018","2018","1000 An","31756","A","Official figure",""
-"QCL","Crops and livestock products","SWE","Sweden","5112","Stocks","02151","Chickens","2019","2019","1000 An","33900","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2000","2000","1000 An","6790","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2001","2001","1000 An","6808","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2002","2002","1000 An","7206","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2003","2003","1000 An","7445","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2004","2004","1000 An","7913","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2005","2005","1000 An","8116","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2006","2006","1000 An","7517","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2007","2007","1000 An","8101","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2008","2008","1000 An","8474","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2009","2009","1000 An","8741","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2010","2010","1000 An","8944","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2011","2011","1000 An","9391","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2012","2012","1000 An","9878","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2013","2013","1000 An","10003","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2014","2014","1000 An","10644","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2015","2015","1000 An","10753","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2016","2016","1000 An","10893","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2017","2017","1000 An","11409","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2018","2018","1000 An","11535","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2019","2019","1000 An","11829","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2020","2020","1000 An","12429","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2021","2021","1000 An","12568","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2022","2022","1000 An","13109","A","Official figure",""
-"QCL","Crops and livestock products","CHE","Switzerland","5112","Stocks","02151","Chickens","2023","2023","1000 An","13152","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2000","2000","1000 An","105612","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2001","2001","1000 An","103772","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2002","2002","1000 An","115609","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2003","2003","1000 An","125146","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2004","2004","1000 An","122100","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2005","2005","1000 An","131976","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2006","2006","1000 An","142600","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2007","2007","1000 An","145600","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2008","2008","1000 An","148800","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2009","2009","1000 An","158800","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2010","2010","1000 An","172600","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2011","2011","1000 An","183600","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2012","2012","1000 An","181124","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2013","2013","1000 An","195256","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2014","2014","1000 An","201008","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2015","2015","1000 An","193885","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2016","2016","1000 An","186354","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2017","2017","1000 An","184336","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2018","2018","1000 An","186737","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2019","2019","1000 An","191968","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2020","2020","1000 An","202511","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2021","2021","1000 An","183543","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2022","2022","1000 An","186623","A","Official figure",""
-"QCL","Crops and livestock products","UKR","Ukraine","5112","Stocks","02151","Chickens","2023","2023","1000 An","165468","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2000","2000","1000 An","154504","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2001","2001","1000 An","163876","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2002","2002","1000 An","155005","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2003","2003","1000 An","165324","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2004","2004","1000 An","165931","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2005","2005","1000 An","160528","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2006","2006","1000 An","158202","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2007","2007","1000 An","157513","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2008","2008","1000 An","154180","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2009","2009","1000 An","159288","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2010","2010","1000 An","152000","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2011","2011","1000 An","151000","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2012","2012","1000 An","149000","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2013","2013","1000 An","152000","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2014","2014","1000 An","159000","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2015","2015","1000 An","157000","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2016","2016","1000 An","161000","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2017","2017","1000 An","171000","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2018","2018","1000 An","178000","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2019","2019","1000 An","176000","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2020","2020","1000 An","172000","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2021","2021","1000 An","180000","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2022","2022","1000 An","174193","A","Official figure",""
-"QCL","Crops and livestock products","GBR","United Kingdom of Great Britain and Northern Ireland","5112","Stocks","02151","Chickens","2023","2023","1000 An","170233","A","Official figure",""
+﻿areaCode,country,year,value
+ALB,Albania,2000,4087
+ALB,Albania,2001,4285
+ALB,Albania,2002,4446
+ALB,Albania,2003,4756
+ALB,Albania,2004,4517
+ALB,Albania,2005,4671
+ALB,Albania,2006,4572
+ALB,Albania,2007,4712
+ALB,Albania,2008,5000
+ALB,Albania,2009,5138
+ALB,Albania,2010,5245
+ALB,Albania,2011,6558
+ALB,Albania,2012,9494
+ALB,Albania,2013,8928
+ALB,Albania,2014,9493
+ALB,Albania,2015,8555
+ALB,Albania,2016,7634
+ALB,Albania,2017,7835
+ALB,Albania,2018,7272
+ALB,Albania,2019,7090
+ALB,Albania,2020,6774
+ALB,Albania,2021,5249
+ALB,Albania,2022,4999
+ALB,Albania,2023,4877
+AUT,Austria,2000,13798
+AUT,Austria,2001,11077
+AUT,Austria,2002,11905
+AUT,Austria,2003,12431
+AUT,Austria,2004,12354
+AUT,Austria,2005,12700
+AUT,Austria,2006,15000
+AUT,Austria,2007,13570
+AUT,Austria,2008,13770
+AUT,Austria,2009,14400
+AUT,Austria,2010,15650
+AUT,Austria,2011,16000
+AUT,Austria,2012,15500
+AUT,Austria,2013,16300
+AUT,Austria,2014,16500
+AUT,Austria,2015,16465
+AUT,Austria,2016,16745
+AUT,Austria,2017,16736
+AUT,Austria,2020,16857
+BLR,Belarus,2000,26400
+BLR,Belarus,2001,26400
+BLR,Belarus,2002,25300
+BLR,Belarus,2003,24300
+BLR,Belarus,2004,23000
+BLR,Belarus,2005,23500
+BLR,Belarus,2006,30000
+BLR,Belarus,2007,35000
+BLR,Belarus,2008,40000
+BLR,Belarus,2009,45000
+BLR,Belarus,2010,54000
+BLR,Belarus,2011,64691
+BLR,Belarus,2012,75000
+BLR,Belarus,2013,80000
+BLR,Belarus,2014,85800
+BLR,Belarus,2015,90687
+BLR,Belarus,2016,95441
+BLR,Belarus,2017,100000
+BLR,Belarus,2018,101376
+BLR,Belarus,2019,102484
+BLR,Belarus,2020,103729
+BLR,Belarus,2021,105000
+BLR,Belarus,2022,106411
+BLR,Belarus,2023,119658
+BEL,Belgium,2000,39729
+BEL,Belgium,2001,38529
+BEL,Belgium,2002,37928
+BEL,Belgium,2003,32032
+BEL,Belgium,2004,36506
+BEL,Belgium,2005,35569
+BEL,Belgium,2006,32867
+BEL,Belgium,2007,32750
+BEL,Belgium,2008,32493
+BEL,Belgium,2009,33240
+BEL,Belgium,2010,34375
+BEL,Belgium,2011,35376
+BEL,Belgium,2012,35618
+BEL,Belgium,2013,36219
+BEL,Belgium,2014,33700
+BEL,Belgium,2015,37739
+BEL,Belgium,2016,42553
+BEL,Belgium,2017,40179
+BEL,Belgium,2018,47469
+BEL,Belgium,2019,49127
+BEL,Belgium,2020,53362
+BEL,Belgium,2021,53188
+BEL,Belgium,2022,53283
+BEL,Belgium,2023,48754
+BIH,Bosnia and Herzegovina,2000,9400
+BIH,Bosnia and Herzegovina,2001,9700
+BIH,Bosnia and Herzegovina,2002,10800
+BIH,Bosnia and Herzegovina,2003,9000
+BIH,Bosnia and Herzegovina,2004,9100
+BIH,Bosnia and Herzegovina,2005,10260
+BIH,Bosnia and Herzegovina,2006,13230
+BIH,Bosnia and Herzegovina,2007,14900
+BIH,Bosnia and Herzegovina,2008,16050
+BIH,Bosnia and Herzegovina,2009,18600
+BIH,Bosnia and Herzegovina,2010,21030
+BIH,Bosnia and Herzegovina,2011,18560
+BIH,Bosnia and Herzegovina,2012,19235
+BIH,Bosnia and Herzegovina,2013,24505
+BIH,Bosnia and Herzegovina,2014,20664
+BIH,Bosnia and Herzegovina,2015,15390
+BIH,Bosnia and Herzegovina,2016,15066
+BIH,Bosnia and Herzegovina,2017,16282
+BIH,Bosnia and Herzegovina,2018,16229
+BIH,Bosnia and Herzegovina,2019,16669
+BIH,Bosnia and Herzegovina,2020,16658
+BIH,Bosnia and Herzegovina,2021,8727
+BIH,Bosnia and Herzegovina,2022,9299
+BIH,Bosnia and Herzegovina,2023,9383
+BGR,Bulgaria,2000,13300
+BGR,Bulgaria,2001,13000
+BGR,Bulgaria,2002,15700
+BGR,Bulgaria,2003,18736
+BGR,Bulgaria,2004,18736
+BGR,Bulgaria,2005,17160
+BGR,Bulgaria,2006,17205
+BGR,Bulgaria,2007,17959
+BGR,Bulgaria,2008,16426
+BGR,Bulgaria,2009,15765
+BGR,Bulgaria,2010,16002
+BGR,Bulgaria,2011,14063
+BGR,Bulgaria,2012,13150
+BGR,Bulgaria,2013,13837
+BGR,Bulgaria,2014,11665
+BGR,Bulgaria,2015,12970
+BGR,Bulgaria,2016,14258
+BGR,Bulgaria,2017,17738
+BGR,Bulgaria,2018,18830
+BGR,Bulgaria,2019,20793
+BGR,Bulgaria,2020,17177
+HRV,Croatia,2000,7046
+HRV,Croatia,2001,7481
+HRV,Croatia,2002,7060
+HRV,Croatia,2003,6852
+HRV,Croatia,2004,7492
+HRV,Croatia,2005,7267
+HRV,Croatia,2006,7017
+HRV,Croatia,2007,6816
+HRV,Croatia,2008,6727
+HRV,Croatia,2009,6707
+HRV,Croatia,2010,5041
+HRV,Croatia,2011,4222
+HRV,Croatia,2012,4415
+HRV,Croatia,2013,4125
+HRV,Croatia,2014,9803
+HRV,Croatia,2015,9599
+HRV,Croatia,2016,9220
+HRV,Croatia,2017,9840
+HRV,Croatia,2018,10881
+HRV,Croatia,2019,12162
+HRV,Croatia,2020,11360
+HRV,Croatia,2021,12096
+HRV,Croatia,2022,10918
+HRV,Croatia,2023,10343
+CZE,Czechia,2000,29538
+CZE,Czechia,2001,30742
+CZE,Czechia,2002,28753
+CZE,Czechia,2003,25638
+CZE,Czechia,2004,24366
+CZE,Czechia,2005,24104
+CZE,Czechia,2006,24768
+CZE,Czechia,2007,23599
+CZE,Czechia,2008,26105
+CZE,Czechia,2009,25487
+CZE,Czechia,2010,24042
+CZE,Czechia,2011,20577
+CZE,Czechia,2012,20107
+CZE,Czechia,2013,22534
+CZE,Czechia,2014,20656
+CZE,Czechia,2015,21483
+CZE,Czechia,2016,20422
+CZE,Czechia,2017,20587
+CZE,Czechia,2018,22428
+CZE,Czechia,2019,21844
+CZE,Czechia,2020,21018
+CZE,Czechia,2022,23464
+CZE,Czechia,2023,21957
+DNK,Denmark,2000,20982
+DNK,Denmark,2001,20347
+DNK,Denmark,2002,19734
+DNK,Denmark,2003,17152
+DNK,Denmark,2004,16136
+DNK,Denmark,2005,17074
+DNK,Denmark,2006,16826
+DNK,Denmark,2007,15967
+DNK,Denmark,2008,14710
+DNK,Denmark,2009,19224
+DNK,Denmark,2010,18084
+DNK,Denmark,2011,18207
+DNK,Denmark,2012,18174
+DNK,Denmark,2013,18981
+DNK,Denmark,2014,17902
+DNK,Denmark,2015,16887
+DNK,Denmark,2016,17898
+DNK,Denmark,2017,20733
+DNK,Denmark,2018,19351
+DNK,Denmark,2019,22463
+DNK,Denmark,2020,21250
+DNK,Denmark,2021,21454
+DNK,Denmark,2022,22412
+DNK,Denmark,2023,20156
+EST,Estonia,2000,2414
+EST,Estonia,2001,2318
+EST,Estonia,2002,2249
+EST,Estonia,2003,2071
+EST,Estonia,2004,1930
+EST,Estonia,2005,2162
+EST,Estonia,2006,1854
+EST,Estonia,2007,1617
+EST,Estonia,2008,1458
+EST,Estonia,2009,1734
+EST,Estonia,2010,1769
+EST,Estonia,2011,2006
+EST,Estonia,2012,1973
+EST,Estonia,2013,2097
+EST,Estonia,2014,2048
+EST,Estonia,2015,2285
+EST,Estonia,2016,2054
+EST,Estonia,2017,2195
+EST,Estonia,2018,2059
+EST,Estonia,2019,2080
+EST,Estonia,2020,2055
+EST,Estonia,2021,2032
+EST,Estonia,2022,2092
+EST,Estonia,2023,2132
+FIN,Finland,2000,11391
+FIN,Finland,2001,9008
+FIN,Finland,2002,9342
+FIN,Finland,2003,9412
+FIN,Finland,2004,8930
+FIN,Finland,2005,9057
+FIN,Finland,2006,8874
+FIN,Finland,2007,8559
+FIN,Finland,2008,9204
+FIN,Finland,2009,8173
+FIN,Finland,2010,8443
+FIN,Finland,2011,9146
+FIN,Finland,2012,9682
+FIN,Finland,2013,10813
+FIN,Finland,2014,11355
+FIN,Finland,2015,11970
+FIN,Finland,2016,12394
+FIN,Finland,2017,12266
+FIN,Finland,2018,13190
+FIN,Finland,2019,13407
+FIN,Finland,2020,12715
+FIN,Finland,2021,12707
+FIN,Finland,2022,13364
+FIN,Finland,2023,18697
+FRA,France,2000,214187
+FRA,France,2001,216177
+FRA,France,2002,210748
+FRA,France,2003,205732
+FRA,France,2004,197361
+FRA,France,2005,191732
+FRA,France,2006,182578
+FRA,France,2007,191724
+FRA,France,2008,192735
+FRA,France,2009,196608
+FRA,France,2010,231527
+FRA,France,2011,232910
+FRA,France,2012,241133
+FRA,France,2013,251581
+FRA,France,2014,243219
+FRA,France,2015,247298
+FRA,France,2016,243526
+FRA,France,2017,244774
+FRA,France,2018,239290
+FRA,France,2019,237864
+FRA,France,2020,242015
+FRA,France,2021,239840
+FRA,France,2022,231096
+FRA,France,2023,220787
+DEU,Germany,2000,107659
+DEU,Germany,2001,108000
+DEU,Germany,2002,109993
+DEU,Germany,2003,109793
+DEU,Germany,2004,110000
+DEU,Germany,2005,107267
+DEU,Germany,2006,107000
+DEU,Germany,2007,114625
+DEU,Germany,2008,114500
+DEU,Germany,2009,114500
+DEU,Germany,2010,114113
+DEU,Germany,2011,118640
+DEU,Germany,2012,121040
+DEU,Germany,2013,160774
+DEU,Germany,2014,121000
+DEU,Germany,2015,140037
+DEU,Germany,2016,158649
+DEU,Germany,2017,160000
+DEU,Germany,2020,159118
+DEU,Germany,2023,156301
+GRC,Greece,2000,30289
+GRC,Greece,2001,29961
+GRC,Greece,2002,28516
+GRC,Greece,2003,29888
+GRC,Greece,2004,28939
+GRC,Greece,2005,30391
+GRC,Greece,2006,31372
+GRC,Greece,2007,31424
+GRC,Greece,2008,31765
+GRC,Greece,2009,28960
+GRC,Greece,2010,27841
+GRC,Greece,2011,29000
+GRC,Greece,2012,28083
+GRC,Greece,2013,30324
+GRC,Greece,2014,32062
+GRC,Greece,2015,34477
+GRC,Greece,2016,35545
+GRC,Greece,2017,37262
+GRC,Greece,2018,37300
+HUN,Hungary,2000,25890
+HUN,Hungary,2001,30716
+HUN,Hungary,2002,34343
+HUN,Hungary,2003,32206
+HUN,Hungary,2004,37502
+HUN,Hungary,2005,32814
+HUN,Hungary,2006,31902
+HUN,Hungary,2007,30303
+HUN,Hungary,2008,29866
+HUN,Hungary,2009,31165
+HUN,Hungary,2010,32128
+HUN,Hungary,2011,31848
+HUN,Hungary,2012,32860
+HUN,Hungary,2013,30075
+HUN,Hungary,2014,29474
+HUN,Hungary,2015,30521
+HUN,Hungary,2016,32432
+HUN,Hungary,2017,32027
+HUN,Hungary,2018,31844
+HUN,Hungary,2019,30658
+HUN,Hungary,2020,30874
+HUN,Hungary,2021,28888
+HUN,Hungary,2022,32114
+HUN,Hungary,2023,29124
+ISL,Iceland,2000,210
+ISL,Iceland,2001,157
+ISL,Iceland,2002,202
+ISL,Iceland,2003,214
+ISL,Iceland,2004,192
+ISL,Iceland,2005,213
+ISL,Iceland,2006,210
+ISL,Iceland,2007,209
+ISL,Iceland,2008,217
+ISL,Iceland,2009,261
+ISL,Iceland,2010,218
+ISL,Iceland,2011,370
+ISL,Iceland,2012,320
+ISL,Iceland,2013,217
+ISL,Iceland,2014,219
+ISL,Iceland,2015,221
+ISL,Iceland,2016,226
+ISL,Iceland,2017,230
+ISL,Iceland,2018,228
+ISL,Iceland,2019,227
+ISL,Iceland,2020,222
+ISL,Iceland,2021,220
+ISL,Iceland,2022,220
+ISL,Iceland,2023,220
+IRL,Ireland,2000,12725
+IRL,Ireland,2001,12603
+IRL,Ireland,2002,12709
+IRL,Ireland,2003,12738
+IRL,Ireland,2004,12500
+IRL,Ireland,2005,12300
+IRL,Ireland,2006,12800
+IRL,Ireland,2007,13000
+IRL,Ireland,2008,13200
+IRL,Ireland,2009,15000
+IRL,Ireland,2010,13800
+IRL,Ireland,2011,14000
+IRL,Ireland,2012,14500
+IRL,Ireland,2013,15000
+IRL,Ireland,2014,15100
+IRL,Ireland,2015,15202
+IRL,Ireland,2016,15438
+IRL,Ireland,2017,15504
+IRL,Ireland,2020,15236
+ITA,Italy,2000,100000
+ITA,Italy,2001,100000
+ITA,Italy,2002,100000
+ITA,Italy,2003,100000
+ITA,Italy,2004,100000
+ITA,Italy,2005,100000
+ITA,Italy,2006,95000
+ITA,Italy,2007,100000
+ITA,Italy,2008,115000
+ITA,Italy,2009,120000
+ITA,Italy,2010,130000
+ITA,Italy,2011,138000
+ITA,Italy,2012,140000
+ITA,Italy,2013,136000
+ITA,Italy,2014,137400
+ITA,Italy,2015,137712
+ITA,Italy,2016,142265
+ITA,Italy,2017,146948
+ITA,Italy,2020,142503
+LVA,Latvia,2000,3237
+LVA,Latvia,2001,3105
+LVA,Latvia,2002,3621
+LVA,Latvia,2003,3882
+LVA,Latvia,2004,4003
+LVA,Latvia,2005,4050
+LVA,Latvia,2006,4092
+LVA,Latvia,2007,4488
+LVA,Latvia,2008,4757
+LVA,Latvia,2009,4621
+LVA,Latvia,2010,4829
+LVA,Latvia,2011,4949
+LVA,Latvia,2012,4418
+LVA,Latvia,2013,4911
+LVA,Latvia,2014,4986
+LVA,Latvia,2015,4414
+LVA,Latvia,2016,4483
+LVA,Latvia,2017,4774
+LVA,Latvia,2020,5643
+LVA,Latvia,2021,5858
+LVA,Latvia,2022,5744
+LVA,Latvia,2023,5922
+LTU,Lithuania,2000,6209
+LTU,Lithuania,2001,5449
+LTU,Lithuania,2002,6429
+LTU,Lithuania,2003,6696
+LTU,Lithuania,2004,7868
+LTU,Lithuania,2005,8228
+LTU,Lithuania,2006,9201
+LTU,Lithuania,2007,9234
+LTU,Lithuania,2008,9693
+LTU,Lithuania,2009,8841
+LTU,Lithuania,2010,9025
+LTU,Lithuania,2011,9195
+LTU,Lithuania,2012,8658
+LTU,Lithuania,2013,8813
+LTU,Lithuania,2014,9621
+LTU,Lithuania,2015,10093
+LTU,Lithuania,2016,9148
+LTU,Lithuania,2017,9917
+LTU,Lithuania,2018,10204
+LTU,Lithuania,2019,11562
+LTU,Lithuania,2020,9852
+LTU,Lithuania,2021,8124
+LTU,Lithuania,2022,8897
+LTU,Lithuania,2023,9729
+LUX,Luxembourg,2000,72
+LUX,Luxembourg,2001,84
+LUX,Luxembourg,2002,78
+LUX,Luxembourg,2003,79
+LUX,Luxembourg,2004,73
+LUX,Luxembourg,2005,83
+LUX,Luxembourg,2006,81
+LUX,Luxembourg,2007,82
+LUX,Luxembourg,2008,81
+LUX,Luxembourg,2009,97
+LUX,Luxembourg,2010,90
+LUX,Luxembourg,2011,102
+LUX,Luxembourg,2012,113
+LUX,Luxembourg,2013,111
+LUX,Luxembourg,2014,116
+LUX,Luxembourg,2015,114
+LUX,Luxembourg,2016,114
+LUX,Luxembourg,2017,123
+LUX,Luxembourg,2018,123
+LUX,Luxembourg,2019,132
+LUX,Luxembourg,2020,136
+LUX,Luxembourg,2021,171
+LUX,Luxembourg,2022,186
+MLT,Malta,2000,820
+MLT,Malta,2001,1559
+MLT,Malta,2002,1000
+MLT,Malta,2003,1358
+MLT,Malta,2004,1000
+MLT,Malta,2005,1044
+MLT,Malta,2006,1006
+MLT,Malta,2007,1114
+MLT,Malta,2008,1184
+MLT,Malta,2009,1075
+MLT,Malta,2010,970
+MLT,Malta,2011,920
+MLT,Malta,2012,970
+MLT,Malta,2013,918
+MLT,Malta,2014,1000
+MLT,Malta,2015,1035
+MLT,Malta,2016,1024
+MLT,Malta,2017,1004
+MLT,Malta,2020,884
+MNE,Montenegro,2006,449
+MNE,Montenegro,2007,505
+MNE,Montenegro,2008,432
+MNE,Montenegro,2009,417
+MNE,Montenegro,2010,506
+MNE,Montenegro,2011,480
+MNE,Montenegro,2012,470
+MNE,Montenegro,2013,620
+MNE,Montenegro,2014,596
+MNE,Montenegro,2015,606
+MNE,Montenegro,2016,730
+MNE,Montenegro,2017,788
+MNE,Montenegro,2018,666
+MNE,Montenegro,2019,636
+MNE,Montenegro,2020,602
+MNE,Montenegro,2021,597
+MNE,Montenegro,2022,855
+MNE,Montenegro,2023,810
+NLD,Netherlands (Kingdom of the),2000,104015
+NLD,Netherlands (Kingdom of the),2001,100334
+NLD,Netherlands (Kingdom of the),2002,101052
+NLD,Netherlands (Kingdom of the),2003,79235
+NLD,Netherlands (Kingdom of the),2004,85816
+NLD,Netherlands (Kingdom of the),2005,92914
+NLD,Netherlands (Kingdom of the),2006,90401
+NLD,Netherlands (Kingdom of the),2007,92763
+NLD,Netherlands (Kingdom of the),2008,96700
+NLD,Netherlands (Kingdom of the),2009,96860
+NLD,Netherlands (Kingdom of the),2010,101248
+NLD,Netherlands (Kingdom of the),2011,96919
+NLD,Netherlands (Kingdom of the),2012,95273
+NLD,Netherlands (Kingdom of the),2013,97719
+NLD,Netherlands (Kingdom of the),2014,103039
+NLD,Netherlands (Kingdom of the),2015,106763
+NLD,Netherlands (Kingdom of the),2016,105620
+NLD,Netherlands (Kingdom of the),2017,105184
+NLD,Netherlands (Kingdom of the),2018,105104
+NLD,Netherlands (Kingdom of the),2019,101741
+NLD,Netherlands (Kingdom of the),2020,101863
+NLD,Netherlands (Kingdom of the),2021,99887
+NLD,Netherlands (Kingdom of the),2022,97533
+NLD,Netherlands (Kingdom of the),2023,93004
+MKD,North Macedonia,2000,3350
+MKD,North Macedonia,2001,3350
+MKD,North Macedonia,2002,2900
+MKD,North Macedonia,2003,2417
+MKD,North Macedonia,2004,2725
+MKD,North Macedonia,2005,2617
+MKD,North Macedonia,2006,2585
+MKD,North Macedonia,2007,2264
+MKD,North Macedonia,2008,2226
+MKD,North Macedonia,2009,2118
+MKD,North Macedonia,2010,1995
+MKD,North Macedonia,2011,1944
+MKD,North Macedonia,2012,1776
+MKD,North Macedonia,2013,2202
+MKD,North Macedonia,2014,1940
+MKD,North Macedonia,2015,1761
+MKD,North Macedonia,2016,1866
+MKD,North Macedonia,2017,1840
+MKD,North Macedonia,2018,1828
+MKD,North Macedonia,2019,1562
+MKD,North Macedonia,2020,1643
+MKD,North Macedonia,2021,1484
+MKD,North Macedonia,2022,1562
+MKD,North Macedonia,2023,1746
+NOR,Norway,2000,8695
+NOR,Norway,2001,3222
+NOR,Norway,2002,7952
+NOR,Norway,2003,8108
+NOR,Norway,2004,8040
+NOR,Norway,2005,8882
+NOR,Norway,2006,10841
+NOR,Norway,2007,12606
+NOR,Norway,2008,13100
+NOR,Norway,2009,13159
+NOR,Norway,2010,11854
+NOR,Norway,2011,11782
+NOR,Norway,2012,14406
+NOR,Norway,2013,15975
+NOR,Norway,2014,16565
+NOR,Norway,2015,14584
+NOR,Norway,2016,13919
+NOR,Norway,2017,15643
+NOR,Norway,2018,15598
+NOR,Norway,2019,16096
+NOR,Norway,2020,14218
+NOR,Norway,2021,16336
+NOR,Norway,2022,16131
+NOR,Norway,2023,16484
+POL,Poland,2000,48274
+POL,Poland,2001,50694
+POL,Poland,2002,175075
+POL,Poland,2003,133395
+POL,Poland,2004,119811
+POL,Poland,2005,113488
+POL,Poland,2006,111653
+POL,Poland,2007,123682
+POL,Poland,2008,114266
+POL,Poland,2009,114540
+POL,Poland,2010,153278
+POL,Poland,2011,139964
+POL,Poland,2012,112477
+POL,Poland,2013,117054
+POL,Poland,2014,129861
+POL,Poland,2015,146123
+POL,Poland,2016,169033
+POL,Poland,2017,177640
+POL,Poland,2018,182200
+POL,Poland,2019,183121
+POL,Poland,2020,195825
+POL,Poland,2021,168629
+POL,Poland,2022,176580
+POL,Poland,2023,195145
+PRT,Portugal,2000,32408
+PRT,Portugal,2001,33533
+PRT,Portugal,2002,35000
+PRT,Portugal,2003,35276
+PRT,Portugal,2004,35846
+PRT,Portugal,2005,36167
+PRT,Portugal,2006,36190
+PRT,Portugal,2007,35864
+PRT,Portugal,2008,35144
+PRT,Portugal,2009,34012
+PRT,Portugal,2010,32233
+PRT,Portugal,2011,30171
+PRT,Portugal,2012,28312
+PRT,Portugal,2013,26810
+PRT,Portugal,2014,28411
+PRT,Portugal,2015,30656
+PRT,Portugal,2016,33450
+PRT,Portugal,2017,37228
+PRT,Portugal,2020,49307
+MDA,Republic of Moldova,2000,12535
+MDA,Republic of Moldova,2001,13002
+MDA,Republic of Moldova,2002,14077
+MDA,Republic of Moldova,2003,14900
+MDA,Republic of Moldova,2004,15700
+MDA,Republic of Moldova,2005,17420
+MDA,Republic of Moldova,2006,22100
+MDA,Republic of Moldova,2007,22400
+MDA,Republic of Moldova,2008,17050
+MDA,Republic of Moldova,2009,18220
+MDA,Republic of Moldova,2010,22340
+MDA,Republic of Moldova,2011,34000
+MDA,Republic of Moldova,2012,26520
+MDA,Republic of Moldova,2013,32600
+MDA,Republic of Moldova,2014,31840
+MDA,Republic of Moldova,2015,36840
+MDA,Republic of Moldova,2016,36727
+MDA,Republic of Moldova,2017,37798
+MDA,Republic of Moldova,2018,40000
+MDA,Republic of Moldova,2019,41818
+MDA,Republic of Moldova,2020,44077
+MDA,Republic of Moldova,2021,46587
+MDA,Republic of Moldova,2022,48642
+MDA,Republic of Moldova,2023,50696
+ROU,Romania,2000,69143
+ROU,Romania,2001,70076
+ROU,Romania,2002,71413
+ROU,Romania,2003,77379
+ROU,Romania,2004,76616
+ROU,Romania,2005,87014
+ROU,Romania,2006,86552
+ROU,Romania,2007,84991
+ROU,Romania,2008,82036
+ROU,Romania,2009,84373
+ROU,Romania,2010,83843
+ROU,Romania,2011,80845
+ROU,Romania,2012,79842
+ROU,Romania,2013,80136
+ROU,Romania,2014,79440
+ROU,Romania,2015,75447
+ROU,Romania,2016,78648
+ROU,Romania,2017,75690
+ROU,Romania,2018,73289
+ROU,Romania,2019,73993
+ROU,Romania,2020,73901
+ROU,Romania,2021,77148
+ROU,Romania,2022,78268
+ROU,Romania,2023,77750
+RUS,Russian Federation,2000,340334
+RUS,Russian Federation,2001,330427
+RUS,Russian Federation,2002,335356
+RUS,Russian Federation,2003,337027
+RUS,Russian Federation,2004,332662
+RUS,Russian Federation,2005,332954
+RUS,Russian Federation,2006,347900
+RUS,Russian Federation,2007,340834
+RUS,Russian Federation,2008,351058
+RUS,Russian Federation,2009,366282
+RUS,Russian Federation,2010,390534
+RUS,Russian Federation,2011,406007
+RUS,Russian Federation,2012,427777
+RUS,Russian Federation,2013,446789
+RUS,Russian Federation,2014,448371
+RUS,Russian Federation,2015,475242
+RUS,Russian Federation,2016,497978
+RUS,Russian Federation,2017,505768
+RUS,Russian Federation,2018,507050
+RUS,Russian Federation,2019,497395
+RUS,Russian Federation,2020,496964
+RUS,Russian Federation,2021,472674
+RUS,Russian Federation,2022,488236
+RUS,Russian Federation,2023,499220
+SRB,Serbia,2006,15826
+SRB,Serbia,2007,15708
+SRB,Serbia,2008,16685
+SRB,Serbia,2009,22400
+SRB,Serbia,2010,32735
+SRB,Serbia,2011,18726
+SRB,Serbia,2012,17708
+SRB,Serbia,2013,17305
+SRB,Serbia,2014,16599
+SRB,Serbia,2015,16919
+SRB,Serbia,2016,15708
+SRB,Serbia,2017,16338
+SRB,Serbia,2018,15685
+SRB,Serbia,2019,15417
+SRB,Serbia,2020,14927
+SRB,Serbia,2021,15122
+SRB,Serbia,2022,14624
+SRB,Serbia,2023,13913
+SCG,Serbia and Montenegro,2000,18948
+SCG,Serbia and Montenegro,2001,17911
+SCG,Serbia and Montenegro,2002,17452
+SCG,Serbia and Montenegro,2003,16344
+SCG,Serbia and Montenegro,2004,15000
+SCG,Serbia and Montenegro,2005,14816
+SVK,Slovakia,2000,11758
+SVK,Slovakia,2001,13083
+SVK,Slovakia,2002,14949
+SVK,Slovakia,2003,13388
+SVK,Slovakia,2004,13767
+SVK,Slovakia,2005,13262
+SVK,Slovakia,2006,13619
+SVK,Slovakia,2007,12602
+SVK,Slovakia,2008,12444
+SVK,Slovakia,2009,10879
+SVK,Slovakia,2010,13249
+SVK,Slovakia,2011,12664
+SVK,Slovakia,2012,11054
+SVK,Slovakia,2013,11521
+SVK,Slovakia,2014,10605
+SVK,Slovakia,2015,12181
+SVK,Slovakia,2016,12513
+SVK,Slovakia,2017,11806
+SVK,Slovakia,2018,13030
+SVK,Slovakia,2019,12853
+SVK,Slovakia,2020,13153
+SVK,Slovakia,2021,10136
+SVK,Slovakia,2022,9096
+SVK,Slovakia,2023,9404
+SVN,Slovenia,2000,4256
+SVN,Slovenia,2001,2760
+SVN,Slovenia,2002,2880
+SVN,Slovenia,2003,2920
+SVN,Slovenia,2004,2524
+SVN,Slovenia,2005,1754
+SVN,Slovenia,2006,1598
+SVN,Slovenia,2007,1567
+SVN,Slovenia,2008,2837
+SVN,Slovenia,2009,2393
+SVN,Slovenia,2010,2945
+SVN,Slovenia,2011,2529
+SVN,Slovenia,2012,2155
+SVN,Slovenia,2013,3172
+SVN,Slovenia,2014,2827
+SVN,Slovenia,2015,3281
+SVN,Slovenia,2016,3479
+SVN,Slovenia,2017,3639
+SVN,Slovenia,2018,3866
+SVN,Slovenia,2019,4028
+SVN,Slovenia,2020,5770
+SVN,Slovenia,2021,4671
+SVN,Slovenia,2022,5023
+SVN,Slovenia,2023,4059
+ESP,Spain,2000,171283
+ESP,Spain,2001,172039
+ESP,Spain,2002,175433
+ESP,Spain,2003,173794
+ESP,Spain,2004,173670
+ESP,Spain,2005,173741
+ESP,Spain,2006,173894
+ESP,Spain,2007,174215
+ESP,Spain,2008,174792
+ESP,Spain,2009,180000
+ESP,Spain,2010,178329
+ESP,Spain,2011,178335
+ESP,Spain,2012,180161
+ESP,Spain,2013,182760
+ESP,Spain,2014,183156
+ESP,Spain,2015,184311
+ESP,Spain,2016,182200
+ESP,Spain,2017,187784
+ESP,Spain,2020,193476
+SWE,Sweden,2000,14756
+SWE,Sweden,2001,16210
+SWE,Sweden,2002,17307
+SWE,Sweden,2003,18416
+SWE,Sweden,2004,19524
+SWE,Sweden,2005,24775
+SWE,Sweden,2006,21310
+SWE,Sweden,2007,21916
+SWE,Sweden,2008,22494
+SWE,Sweden,2009,23078
+SWE,Sweden,2010,22344
+SWE,Sweden,2011,24667
+SWE,Sweden,2012,25757
+SWE,Sweden,2013,27027
+SWE,Sweden,2014,26375
+SWE,Sweden,2015,28958
+SWE,Sweden,2016,29761
+SWE,Sweden,2017,30559
+SWE,Sweden,2018,31756
+SWE,Sweden,2019,33900
+CHE,Switzerland,2000,6790
+CHE,Switzerland,2001,6808
+CHE,Switzerland,2002,7206
+CHE,Switzerland,2003,7445
+CHE,Switzerland,2004,7913
+CHE,Switzerland,2005,8116
+CHE,Switzerland,2006,7517
+CHE,Switzerland,2007,8101
+CHE,Switzerland,2008,8474
+CHE,Switzerland,2009,8741
+CHE,Switzerland,2010,8944
+CHE,Switzerland,2011,9391
+CHE,Switzerland,2012,9878
+CHE,Switzerland,2013,10003
+CHE,Switzerland,2014,10644
+CHE,Switzerland,2015,10753
+CHE,Switzerland,2016,10893
+CHE,Switzerland,2017,11409
+CHE,Switzerland,2018,11535
+CHE,Switzerland,2019,11829
+CHE,Switzerland,2020,12429
+CHE,Switzerland,2021,12568
+CHE,Switzerland,2022,13109
+CHE,Switzerland,2023,13152
+UKR,Ukraine,2000,105612
+UKR,Ukraine,2001,103772
+UKR,Ukraine,2002,115609
+UKR,Ukraine,2003,125146
+UKR,Ukraine,2004,122100
+UKR,Ukraine,2005,131976
+UKR,Ukraine,2006,142600
+UKR,Ukraine,2007,145600
+UKR,Ukraine,2008,148800
+UKR,Ukraine,2009,158800
+UKR,Ukraine,2010,172600
+UKR,Ukraine,2011,183600
+UKR,Ukraine,2012,181124
+UKR,Ukraine,2013,195256
+UKR,Ukraine,2014,201008
+UKR,Ukraine,2015,193885
+UKR,Ukraine,2016,186354
+UKR,Ukraine,2017,184336
+UKR,Ukraine,2018,186737
+UKR,Ukraine,2019,191968
+UKR,Ukraine,2020,202511
+UKR,Ukraine,2021,183543
+UKR,Ukraine,2022,186623
+UKR,Ukraine,2023,165468
+GBR,United Kingdom of Great Britain and Northern Ireland,2000,154504
+GBR,United Kingdom of Great Britain and Northern Ireland,2001,163876
+GBR,United Kingdom of Great Britain and Northern Ireland,2002,155005
+GBR,United Kingdom of Great Britain and Northern Ireland,2003,165324
+GBR,United Kingdom of Great Britain and Northern Ireland,2004,165931
+GBR,United Kingdom of Great Britain and Northern Ireland,2005,160528
+GBR,United Kingdom of Great Britain and Northern Ireland,2006,158202
+GBR,United Kingdom of Great Britain and Northern Ireland,2007,157513
+GBR,United Kingdom of Great Britain and Northern Ireland,2008,154180
+GBR,United Kingdom of Great Britain and Northern Ireland,2009,159288
+GBR,United Kingdom of Great Britain and Northern Ireland,2010,152000
+GBR,United Kingdom of Great Britain and Northern Ireland,2011,151000
+GBR,United Kingdom of Great Britain and Northern Ireland,2012,149000
+GBR,United Kingdom of Great Britain and Northern Ireland,2013,152000
+GBR,United Kingdom of Great Britain and Northern Ireland,2014,159000
+GBR,United Kingdom of Great Britain and Northern Ireland,2015,157000
+GBR,United Kingdom of Great Britain and Northern Ireland,2016,161000
+GBR,United Kingdom of Great Britain and Northern Ireland,2017,171000
+GBR,United Kingdom of Great Britain and Northern Ireland,2018,178000
+GBR,United Kingdom of Great Britain and Northern Ireland,2019,176000
+GBR,United Kingdom of Great Britain and Northern Ireland,2020,172000
+GBR,United Kingdom of Great Britain and Northern Ireland,2021,180000
+GBR,United Kingdom of Great Britain and Northern Ireland,2022,174193
+GBR,United Kingdom of Great Britain and Northern Ireland,2023,170233

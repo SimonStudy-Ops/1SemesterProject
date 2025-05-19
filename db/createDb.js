@@ -27,7 +27,7 @@ await db.query(`
         
         drop table if exists trade;
         drop table if exists eggconsumption;
-        drop table if exists 
+        drop table if exists howManyChickensEU
     `)
        //-- create trade-table
 
@@ -53,12 +53,27 @@ await db.query(`
 
      console.log('Created eggconsumption table')
 
+// create howManyChickensEU table
+await db.query(`
+    create table howManyChickensEU(
+        areaCode    varchar(3),
+        country     varchar(128),
+        year        integer not null,
+        value      integer
+        
+        
+
+    )
+     `)
+
+     console.log('Created howManyChickensEU table')
+
    // Insert data into trade table
 console.log('Inserting data in trade...');
 await upload(
     db,
     'db/eu-import-export.csv',
-    'copy trade (country, type, year, amount) from stdin with csv header'
+    'copy trade (areaCode, country, year, value) from stdin with csv header'
 );
 
 console.log('Data inserted.');
@@ -69,6 +84,14 @@ await upload(
     db,
     'db/eggconsumption.csv',
     'copy eggconsumption (year, kilograms, country) from stdin with csv header'
+);
+
+// insert data into howManyChickensEU table
+console.log('Inserting data in howManyChickensEU...');
+await upload(
+    db,
+    'db/howManyChickensEU.csv',
+    'copy howManyChickensEU (year, value, areaCode, country) from stdin with csv header'
 );
 //Log data was inserted
 console.log('Data inserted.');
