@@ -120,7 +120,9 @@ const colorScale = d3.scaleLinear()
             .style("fill", (d, i) => colorScale(i))
             //Outlining the eggs with black
             .style("stroke", "black")
-            .style("stroke-width", 2);
+            .style("stroke-width", 1,5)
+            .style("stroke-opacity", 0.4);
+
 
         // Add country name-label inside each bubble
         newGroups.append("text")

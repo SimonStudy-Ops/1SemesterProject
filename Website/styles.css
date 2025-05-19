@@ -144,16 +144,17 @@ p{
  
 }
 
-
-
 #info-box {
-  background: white;
+  background: rgb(204, 242, 245);
   border: 2px solid #333;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
   max-width: 200px;
   font-size: 0.9em;
   margin-left: 150px;
+}
+.factbox {
+  padding: 10px;
 }
 
 #eggbasket{
