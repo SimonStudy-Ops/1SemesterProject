@@ -15,7 +15,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0px;
+  gap: 0px; /*Puts eggshells closer to header*/
   margin: 40px auto;
 }
 
@@ -41,11 +41,11 @@ body{
     height: auto;
     transition: transform 0.3s ease;
 }
-
+/*Flips the chicken on the left side to turn the opposite way */
 .chicken.left {
     transform: scaleX(-1); /* Flip horizontally to face left */
 }
-
+/*Adds animation when you hover over chicken picture*/
 .chicken:hover {
     transform: rotate(10deg) scale(1.1);
 }
@@ -65,7 +65,7 @@ h1{
     margin: 0;
     
 }
-
+/*Adds small animation that enlarges header when you hover over it*/
 h1:hover {
     transform: scale(1.03);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
