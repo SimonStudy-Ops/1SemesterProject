@@ -59,6 +59,8 @@ p{
   padding: 20px;
   gap: 20px;
   position: relative;
+  margin-top: 200px;
+  
 }
 
 .dropdown-container {
@@ -182,10 +184,11 @@ p{
   flex: 1;
   border: 5px solid black;
   padding: 20px;
-  background-color: #2bff23;
+  background-color: #f0f0f0;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  margin-top: 250px;
 }
 footer {
   background: black;
@@ -197,11 +200,11 @@ footer {
 }
 
 .sphere {
-  fill: rgb(29, 68, 81);
+  fill: #aec6cf;
 }
 
 .country {
-  fill: #ccc;
+  fill: #cec498;
   stroke: #333;
 }
 
