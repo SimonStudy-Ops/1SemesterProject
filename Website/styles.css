@@ -97,7 +97,8 @@ h1:hover {
   .logo, .menu {
     padding: 15px;
   }
-  .page-container {
+  
+  #page-container {
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;

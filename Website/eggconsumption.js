@@ -136,8 +136,9 @@ const colorScale = d3.scaleLinear()
             .style("pointer-events", "none")
             //text styling
             .style("fill", "black")
-            .style("font-size", "12px")
+            .style("font-size", "14px")
             .style("font-weight", "bold")
+            .style("font-family", "'Gabarito', sans-serif")
         
 
             //tooltip interaction - adds text-box when the mouse hoovers over the ellipse

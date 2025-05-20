@@ -4,17 +4,19 @@
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
 
-    document.getElementById("eggconsumption-link").addEventListener("click", function (e) {
+    document.getElementById("import/export-link").addEventListener("click", function (e) {
       e.preventDefault();
-      document.getElementById("eggconsumption").scrollIntoView({ behavior: "smooth" });
+      document.getElementById("page-container").scrollIntoView({ behavior: "smooth" });
     });
 
-    document.getElementById("worldmap-link").addEventListener("click", function (e) {
+    document.getElementById("eggconsumption-link").addEventListener("click", function (e) {
+      e.preventDefault();
+      document.getElementById("bubble-chart-page").scrollIntoView({ behavior: "smooth" });
+    });
+
+    document.getElementById("EU-map-link").addEventListener("click", function (e) {
       e.preventDefault();
       document.getElementById("worldmap").scrollIntoView({ behavior: "smooth" });
     });
 
-    document.getElementById("import-link").addEventListener("click", function (e) {
-      e.preventDefault();
-      document.getElementById("importContainer").scrollIntoView({ behavior: "smooth" });
-    });
+    
