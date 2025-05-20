@@ -52,6 +52,7 @@ body{
 h1{
     color: #000000;
     font-size: 3em;
+    font-family: "Gabarito", sans-serif;
     text-align: center;
     border-bottom: 4px solid #000000;
     border-left: 4px solid #000000;
@@ -70,24 +71,25 @@ h1:hover {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
 }
 
-p{
-    font-size: 1.2em;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    text-align: center;
-}
 .container {
     margin: 0 auto;
     max-width: 1200px;
   }
-  
-  header {
+  #site-description{
+    font-family: 'Poetsen One', sans-serif;
+  }
+  #fence-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background: pink;
-    height: 50px;
-    padding: 0 20px;
+    gap: 0;
+  }
+
+  #fence1, #fence2{
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    display: block;
   }
   
   .logo, .menu {
