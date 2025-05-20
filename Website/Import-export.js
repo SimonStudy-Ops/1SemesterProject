@@ -1,5 +1,5 @@
 // Width and height of SVG
-const w = 700;
+const w = 550;
 const h = 400;
 // Padding for the bars and around the charts, so there is spacing between them
 const padding = 60;

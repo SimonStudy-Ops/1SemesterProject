@@ -40,10 +40,10 @@
 
     <div class="container">
 
-        <header id="fence-header">
+        <div id="fence-div">
            <img id="fence1" src="fence.png" alt="Fence" />
            <img id="fence2" src="fence.png" alt="Fence" />
-        </header>
+        </div>
   
   <nav class="navbar" id="main-navbar">
     
@@ -58,15 +58,22 @@
         
       <!--Import/export chart-->
       <div class="page-container">
-        <div class="box-wrapper">
+          
+          <div class="top-bar">
+            <div class="egg-chart-header"> 
+              <h2>Import & Export in Europe</h2>
+              <h4>Amount of eggs in tons imported and exported yearly in the top 5 european countries in that category</h4>
+            </div>
 
-          <div class="egg-dropdown">
-            <label for="yearDropdown">Choose year:</label>
-            <select id="yearDropdown"></select>
-          </div>
-    
-        <div id = "importContainer" class="first-box">
-          <h2>Import</h2>
+            <div class="egg-dropdown">
+              <label for="yearDropdown">Choose year:</label>
+              <select id="yearDropdown"></select>
+            </div>
+            </div>
+          
+            <div class="box-wrapper">
+            <div id = "importContainer" class="first-box">
+              <h2>Import</h2>
               <svg id = "importChart"></svg>
             </div>
         
@@ -78,9 +85,9 @@
           </div>
 
 
-          <!--Egg chart-->
+          <!--Egg bubble-chart-->
          
-        <div id="egg-chart-header"> 
+        <div class="egg-chart-header"> 
           <h2>Egg consumption in EU</h2>
           <h4>Average per capita egg consumption, measured in kilograms per year (in shell weight) 2012-2022.</h4>
         </div>
@@ -123,17 +130,24 @@
 
             <div id="tooltip"> </div>
         </div>
+
+        
+        
       
-        <div>
           <div id="worldmap" class="third-box">
-              
-              <h2>Worldmap skal være her</h2>
-              <svg width="1100" height="505"></svg>
-              
-              
-              
+            <div class="egg-chart-header"> 
+            <h2>Production of eggs in EU</h2>
+            <h4>blablablablabla</h4>
             </div>
+              <svg id="worldmap-svg" width="1100" height="505"></svg>
+              
           </div>
+        
+          
+        <div id="fence-div">
+           <img id="fence1" src="fence.png" alt="Fence" />
+           <img id="fence2" src="fence.png" alt="Fence" />
+        </div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
