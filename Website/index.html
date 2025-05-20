@@ -7,8 +7,8 @@
   
   <!--Links to Google Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Poetsen+One&family=Walter+Turncoat&display=swap" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Fugaz+One&family=Gabarito:wght@400..900&family=Poetsen+One&family=Walter+Turncoat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Fugaz+One&family=Gabarito:wght@400..900&family=Poetsen+One&family=Walter+Turncoat&display=swap" rel="stylesheet">
+ 
   <link rel="stylesheet" href="styles.css" />
   
   <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -43,6 +43,17 @@
            <img id="fence1" src="fence.png" alt="Fence" />
            <img id="fence2" src="fence.png" alt="Fence" />
         </header>
+  
+  <nav class="navbar" id="main-navbar">
+    
+    <ul id="navbar">
+      <li><a href="#" id="home-link">Home</a></li>
+      <li><a href="#" id="import-link">Egg Graph</a></li>
+      <li><a href="#" id="eggconsumption-link">Egg Production</a></li>
+      <li><a href="#" id="worldmap-link">World Map</a></li>
+
+    </ul>
+  </nav>
         
       <!--Import/export chart-->
       <div class="page-container">
@@ -125,40 +136,11 @@
     <div>Website Info</div>
   </footer>
 
-  <nav class="navbar" id="main-navbar">
-    <ul id="navbar">
-      <li><a href="#" id="home-link">Home</a></li>
-      <li><a href="#" id="import-link">Egg Graph</a></li>
-      <li><a href="#" id="eggconsumption-link">Egg Production</a></li>
-      <li><a href="#" id="worldmap-link">World Map</a></li>
-
-    </ul>
-  </nav>
-
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
   <script src="Import-export.js"></script>
   <script src="eggconsumption.js"></script>
+  <script src="navigation.js"></script>
 
-  <script>
-    document.getElementById("home-link").addEventListener("click", function (e) {
-      e.preventDefault();
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
-
-    document.getElementById("eggconsumption-link").addEventListener("click", function (e) {
-      e.preventDefault();
-      document.getElementById("eggconsumption").scrollIntoView({ behavior: "smooth" });
-    });
-
-    document.getElementById("worldmap-link").addEventListener("click", function (e) {
-      e.preventDefault();
-      document.getElementById("worldmap").scrollIntoView({ behavior: "smooth" });
-    });
-
-    document.getElementById("import-link").addEventListener("click", function (e) {
-      e.preventDefault();
-      document.getElementById("importContainer").scrollIntoView({ behavior: "smooth" });
-    });
-  </script>
+  
 </body>
 </html>
