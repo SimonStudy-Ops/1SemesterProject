@@ -73,7 +73,7 @@ console.log('Inserting data in trade...');
 await upload(
     db,
     'db/eu-import-export.csv',
-    'copy trade (country, year, type, amount) from stdin with csv header'
+    'copy trade (country, type, year, amount) from stdin with csv header'
 );
 
 console.log('Data inserted.');
@@ -93,7 +93,7 @@ console.log('Inserting data in howManyChickensEU...');
 await upload(
     db,
     'db/howManyChickensEU.csv',
-    'copy howManyChickensEU (year, value, areaCode, country) from stdin with csv header'
+    'copy howManyChickensEU (areaCode, country, year, value) from stdin with csv header'
 );
 //Log data was inserted
 console.log('Data inserted.');
