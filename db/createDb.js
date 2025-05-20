@@ -55,17 +55,6 @@ await db.query(`
     `)
   console.log('Created eggconsumption table')
 
-// create eggprice table
-await db.query(`
-    create table eggconsumption(
-    year        integer not null,    
-    kilograms   decimal(10,2),
-    country     varchar(128)
-    )
-     `)
-
-     console.log('Created eggconsumption table')
-
 // create howManyChickensEU table
 await db.query(`
     create table howManyChickensEU(
@@ -99,14 +88,6 @@ await upload(
 );
 
 console.log('Data inserted.');
-
-// insert data into eggprice table
-console.log('Inserting data in eggconsumption...');
-await upload(
-    db,
-    'db/eggconsumption.csv',
-    'copy eggconsumption (year, kilograms, country) from stdin with csv header'
-);
 
 // insert data into howManyChickensEU table
 console.log('Inserting data in howManyChickensEU...');
