@@ -52,8 +52,9 @@ let selectedYear = 2023;
 // Load both world map and chicken data
 Promise.all([
   d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
-  d3.csv("/api/howManyChickensEU") // Adjust path if needed
+  d3.json("/api/howManyChickensEU") // Adjust path if needed
 ]).then(([worldData, chickenData]) => {
+  console.log("Chicken Data:", chickenData);
   const countries = feature(worldData, worldData.objects.countries).features;
 
   // Helper: get chicken value for a country and year
@@ -62,6 +63,7 @@ Promise.all([
     const row = chickenData.find(
       d => d.country === country && +d.year === +year
     );
+    console.log("Row:", row);
     return row ? +row.value : null;
   }
 
@@ -121,8 +123,11 @@ Promise.all([
               d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale)
             );
 
-          const countryName = d.properties ? d.properties.name : "Ukendt";
+          const countryName = d.properties ? d.properties.name : null;
           const value = getChickenValue(countryName, year);
+          if (!value) {
+            console.log("No value for", countryName);
+        }
           infoBox.style("display", "block")
             .html(`<strong>Land:</strong> ${countryName}<br>
                    <strong>Chickens (per 1000):</strong> ${value !== null ? value : "N/A"}<br>
