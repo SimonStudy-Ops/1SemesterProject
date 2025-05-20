@@ -78,6 +78,7 @@ h1:hover {
   }
   #site-description{
     font-family: 'Poetsen One', sans-serif;
+    color: #674922;
   }
   #fence-header {
     display: flex;
@@ -97,34 +98,23 @@ h1:hover {
     padding: 15px;
   }
   .page-container {
+    width: 100%;
     max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
   }
+
+  @media (max-width: 1024px) {
   .box-wrapper {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 40px;
+  gap: 20px;
   position: relative;
   margin-top: 200px;
   
 }
 
-.dropdown-container {
-  position: absolute;
-  top: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  background-color: white;
-  padding: 8px;
-  border-radius: 8px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  z-index: 2;
-  flex-wrap: nowrap;
-  
-}
 .first-box, .second-box {
   flex: 1;
   border: 5px solid black;
@@ -134,17 +124,21 @@ h1:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   color: black;
   min-height: 150px;
+  max-width: 45%;
 }
 
 .first-box p, .second-box p {
   text-align: center;
   padding-top: 50px;
 }
+  }
+
 .egg-dropdown {
-  background: radical-gradient(circle at 50% 30%, #fff5cc, #ffeb99);
-  border: 3px solid #d4af37;
-  border-radius: 50% 50% 45% 45% / 60% 60% 40% 40%;
-  width: 180px;
+  background-color: rgb(255, 249, 160);
+  border: 3px solid #ffffff;
+  border-radius: 50% 50% 40% 40% / 65% 65% 35% 35%;
+  width: 80px;
+  height: 95px;
   padding: 15px;
   text-align: center;
   box-shadow: 2x 4px 8px rgba(0, 0, 0, 0.3);
@@ -156,7 +150,8 @@ h1:hover {
   display: block;
   font-weight: bold;
   margin-bottom: 8px;
-  color: #333;
+  font-family: 'Poetsen One', sans-serif;
+  color: #674922;
 }
 
 .egg-dropdown select {
@@ -197,28 +192,7 @@ h1:hover {
   position: relative; /* sits above the basket */
   z-index: 2;
 }
-
-#dropdown-container {
-  min-width: 120px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
-}
-#dropdown-container label {
-  margin-bottom: 5px;
-  font-weight: bold;
-  padding: 10px;
-  border: 2px solid #000000;
-  background-color: #c2e3cc;
-}
-
-#dropdown-container select {
-  padding: 8px;
-  border: 2px solid #333;
-  border-radius: 6px;
-  background-color: #c2e3cc;
-  font-size: 16px;
-  cursor: pointer;
  
-}
 #chicken-container {
   position: relative;
   width: fit-content; /*the container is as wide as the content inside*/
@@ -345,6 +319,8 @@ footer {
 
 .navbar a {
   color: white;
+  font-size: small;
+  font-family: "Gabarito", sans-serif;
   text-decoration: none;
   padding: 12px 10px;
   display: block;
