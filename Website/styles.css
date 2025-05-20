@@ -64,7 +64,21 @@ p{
   flex-wrap: nowrap;
   
 }
+.first-box, .second-box {
+  flex: 1;
+  border: 5px solid black;
+  padding: 20px;
+  background-color: #ffe7b3;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: black;
+  min-height: 150px;
+}
 
+.first-box p, .second-box p {
+  text-align: center;
+  padding-top: 50px;
+}
 .egg-dropdown {
   background: radical-gradient(circle at 50% 30%, #fff5cc, #ffeb99);
   border: 3px solid #d4af37;
@@ -89,22 +103,6 @@ p{
   border-radius: 6px;
   border: 1px solid #999;
   font-size: 14px;
-}
-
-.first-box, .second-box {
-  flex: 1;
-  border: 5px solid black;
-  padding: 20px;
-  background-color: #ffe7b3;
-  border-radius: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  color: white;
-  min-height: 150px;
-}
-
-.first-box p, .second-box p {
-  text-align: center;
-  padding-top: 50px;
 }
 
 #egg-chart-header{
