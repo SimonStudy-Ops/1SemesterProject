@@ -27,7 +27,6 @@ await db.query(`
         
         drop table if exists trade;
         drop table if exists eggconsumption;
-        
         drop table if exists howManyChickensEU;
     `)
        //-- create trade-table
@@ -74,7 +73,7 @@ console.log('Inserting data in trade...');
 await upload(
     db,
     'db/eu-import-export.csv',
-    'copy trade (areaCode, country, year, value) from stdin with csv header'
+    'copy trade (country, year, type, amount) from stdin with csv header'
 );
 
 console.log('Data inserted.');
