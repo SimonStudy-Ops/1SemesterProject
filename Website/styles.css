@@ -1,10 +1,9 @@
 body{
-    background-color: #80e861f6;
+    background-color: #c1e1c1;
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
     color: #333;
-    background: linear-gradient(45deg, #ae61e8f6 20%,#80e861f6 80%);
     background-size: cover;
     background-repeat: no-repeat;
 
