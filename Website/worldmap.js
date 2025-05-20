@@ -1,16 +1,16 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 import { feature } from "https://cdn.jsdelivr.net/npm/topojson-client@3/+esm";
 
-const width = 1100;
-const height = 505;
+const w2 = 1100;
+const h2 = 505;
 
 const svg = d3.select("#worldmap svg")
-  .attr("width", width)
-  .attr("height", height);
+  .attr("width", w2)
+  .attr("height", h2);
 
 const projection = d3.geoMercator()
-  .center([15, 50])
-  .scale(700)
+  .center([15, 50])        
+  .scale(700)             
   .translate([width / 2, height / 2]);
 
 const path = d3.geoPath().projection(projection);
@@ -63,8 +63,8 @@ d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then(w
         const dy = y1 - y0;
         const x = (x0 + x1) / 2;
         const y = (y0 + y1) / 2;
-        const scale = Math.max(1, Math.min(8, 0.9 / Math.max(dx / width, dy / height)));
-        const translate = [width / 2 - scale * x, height / 2 - scale * y];
+        const scale = Math.max(1, Math.min(8, 0.9 / Math.max(dx / w2, dy / h2)));
+        const translate = [w2 / 2 - scale * x, h2 / 2 - scale * y];
 
         svg.transition()
           .duration(750)
