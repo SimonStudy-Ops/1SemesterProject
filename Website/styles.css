@@ -4,33 +4,73 @@ body{
     margin: 20px;
     padding: 20px;
     color: #333;
-    
-    background-image: url('farm-billede.jpg');
+    background: linear-gradient(45deg, #ae61e8f6 20%,#80e861f6 80%);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: auto;
-
-
-
 
     
-
 }
+
+.heading-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px; /*Puts eggshells closer to header*/
+  margin: 40px auto;
+}
+
+.egg-shell.left {
+  width: 60px;
+  height: auto;
+}
+
+.egg-shell.right {
+  width: 60px;
+  height: auto;
+}
+
+.heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.chicken {
+    width: 80px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+/*Flips the chicken on the left side to turn the opposite way */
+.chicken.left {
+    transform: scaleX(-1); /* Flip horizontally to face left */
+}
+/*Adds animation when you hover over chicken picture*/
+.chicken:hover {
+    transform: rotate(10deg) scale(1.1);
+}
+
 h1{
     color: #000000;
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: center;
     border-bottom: 4px solid #000000;
     border-left: 4px solid #000000;
     border-right: 4px solid #000000;
     border-top: 4px solid #000000;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
     padding-bottom: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0;
     
 }
+/*Adds small animation that enlarges header when you hover over it*/
+h1:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
 p{
     font-size: 1.2em;
     line-height: 1.5;
@@ -54,12 +94,32 @@ p{
   .logo, .menu {
     padding: 15px;
   }
-  
+  .page-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+  }
   .box-wrapper {
   display: flex;
-  justify-content: space-between;
-  gap: 50px;
-  margin: 40px 0;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 200px;
+  
+}
+
+.dropdown-container {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 }
 
 .first-box, .second-box {
@@ -78,14 +138,154 @@ p{
   padding-top: 50px;
 }
 
+#egg-chart-header{
+  padding: 20px;
+  font-family: 'Poetsen One', sans-serif;
+}
+
+
+#eggconsumption {
+  width: 100%;
+  overflow: visible;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px; /* spacing between the three elements */
+  margin-top: 20px;
+}
+
+#chart-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+#egg-bubble-chart {
+  display: block;
+  width: 500px;
+  height: 400px;
+  overflow: visible;
+  flex-shrink: 0;
+  position: relative; /* sits above the basket */
+  z-index: 2;
+}
+
+#dropdown-container {
+  min-width: 120px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+#dropdown-container label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px solid #000000;
+  background-color: #c2e3cc;
+}
+
+#dropdown-container select {
+  padding: 8px;
+  border: 2px solid #333;
+  border-radius: 6px;
+  background-color: #c2e3cc;
+  font-size: 16px;
+  cursor: pointer;
+ 
+}
+#chicken-container {
+  position: relative;
+  width: fit-content; /*the container is as wide as the content inside*/
+  margin-top: 20px;
+  cursor: pointer; /*changes the curser to a pointer so the user knows that this is clickable*/
+  display: inline-block;
+  margin-top: 100px;
+}
+
+#chicken-img {
+  width: 150px;
+  transition: transform 0.3s ease; /*when the image transforms on the hoover we want the change to look smooth*/
+}
+
+#chicken-img:hover {
+  transform: scale(1.1); /*When we hoover the mouse over the image the chicken is scaled a little bigger*/
+}
+
+#speech-bubble-img {
+  position: relative; /*ensures that the text inside can be absolutely positioned*/
+  width: 150px; 
+}
+
+#speech-bubble-img img {
+  width: 100%; /*the picture needs to fill the container that we defined*/
+  display: block; /*the default for images is inline, where it behaves like text. But we want to display it as block so it doesnt have a little space in the bottom. it makes it easier to position it*/
+}
+
+#speech-text {
+  position: absolute;  /*We want a fixed position of the text inside the speech-bubble*/
+  top: 35%;            /* controls vertical position */
+  left: 10%;           /* controls horizontal position */
+  width: 80%;          /* ensures text wraps inside bubble and doesnt overlap the sides*/
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Poetsen One', sans-serif;
+  font-style: italic;
+  color: #333;
+}
+
+#info-box {
+  background: rgb(253, 247, 155);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 200px;
+  font-size: 0.9em;
+  margin-left: 120px;
+  font-family: 'Poetsen One', sans-serif;
+  
+
+}
+
+.facts {
+  padding: 10px;
+ 
+}
+
+#eggbasket{
+  width: 500px;
+  height: 240px;
+  position: absolute;
+  bottom: -75px; /*how much it sits under the bubble-chart*/
+  z-index: 1; /*puts it behind the chart*/
+  background-image: url('egg-basket.png');
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+
+#tooltip {
+    position: absolute;
+    display: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 12px;
+     z-index: 1000;
+}
+
 .third-box {
   flex: 1;
   border: 5px solid black;
   padding: 20px;
+<<<<<<< HEAD
   background-color: #2aff239a;
+=======
+  background-color: #f0f0f0;
+>>>>>>> 49659017ab7fea62cd5efdd6765e74c11e6cd823
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  margin-top: 250px;
 }
 footer {
   background: black;
@@ -96,12 +296,50 @@ footer {
   padding: 0 20px;
 }
 
+.navbar {
+  position: fixed;
+  top: 50px;
+  left: 20px;
+  transform: translateY(100%);
+  z-index: 1000;
+  background-color: transparent;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #6a9de5;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100px;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 10px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #5c8bd4;
+  border-radius: 5px;
+}
 .sphere {
-  fill: rgb(29, 68, 81);
+  fill: #aec6cf;
 }
 
 .country {
-  fill: #ccc;
+  fill: #cec498;
   stroke: #333;
 }
 
