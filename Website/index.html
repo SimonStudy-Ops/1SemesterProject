@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1st Semester Project Website</title>
+  
+  <!--Links to Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css" />
   
   <title>1st Semester Project Website</title>
@@ -11,8 +16,23 @@
   <script type="module" src="worldmap.js"></script>
 </head>
 <body>
-    <h1>Schools get a look at my eggs</h1>
+  <div class="heading-wrapper">
+    <img src="eggshell-left.png" alt="Left Egg Shell" class="egg-shell left">
+
+  <div class="heading-container">
+  <img src="chicken-png-40305.png" alt="chicken" class="chicken left">
+  <h1>Crack the stats!</h1>
+  <img src="chicken-png-40305.png" alt="chicken" class="chicken right">
+</div>
+
+<img src="eggshell-right.png" alt="Right Egg Shell" class="chicken right">
+</div>
+
+
     <p>Start of the Project</p>
+    <!--Adds color gradient-->
+    <div class="gradient"></div>
+
     <div class="container">
 
         <header>
@@ -46,6 +66,7 @@
          
         <div id="egg-chart-header"> 
           <h2>Egg consumption in EU</h2>
+          <h4>Average per capita egg consumption, measured in kilograms per year (in shell weight) 2012-2022.</h4>
         </div>
             
        <div id="eggconsumption">
@@ -54,22 +75,40 @@
             <svg id="egg-bubble-chart"></svg>
             <div id="eggbasket"></div>
           </div> 
-
-          <!-- Dropdown -->
+       
+        <div id="center-column">
+        <!-- Dropdown -->
           <div id="dropdown-container">
              <label for="yearDropdown2">Choose year:</label>
              <select id="yearDropdown2"></select>
            </div>
-
-           <!-- Info box -->
+        <!-- Chicken click -->
+           <div id="chicken-container">
+              <div id="speech-bubble-img">
+                <img src="speech-bubble.png" alt="Speech" />
+                <div id="speech-text">Click me for fun facts!</div>
+              </div>
+              <img id="chicken-img" src="chicken-cartoon.webp" alt="Chicken" />
+              
+           </div>
+        </div>
+          
+          <!-- Info box -->
           <div id="info-box">
-             <h3>Info</h3>
-            <p>This chart shows the top 10 egg consumers in the EU by .</p>
+             <h3>Egg Fun Facts</h3>
+            
+             <ul>
+                <li class="facts">While many people eat eggs for breakfast, 70% of eggs in Europe go into processed foods like pasta, pastries, sauces, and desserts.</li>
+                <li class="facts">Eggs contain all 9 essential amino acids — making them one of the most nutrient-dense and efficient protein sources.</li>
+                <li class="facts">A laying hen can produce over 300 eggs annually.</li>
+             </ul>
         
           </div>
+
             <div id="tooltip"> </div>
         </div>
-      <div>
+      
+        <div>
           <div id="worldmap" class="third-box">
               
               <h2>Worldmap skal være her</h2>

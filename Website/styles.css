@@ -4,29 +4,73 @@ body{
     margin: 20px;
     padding: 20px;
     color: #333;
-    
-    background-image: url('farm-billede.jpg');
+    background: linear-gradient(45deg, #ae61e8f6 20%,#80e861f6 80%);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: auto;
-
-
-
 
     
-
 }
+
+.heading-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px; /*Puts eggshells closer to header*/
+  margin: 40px auto;
+}
+
+.egg-shell.left {
+  width: 60px;
+  height: auto;
+}
+
+.egg-shell.right {
+  width: 60px;
+  height: auto;
+}
+
+.heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.chicken {
+    width: 80px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+/*Flips the chicken on the left side to turn the opposite way */
+.chicken.left {
+    transform: scaleX(-1);
+}
+/*Adds animation when you hover over chicken picture*/
+.chicken:hover {
+    transform: rotate(10deg) scale(1.1);
+}
+
 h1{
     color: #000000;
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: center;
-    border: 4px solid #000000;
-    border-radius: 10px;
-    padding: 20px 0;
-    margin: 40px 100px 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 4px solid #000000;
+    border-left: 4px solid #000000;
+    border-right: 4px solid #000000;
+    border-top: 4px solid #000000;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    padding-bottom: 10px;
+    margin: 0;
     
 }
+/*Adds small animation that enlarges header when you hover over it*/
+h1:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
 p{
     font-size: 1.2em;
     line-height: 1.5;
@@ -61,6 +105,21 @@ p{
   align-items: flex-start;
   gap: 40px;
   position: relative;
+  margin-top: 200px;
+  
+}
+
+.dropdown-container {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 2;
   flex-wrap: nowrap;
   
 }
@@ -107,7 +166,9 @@ p{
 
 #egg-chart-header{
   padding: 20px;
+  font-family: 'Poetsen One', sans-serif;
 }
+
 
 #eggconsumption {
   width: 100%;
@@ -156,17 +217,62 @@ p{
   cursor: pointer;
  
 }
+#chicken-container {
+  position: relative;
+  width: fit-content; /*the container is as wide as the content inside*/
+  margin-top: 20px;
+  cursor: pointer; /*changes the curser to a pointer so the user knows that this is clickable*/
+  display: inline-block;
+  margin-top: 100px;
+}
 
+#chicken-img {
+  width: 150px;
+  transition: transform 0.3s ease; /*when the image transforms on the hoover we want the change to look smooth*/
+}
 
+#chicken-img:hover {
+  transform: scale(1.1); /*When we hoover the mouse over the image the chicken is scaled a little bigger*/
+}
+
+#speech-bubble-img {
+  position: relative; /*ensures that the text inside can be absolutely positioned*/
+  width: 150px; 
+}
+
+#speech-bubble-img img {
+  width: 100%; /*the picture needs to fill the container that we defined*/
+  display: block; /*the default for images is inline, where it behaves like text. But we want to display it as block so it doesnt have a little space in the bottom. it makes it easier to position it*/
+}
+
+#speech-text {
+  position: absolute;  /*We want a fixed position of the text inside the speech-bubble*/
+  top: 35%;            /* controls vertical position */
+  left: 10%;           /* controls horizontal position */
+  width: 80%;          /* ensures text wraps inside bubble and doesnt overlap the sides*/
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Poetsen One', sans-serif;
+  font-style: italic;
+  color: #333;
+}
 
 #info-box {
-  background: white;
-  border: 2px solid #333;
-  padding: 10px;
+  background: rgb(253, 247, 155);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  padding: 20px;
   border-radius: 10px;
   max-width: 200px;
   font-size: 0.9em;
-  margin-left: 150px;
+  margin-left: 120px;
+  font-family: 'Poetsen One', sans-serif;
+  
+
+}
+
+.facts {
+  padding: 10px;
+ 
 }
 
 #eggbasket{
@@ -197,10 +303,11 @@ p{
   flex: 1;
   border: 5px solid black;
   padding: 20px;
-  background-color: #2e2aec;
+  background-color: #f0f0f0;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  margin-top: 250px;
 }
 footer {
   background: black;
@@ -250,11 +357,11 @@ footer {
   border-radius: 5px;
 }
 .sphere {
-  fill: rgb(29, 68, 81);
+  fill: #aec6cf;
 }
 
 .country {
-  fill: #c4bdbd;
+  fill: #cec498;
   stroke: #333;
 }
 
