@@ -52,7 +52,7 @@ let selectedYear = 2023;
 // Load both world map and chicken data
 Promise.all([
   d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
-  d3.csv("../db/howManyChickensEU.csv") // Adjust path if needed
+  d3.csv("/api/howManyChickensEU") // Adjust path if needed
 ]).then(([worldData, chickenData]) => {
   const countries = feature(worldData, worldData.objects.countries).features;
 
