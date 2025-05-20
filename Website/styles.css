@@ -42,7 +42,7 @@ body{
 }
 /*Flips the chicken on the left side to turn the opposite way */
 .chicken.left {
-    transform: scaleX(-1); /* Flip horizontally to face left */
+    transform: scaleX(-1);
 }
 /*Adds animation when you hover over chicken picture*/
 .chicken:hover {
