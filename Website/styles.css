@@ -360,6 +360,9 @@ h3 {
   text-align: center;
   margin-top: 20px;
 }
+h2 {
+  font-family: "Gabarito", sans-serif;
+}
 p {
   font-family: "Gabarito", sans-serif;
 }
