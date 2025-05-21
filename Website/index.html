@@ -15,6 +15,7 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="https://unpkg.com/topojson@3"></script>
   <script type="module" src="worldmap.js"></script>
+  <script src="fence-animation.js"></script>
 </head>
 <body>
   
@@ -41,8 +42,8 @@
     <div class="container">
 
         <div id="fence-div">
-           <img id="fence1" src="fence.png" alt="Fence" />
-           <img id="fence2" src="fence.png" alt="Fence" />
+           <img id="fence1" src="fence.png" alt="Left Fence" />
+           <img id="fence2" src="fence.png" alt="Right Fence" />
         </div>
   
   <nav class="navbar" id="main-navbar">
@@ -132,12 +133,13 @@
       
      <div>
           <div id="worldmap" class="third-box">
+            
+              <h2>Chicken population in Europe</h2>
+              <h4>Population of chickens in Europe per 1000</h4>
             <div>
               <label for="chickenYearDropdown">Choose year:</label>
               <select id="chickenYearDropdown"></select>
             </div>
-              <h2>Chicken population in Europe</h2>
-              <h4>Population of chickens in Europe per 1000</h4>
               <svg width="1100" height="505"></svg>
               
               
