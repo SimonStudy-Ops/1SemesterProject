@@ -6,7 +6,8 @@ const h2 = 600;
 //select the SVG element inside the container with id "worldmap"
 const svg = d3.select("#worldmap svg")
   .attr("width", w2)
-  .attr("height", h2);
+  .attr("height", h2)
+  .style("background-color", "#00a5cf"); // light blue background 
 
 //define the projection (Mercator) centered on Europe
 const projection = d3.geoMercator()
@@ -87,7 +88,7 @@ Promise.all([
 
     const colorScale = d3.scaleLinear()
       .domain([minValue, maxValue])
-      .range(["#ade8f4", "#03045e"]); // light blue to dark blue
+      .range(["#95d5b2", "#2d6a4f"]); // light green to dark green
     //Draw the countries and paint with the chicken data
     g.selectAll("path")
       .data(countries)
