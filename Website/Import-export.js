@@ -1,5 +1,5 @@
 // Width and height of SVG
-const w = 700;
+const w = 550;
 const h = 400;
 // Padding for the bars and around the charts, so there is spacing between them
 const padding = 60;
@@ -39,7 +39,7 @@ dropdown.selectAll("option")
 updateCharts(years[0]);
 // Selects the <h2> element inside the element with the id="importContainer" 
 // Sets the text color to green using inline CSS
-document.querySelector("#importContainer h2").style.color = "green";
+document.querySelector("#importContainer h2").style.color = "rgb(210, 180, 140)";
 // Selects the <h2> element inside the element with the id="exportContainer"
 // Sets the text color to orange using inline CSS
 document.querySelector("#exportContainer h2").style.color = "orange";
@@ -104,7 +104,7 @@ let xTextColor, xLineColor, yTextColor, yLineColor;
 // Checks that the containerId is equal to #importContainer
 if (containerId === "#importContainer") {
     // If true, sets the x axis text to green
-    xTextColor = "green";
+    xTextColor = "rgb(210, 180, 140)";
     // Sets the x axis line color to black
     xLineColor = "black";
     // Sets the y axis text color to black

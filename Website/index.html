@@ -7,48 +7,73 @@
   
   <!--Links to Google Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Fugaz+One&family=Gabarito:wght@400..900&family=Poetsen+One&family=Walter+Turncoat&display=swap" rel="stylesheet">
+ 
   <link rel="stylesheet" href="styles.css" />
   
+  <title>1st Semester Project Website</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="https://unpkg.com/topojson@3"></script>
   <script type="module" src="worldmap.js"></script>
 </head>
 <body>
+  
   <div class="heading-wrapper">
     <img src="eggshell-left.png" alt="Left Egg Shell" class="egg-shell left">
 
   <div class="heading-container">
   <img src="chicken-png-40305.png" alt="chicken" class="chicken left">
+
+<div id="title-box">
   <h1>Crack the stats!</h1>
-  <img src="chicken-png-40305.png" alt="chicken" class="chicken right">
 </div>
 
+  <img src="chicken-png-40305.png" alt="chicken" class="chicken right">
+</div>
 <img src="eggshell-right.png" alt="Right Egg Shell" class="chicken right">
 </div>
 
-
-    <p>Start of the Project</p>
-    <!--Adds color gradient-->
-    <div class="gradient"></div>
+<div id="site-description">
+  <h3>Visualizations of egg-data from EU-countries</h3>
+  <h3>Ready to learn about global trade?</h3>
+</div>
 
     <div class="container">
 
-        <header>
-          <div class="logo">Logo</div>
-          <div class="menu">Email/Password</div>
-        </header>
+        <div id="fence-div">
+           <img id="fence1" src="fence.png" alt="Fence" />
+           <img id="fence2" src="fence.png" alt="Fence" />
+        </div>
+  
+  <nav class="navbar" id="main-navbar">
+    
+    <ul id="navbar">
+      <li><a href="#" id="home-link">Home</a></li>
+      <li><a href="#" id="import/export-link">Import/Export</a></li>
+      <li><a href="#" id="eggconsumption-link">Consumption</a></li>
+      <li><a href="#" id="EU-map-link">EU Map</a></li>
+
+    </ul>
+  </nav>
         
       <!--Import/export chart-->
-      <div class="page-container">
-        <div class="box-wrapper">
-          <div class="dropdown-container">
-            <label for="yearDropdown">Choose year:</label>
-            <select id="yearDropdown"></select>
-          </div>
-    
-        <div id = "importContainer" class="first-box">
-          <h2>Import</h2>
+      <div id="page-container">
+          
+          <div class="top-bar">
+            <div class="egg-chart-header"> 
+              <h2>Import & Export in Europe</h2>
+              <h4>Amount of eggs in tons imported and exported yearly in the top 5 european countries in that category</h4>
+            </div>
+
+            <div class="egg-dropdown">
+              <label for="yearDropdown">Choose year:</label>
+              <select id="yearDropdown"></select>
+            </div>
+            </div>
+          
+            <div class="box-wrapper">
+            <div id = "importContainer" class="first-box">
+              <h2>Import</h2>
               <svg id = "importChart"></svg>
             </div>
         
@@ -59,23 +84,24 @@
           </div>
           </div>
 
-          <!--Egg chart-->
-         
-        <div id="egg-chart-header"> 
+
+          <!--Egg bubble-chart-->
+    <div id="bubble-chart-page">
+        <div class="egg-chart-header"> 
           <h2>Egg consumption in EU</h2>
           <h4>Average per capita egg consumption, measured in kilograms per year (in shell weight) 2012-2022.</h4>
         </div>
             
-       <div id="eggconsumption">
+      <div id="eggconsumption">
            <!-- Chart -->
-           <div id="chart-column">
+          <div id="chart-column">
             <svg id="egg-bubble-chart"></svg>
             <div id="eggbasket"></div>
           </div> 
        
         <div id="center-column">
         <!-- Dropdown -->
-          <div id="dropdown-container">
+          <div class="egg-dropdown">
              <label for="yearDropdown2">Choose year:</label>
              <select id="yearDropdown2"></select>
            </div>
@@ -89,8 +115,7 @@
               
            </div>
         </div>
-          
-          <!-- Info box -->
+        <!-- Info box -->
           <div id="info-box">
              <h3>Egg Fun Facts</h3>
             
@@ -101,62 +126,35 @@
              </ul>
         
           </div>
-
+      </div>
             <div id="tooltip"> </div>
         </div>
-        
+      
         <div>
           <div id="worldmap" class="third-box">
-            <div>
-              <label for="chickenYearDropdown">Choose year:</label>
-              <select id="chickenYearDropdown"></select>
-            </div>
-              <h2>Chicken population in Europe</h2>
+              
+              <h2>Worldmap skal være her</h2>
               <svg width="1100" height="505"></svg>
               
               
               
             </div>
+              <svg id="worldmap-svg" width="1100" height="505"></svg>
+              
           </div>
+        
+          
+        <div id="fence-div">
+           <img id="fence1" src="fence.png" alt="Fence" />
+           <img id="fence2" src="fence.png" alt="Fence" />
+        </div>
 
-  <footer>
-    <div>Website Info</div>
-  </footer>
-
-  <nav class="navbar" id="main-navbar">
-    <ul id="navbar">
-      <li><a href="#" id="home-link">Home</a></li>
-      <li><a href="#" id="import-link">Egg Graph</a></li>
-      <li><a href="#" id="eggconsumption-link">Egg Production</a></li>
-      <li><a href="#" id="worldmap-link">World Map</a></li>
-
-    </ul>
-  </nav>
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
   <script src="Import-export.js"></script>
   <script src="eggconsumption.js"></script>
+  <script src="navigation.js"></script>
 
-  <script>
-    document.getElementById("home-link").addEventListener("click", function (e) {
-      e.preventDefault();
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
-
-    document.getElementById("eggconsumption-link").addEventListener("click", function (e) {
-      e.preventDefault();
-      document.getElementById("eggconsumption").scrollIntoView({ behavior: "smooth" });
-    });
-
-    document.getElementById("worldmap-link").addEventListener("click", function (e) {
-      e.preventDefault();
-      document.getElementById("worldmap").scrollIntoView({ behavior: "smooth" });
-    });
-
-    document.getElementById("import-link").addEventListener("click", function (e) {
-      e.preventDefault();
-      document.getElementById("importContainer").scrollIntoView({ behavior: "smooth" });
-    });
-  </script>
+  
 </body>
 </html>
