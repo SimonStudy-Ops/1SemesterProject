@@ -2,7 +2,7 @@ import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 import { feature } from "https://cdn.jsdelivr.net/npm/topojson-client@3/+esm";
 
 const w2 = 1100;
-const h2 = 505;
+const h2 = 600;
 
 const svg = d3.select("#worldmap svg")
   .attr("width", w2)
