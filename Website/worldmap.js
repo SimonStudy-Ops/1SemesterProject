@@ -9,9 +9,9 @@ const svg = d3.select("#worldmap svg")
   .attr("height", h2);
 
 const projection = d3.geoMercator()
-  .center([15, 50])        
-  .scale(700)             
-  .translate([w2 / 2, h2 / 2]);
+  .center([15, 54]) // Center on Europe       
+  .scale(700)   // Scale to fit the map          
+  .translate([w2 / 2, h2 / 2]); // Translate to center of the SVG
 
 const path = d3.geoPath().projection(projection);
 
@@ -82,8 +82,8 @@ Promise.all([
 
     const colorScale = d3.scaleLinear()
       .domain([minValue, maxValue])
-      .range(["#d7e3fc", "#0a225d"]); // light blue to dark blue
-
+      .range(["#ade8f4", "#03045e"]); // light blue to dark blue
+    // Update map colors and add interactivity
     g.selectAll("path")
       .data(countries)
       .join("path")
@@ -99,6 +99,8 @@ Promise.all([
       })
       .attr("stroke", "#333")
       .on("click", function(event, d) {
+        // Handle click event
+        // Check if the clicked country is already active
         if (active === d) {
           active = null;
           svg.transition()
@@ -115,19 +117,22 @@ Promise.all([
           const y = (y0 + y1) / 2;
           const scale = Math.max(1, Math.min(8, 0.9 / Math.max(dx / w2, dy / h2)));
           const translate = [w2 / 2 - scale * x, h2 / 2 - scale * y];
-
+          // Zoom to the selected country
           svg.transition()
             .duration(750)
             .call(
               zoom.transform,
               d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale)
             );
-
+          // Get country name and value
           const countryName = d.properties ? d.properties.name : null;
+          // Get chicken value for the selected country and year
+          // Check if countryName is null
           const value = getChickenValue(countryName, year);
           if (!value) {
             console.log("No value for", countryName);
         }
+        // Show info box with chicken data
           infoBox.style("display", "block")
             .html(`<strong>Land:</strong> ${countryName}<br>
                    <strong>Chickens (per 1000):</strong> ${value !== null ? value : "N/A"}<br>
