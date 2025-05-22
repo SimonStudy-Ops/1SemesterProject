@@ -36,9 +36,13 @@ function onServerReady() {
     console.log('Webserver running on port', port);
 }
 
+// Defines the async function that handles the request from trade. And the async function allows other task to be done while the data finishes running. 
 async function onGetTrade(request, response) {
+    // Sends a query to select country, type, year and amount from trade.
     const dbResult = await db.query(`select country, type, year, amount from trade`)
+    // Await pauses the function until the database sends back the results. 
     response.setHeader("Content-Type", "application/json");
+    // Sends the rows of trade data back into a JSON object. 
     response.json(dbResult.rows);
 }
 async function onGetEggconsumption(request, response) {
