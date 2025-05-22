@@ -151,15 +151,6 @@ body{
     z-index: 2;
 }
 
-  .logo, .menu {
-    padding: 15px;
-  }
-  
-
-
-
-
-
   #page-container {
     width: 100%;
     max-width: 1100px;
