@@ -11,6 +11,7 @@ body{
   position: fixed;
   top: 10px;
   left: 10px;
+  /*Puts the navigation bar above all else*/
   z-index: 1000;
   background-color: transparent;
 }
@@ -115,7 +116,7 @@ body{
     margin: 0 auto;
     max-width: 1200px;
   }
-  
+
   #site-description{
     font-family: 'Poetsen One', sans-serif;
     color: #674922;
