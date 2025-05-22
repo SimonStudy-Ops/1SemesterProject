@@ -21,7 +21,6 @@ const port = 3001;
 const server = express();
 server.use(express.static('Website'));
 server.use(onEachRequest)
-// Defines the API endpoints
 server.get('/api/trade', onGetTrade);
 server.get('/api/eggconsumption', onGetEggconsumption);
 server.get('/api/howManyChickensEU', onGetHowManyChickensEU);
@@ -35,10 +34,13 @@ server.listen(port, onServerReady);
 function onServerReady() {
     console.log('Webserver running on port', port);
 }
-
+// Defines the async function that handles the request from trade. And the async function allows other task to be done while the data finishes running. 
 async function onGetTrade(request, response) {
+    // Sends a query from country, type, year and amount from trade. 
+    // The await function pauses and send the information to the database.  
     const dbResult = await db.query(`select country, type, year, amount from trade`)
     response.setHeader("Content-Type", "application/json");
+    // Sends the rows of data back into the browser as a JSON object. 
     response.json(dbResult.rows);
 }
 async function onGetEggconsumption(request, response) {
