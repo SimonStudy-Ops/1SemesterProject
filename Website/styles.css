@@ -1,14 +1,52 @@
 body{
     background-color: #c1e1c1;
-    font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
-    color: #333;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    
+    background-size: cover;   
 }
+
+/*Navigation bar*/
+
+.navbar {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  background-color: transparent;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #8db07f;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100px;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  font-size: small;
+  font-family: "Gabarito", sans-serif;
+  text-decoration: none;
+  padding: 12px 10px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #5c8bd4;
+  border-radius: 5px;
+}
+/*Website header*/
 
 .heading-wrapper {
   display: flex;
@@ -53,7 +91,7 @@ body{
   background-color: rgb(234, 220, 203);
   border-radius: 20px;
 }
-h1{
+#title-box h1{
     color: #bea361;
     font-size: 3em;
     font-family: "Gabarito", sans-serif;
@@ -67,7 +105,7 @@ h1{
     
 }
 /*Adds small animation that enlarges header when you hover over it*/
-h1:hover {
+#title-box h1:hover {
     transform: scale(1.03);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
 }
@@ -94,7 +132,8 @@ h1:hover {
     display: block;
     transition: transform 0.5s ease-out;
   }
-  
+  /*Bar-chart*/
+
   #page-container {
     width: 100%;
     max-width: 1100px;
@@ -145,6 +184,14 @@ h1:hover {
 #bubble-chart-page{
   margin-top: 150px;
 }
+
+.egg-chart-header{
+  padding: 20px;
+  margin-left: 100px;
+  color:  #674922;
+  font-family: "Gabarito", sans-serif;
+}
+
 .egg-dropdown {
   background-color: rgb(255, 249, 160);
   border: 3px solid #ffffff;
@@ -172,14 +219,6 @@ h1:hover {
   border: 1px solid #999;
   font-size: 14px;
 }
-
-.egg-chart-header{
-  padding: 20px;
-  margin-left: 100px;
-  color:  #674922;
-  font-family: "Gabarito", sans-serif;
-}
-
 
 #eggconsumption {
   width: 100%;
@@ -236,9 +275,9 @@ h1:hover {
 
 #speech-text {
   position: absolute;  /*We want a fixed position of the text inside the speech-bubble*/
-  top: 35%;            /* controls vertical position */
-  left: 10%;           /* controls horizontal position */
-  width: 80%;          /* ensures text wraps inside bubble and doesnt overlap the sides*/
+  top: 35%;            
+  left: 10%;           
+  width: 80%;  /* ensures text wraps inside bubble and doesnt overlap the sides*/
   text-align: center;
   font-size: 14px;
   font-family: 'Poetsen One', sans-serif;
@@ -255,8 +294,6 @@ h1:hover {
   font-size: 0.9em;
   margin-left: 120px;
   font-family: 'Poetsen One', sans-serif;
-  
-
 }
 
 .facts {
@@ -287,6 +324,8 @@ h1:hover {
      z-index: 1000;
 }
 
+/*World/EU-map*/
+
 .third-box {
   flex: 1;
   border: 5px solid black;
@@ -297,54 +336,7 @@ h1:hover {
   margin-bottom: 20px;
   margin-top: 250px;
 }
-footer {
-  background: black;
-  color: white;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-}
 
-.navbar {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 1000;
-  background-color: transparent;
-}
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  background-color: #8db07f;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  width: 100px;
-}
-
-.navbar li {
-  margin: 0;
-}
-
-.navbar a {
-  color: white;
-  font-size: small;
-  font-family: "Gabarito", sans-serif;
-  text-decoration: none;
-  padding: 12px 10px;
-  display: block;
-  text-align: center;
-  font-weight: bold;
-}
-
-.navbar a:hover {
-  background-color: #5c8bd4;
-  border-radius: 5px;
-}
 .sphere {
   fill: #aec6cf;
 }
