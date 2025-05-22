@@ -93,6 +93,7 @@ h1:hover {
     margin: 0;
     padding: 0;
     display: block;
+    transition: transform 0.5s ease-out;
   }
   
   .logo, .menu {
@@ -307,6 +308,14 @@ h1:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   margin-top: 250px;
+}
+footer {
+  background: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
 }
 
 .navbar {
