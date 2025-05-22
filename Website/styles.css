@@ -280,7 +280,7 @@ h1:hover {
   position: absolute;
   bottom: -75px; /*how much it sits under the bubble-chart*/
   z-index: 1; /*puts it behind the chart*/
-  background-image: url('egg-basket.png');
+  background-image: url('png/egg-basket.png');
   background-repeat: no-repeat;
   background-position: center;
  
