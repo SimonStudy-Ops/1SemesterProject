@@ -7,6 +7,7 @@ const padding = 60;
 d3.json("/api/trade").then(data => {
     // Ensures that the columns "year" and "amount" is recieved as numbers.
     data.forEach(d => {
+        // converts the values from strings to numbers
         d.year = +d.year;
         d.amount = +d.amount;
     });
@@ -39,10 +40,10 @@ dropdown.selectAll("option")
 updateCharts(years[0]);
 // Selects the <h2> element inside the element with the id="importContainer" 
 // Sets the text color to green using inline CSS
-document.querySelector("#importContainer h2").style.color = "rgb(210, 180, 140)";
+document.querySelector("#importContainer h2").style.color = "black";
 // Selects the <h2> element inside the element with the id="exportContainer"
 // Sets the text color to orange using inline CSS
-document.querySelector("#exportContainer h2").style.color = "orange";
+document.querySelector("#exportContainer h2").style.color = "black";
 // Sets an event listener(an event listener is a function that waits for a specific event to occur 
 // and executes code in response, that reacts when the dropdown menu changes
 dropdown.on("change", function() {
@@ -103,8 +104,8 @@ const yScale = d3.scaleLinear()
 let xTextColor, xLineColor, yTextColor, yLineColor;
 // Checks that the containerId is equal to #importContainer
 if (containerId === "#importContainer") {
-    // If true, sets the x axis text to green
-    xTextColor = "rgb(210, 180, 140)";
+    // If true, sets the x axis text to black
+    xTextColor = "black";
     // Sets the x axis line color to black
     xLineColor = "black";
     // Sets the y axis text color to black
@@ -113,8 +114,8 @@ if (containerId === "#importContainer") {
     yLineColor = "black";
 } else {
     // If containerId is not #importContainer
-    // Sets the x axis text color to orange
-    xTextColor = "orange";
+    // Sets the x axis text color to black
+    xTextColor = "black";
     // Sets the x axis line color to black
     xLineColor = "black";
     // Sets the y axis text color to black
@@ -130,14 +131,17 @@ const xAxisGroup = svg.append("g")
 // Tells d3 to generate bottom oriented axis using xScale
 .call(d3.axisBottom(xScale));
 
+// SelectAll text elements within the xAxisGroup (tick labels)
 xAxisGroup.selectAll("text")
 // Selects the text and rotates it 30 degress withing the bar
 .attr("transform", "rotate(-30)")
 // Lines up the rotated text so it aligns with the end of each bar
 .style("text-anchor", "end")
+// Set the text color using the xTextCoor variable
 .style("fill", xTextColor);
-
+// Select all path and line within the xAxisGroup (axis line and tick labels)
 xAxisGroup.selectAll("path, line")
+// Set the line color using the xLine variable
 .style("stroke", xLineColor);
 
 // Adds another group for y-axis
@@ -146,9 +150,10 @@ const yAxisGroup = svg.append("g")
 .attr("transform", `translate(${padding}, 0)`)
 // Draws a left-oriented axis using the yScale - makes the ticks
 .call(d3.axisLeft(yScale));
+// Selects y axis tick labels and applies the fill color
 yAxisGroup.selectAll("text")
 .style("fill", yTextColor);
-
+// Selects all that are part of the y-axis (axis and tick marks) and sets the stroke color
 yAxisGroup.selectAll("path, line")
 .style("stroke", yLineColor);
 
@@ -177,7 +182,7 @@ svg.selectAll("rect")
 .attr("width", xScale.bandwidth())
 // Height of the bar
 .attr("height", d => h - padding - yScale(d.amount))
-// Colors of the bar blue
-.attr("fill", "black");
+// Colors of the bar black
+.attr("fill", "rgb(218, 160, 109)");
 }
 });

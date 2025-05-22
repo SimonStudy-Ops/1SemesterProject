@@ -112,6 +112,7 @@ body{
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
 }
 
+
 .container {
     margin: 0 auto;
     max-width: 1200px;
@@ -138,7 +139,26 @@ body{
     display: block;
     transition: transform 0.5s ease-out;
   }
-  /*Bar-chart*/
+  
+#chicken2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    z-index: 2;
+}
+
+  .logo, .menu {
+    padding: 15px;
+  }
+  
+
+
+
+
 
   #page-container {
     width: 100%;
@@ -348,7 +368,7 @@ body{
   bottom: -75px; 
   /*puts it behind the chart (where z-index=2) higher indexes sits over the lower ones*/
   z-index: 1; 
-  background-image: url('egg-basket.png');
+  background-image: url('png/egg-basket.png');
   background-repeat: no-repeat;
   background-position: center;
  
