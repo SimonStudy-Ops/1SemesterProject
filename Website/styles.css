@@ -1,14 +1,54 @@
 body{
     background-color: #c1e1c1;
-    font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
-    color: #333;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    
+    background-size: cover;   
 }
+
+/*Navigation bar*/
+
+.navbar {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  /*Puts the navigation bar above all else*/
+  z-index: 1000;
+  background-color: transparent;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #8db07f;
+  border-radius: 10px;
+  /* 2px is set for x and y. The shadow is blurred by 5px to make it softer*/
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100px;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  font-size: small;
+  font-family: "Gabarito", sans-serif;
+  text-decoration: none;
+  padding: 12px 10px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #5c8bd4;
+  border-radius: 5px;
+}
+/*Website header*/
 
 .heading-wrapper {
   display: flex;
@@ -53,7 +93,7 @@ body{
   background-color: rgb(234, 220, 203);
   border-radius: 20px;
 }
-h1{
+#title-box h1{
     color: #bea361;
     font-size: 3em;
     font-family: "Gabarito", sans-serif;
@@ -67,7 +107,7 @@ h1{
     
 }
 /*Adds small animation that enlarges header when you hover over it*/
-h1:hover {
+#title-box h1:hover {
     transform: scale(1.03);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
 }
@@ -77,10 +117,14 @@ h1:hover {
     margin: 0 auto;
     max-width: 1200px;
   }
+
   #site-description{
     font-family: 'Poetsen One', sans-serif;
     color: #674922;
+    text-align: center;
+    margin-top: 20px;
   }
+
   #fence-div {
     display: flex;
     justify-content: center;
@@ -161,16 +205,23 @@ h1:hover {
 .first-box, .second-box h2 {
   padding-left: 20px;
 }
+/*Egg Bubble chart*/
 
 #bubble-chart-page{
   margin-top: 150px;
 }
 
-
+.egg-chart-header{
+  padding: 20px;
+  margin-left: 100px;
+  color:  #674922;
+  font-family: "Gabarito", sans-serif;
+}
 
 .egg-dropdown {
   background-color: rgb(255, 249, 160);
   border: 3px solid #ffffff;
+  /*Changing the border into an egg shape*/
   border-radius: 50% 50% 40% 40% / 65% 65% 35% 35%;
   width: 80px;
   height: 95px;
@@ -178,6 +229,7 @@ h1:hover {
   text-align: center;
   box-shadow: 2x 4px 8px rgba(0, 0, 0, 0.3);
   font-family: sans-serif;
+  /*the top margin is set to 0px and the bottom is set to 30px. auto centeres the element horizontally.*/
   margin: 0 auto 30px auto;
 }
 
@@ -196,21 +248,17 @@ h1:hover {
   font-size: 14px;
 }
 
-.egg-chart-header{
-  padding: 20px;
-  margin-left: 100px;
-  color:  #674922;
-  font-family: "Gabarito", sans-serif;
-}
-
-
 #eggconsumption {
   width: 100%;
+  /*ensures that the content is still showing, even if it overflows the elements box.*/
   overflow: visible;
   padding: 20px;
+  /*the 3 columns in this div is laid out horizontally, instead of vertically (default)*/
   display: flex;
+  /*aligns the top of all the columns*/
   align-items: flex-start;
-  gap: 30px; /* spacing between the three elements */
+  /* spacing between the three rows */
+  gap: 30px; 
   margin-top: 20px;
 }
 
@@ -226,42 +274,69 @@ h1:hover {
   height: 400px;
   overflow: visible;
   flex-shrink: 0;
-  position: relative; /* sits above the basket */
+  /* sits above the basket */
+  position: relative; 
   z-index: 2;
+}
+
+#tooltip {
+    position: absolute;
+    /*the tooltip is not displayed as default - but pops up when you hoover over it*/
+    display: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    /*rounds the corners of the box*/
+    border-radius: 5px;
+    /*the tooltip itself doesnt interfere with mouse-events*/
+    pointer-events: none;
+    font-size: 12px;
+    /*big z-index to ensure that the tooltip overlaps all other things*/
+     z-index: 1000;
 }
  
 #chicken-container {
   position: relative;
-  width: fit-content; /*the container is as wide as the content inside*/
-  cursor: pointer; /*changes the curser to a pointer so the user knows that this is clickable*/
+  /*the container is as wide as the content inside*/
+  width: fit-content; 
+  /*changes the curser to a pointer so the user knows that this is clickable*/
+  cursor: pointer; 
+  /*Sits on the same line as the other colums, but can still be styled*/
   display: inline-block;
   margin-top: 40px;
 }
 
 #chicken-img {
   width: 150px;
-  transition: transform 0.3s ease; /*when the image transforms on the hoover we want the change to look smooth*/
+  /*when the image transforms on the hoover we want the change to look smooth*/
+  transition: transform 0.3s ease; 
 }
 
 #chicken-img:hover {
-  transform: scale(1.1); /*When we hoover the mouse over the image the chicken is scaled a little bigger*/
+  /*When we hoover the mouse over the image the chicken is scaled a little bigger*/
+  transform: scale(1.1); 
 }
 
 #speech-bubble-img {
-  position: relative; /*ensures that the text inside can be absolutely positioned*/
+ /* Ensures that absolutely positioned child elements are positioned relative to this element */
+  position: relative; 
   width: 150px; 
 }
 
 #speech-bubble-img img {
-  width: 100%; /*the picture needs to fill the container that we defined*/
-  display: block; /*the default for images is inline, where it behaves like text. But we want to display it as block so it doesnt have a little space in the bottom. it makes it easier to position it*/
+ /*the picture needs to fill the container that we defined*/
+  width: 100%; 
+  /*the default for images is inline, where it behaves like text. But we want to display it as block so it doesnt have a little space at the bottom. it makes it easier to position it*/
+  display: block; 
 }
 
 #speech-text {
-  position: absolute;  /*We want a fixed position of the text inside the speech-bubble*/
-  top: 35%;            /* controls vertical position */
-  left: 10%;           /* controls horizontal position */
-  width: 80%;          /* ensures text wraps inside bubble and doesnt overlap the sides*/
+  /*We want a fixed position of the text inside the speech-bubble*/
+  position: absolute;  
+  top: 35%;            
+  left: 10%; 
+  /* ensures text wraps inside bubble and doesnt overlap the sides*/          
+  width: 80%;  
   text-align: center;
   font-size: 14px;
   font-family: 'Poetsen One', sans-serif;
@@ -275,11 +350,10 @@ h1:hover {
   padding: 20px;
   border-radius: 10px;
   max-width: 200px;
+  /*text-size is 90% of the parent-element size*/
   font-size: 0.9em;
   margin-left: 120px;
   font-family: 'Poetsen One', sans-serif;
-  
-
 }
 
 .facts {
@@ -290,25 +364,17 @@ h1:hover {
   width: 500px;
   height: 240px;
   position: absolute;
-  bottom: -75px; /*how much it sits under the bubble-chart*/
-  z-index: 1; /*puts it behind the chart*/
+  /*how much it sits under the bubble-chart*/
+  bottom: -75px; 
+  /*puts it behind the chart (where z-index=2) higher indexes sits over the lower ones*/
+  z-index: 1; 
   background-image: url('png/egg-basket.png');
   background-repeat: no-repeat;
   background-position: center;
  
 }
 
-#tooltip {
-    position: absolute;
-    display: none;
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 5px;
-    border-radius: 5px;
-    pointer-events: none;
-    font-size: 12px;
-     z-index: 1000;
-}
+/*World/EU-map*/
 
 .third-box {
   flex: 1;
@@ -320,54 +386,7 @@ h1:hover {
   margin-bottom: 20px;
   margin-top: 250px;
 }
-footer {
-  background: black;
-  color: white;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-}
 
-.navbar {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 1000;
-  background-color: transparent;
-}
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  background-color: #8db07f;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  width: 100px;
-}
-
-.navbar li {
-  margin: 0;
-}
-
-.navbar a {
-  color: white;
-  font-size: small;
-  font-family: "Gabarito", sans-serif;
-  text-decoration: none;
-  padding: 12px 10px;
-  display: block;
-  text-align: center;
-  font-weight: bold;
-}
-
-.navbar a:hover {
-  background-color: #5c8bd4;
-  border-radius: 5px;
-}
 .sphere {
   fill: #aec6cf;
 }
@@ -377,12 +396,4 @@ footer {
   stroke: #333;
 }
 
-h3 {
-  text-align: center;
-  margin-top: 20px;
-}
-
-h4{
-  color: #674922;
-}
 
