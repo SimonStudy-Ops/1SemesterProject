@@ -232,6 +232,7 @@ _pkginfo.txt
 !?*.[Cc]ache/
 
 # Others
+.env
 ClientBin/
 ~$*
 *~
